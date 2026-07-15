@@ -1,0 +1,104 @@
+Table,Column,Data Type,Constraint,Description,Example
+stations,station_id,VARCHAR(10),PK,Unique station identifier,ST001
+stations,station_name,VARCHAR(100),NOT NULL,Full name of the station,New Delhi
+stations,state,VARCHAR(50),NOT NULL,Indian state where station is located,Delhi
+stations,railway_zone,VARCHAR(50),NOT NULL,Railway administrative zone,Northern
+stations,latitude,"DECIMAL(9,6)",NOT NULL,Geographic latitude,28.6448
+stations,longitude,"DECIMAL(9,6)",NOT NULL,Geographic longitude,77.2167
+stations,platform_count,INT,NOT NULL,Number of platforms,15
+stations,category,VARCHAR(20),NOT NULL,Station category: International/Major/Minor,International
+stations,has_wifi,BOOLEAN,NOT NULL,Whether station has WiFi facility,True
+trains,train_id,VARCHAR(10),PK,Unique train identifier,TR0001
+trains,train_name,VARCHAR(100),NOT NULL,Name of the train,Rajdhani Express
+trains,train_type,VARCHAR(30),NOT NULL,Type: Rajdhani/Shatabdi/Express etc.,Express
+trains,total_capacity,INT,NOT NULL,Total passenger capacity,800
+trains,num_coaches,INT,NOT NULL,Number of coaches,18
+trains,max_speed_kmph,INT,NOT NULL,Maximum speed in km/h,130
+trains,fuel_type,VARCHAR(20),NOT NULL,Electric or Diesel,Electric
+trains,operational_status,VARCHAR(30),NOT NULL,Active/Under Maintenance/Retired,Active
+trains,year_commissioned,INT,NOT NULL,Year when train was introduced,2015
+routes,route_id,VARCHAR(10),PK,Unique route identifier,RT0001
+routes,origin_station_id,VARCHAR(10),FK?stations,Starting station,ST001
+routes,destination_station_id,VARCHAR(10),FK?stations,Ending station,ST002
+routes,distance_km,INT,NOT NULL,Total distance in kilometers,1385
+routes,duration_hours,"DECIMAL(5,1)",NOT NULL,Estimated travel duration,16.5
+routes,num_stops,INT,NOT NULL,Number of intermediate stops,8
+routes,railway_zone,VARCHAR(30),NOT NULL,Railway zone of the route,Northern
+employees,employee_id,VARCHAR(10),PK,Unique employee identifier,EMP0001
+employees,employee_name,VARCHAR(100),NOT NULL,Full name of employee,Rahul Sharma
+employees,role,VARCHAR(50),NOT NULL,Job role/designation,Train Driver
+employees,department,VARCHAR(50),NOT NULL,Department name,Operations
+employees,salary,"DECIMAL(10,2)",NOT NULL,Monthly salary in INR,75000.00
+employees,assigned_station_id,VARCHAR(10),FK?stations,Home/assigned station,ST001
+employees,join_date,DATE,NOT NULL,Date of joining service,2010-06-15
+employees,age,INT,NOT NULL,Age of employee,38
+employees,gender,VARCHAR(10),NOT NULL,Gender,Male
+employees,experience_years,INT,NOT NULL,Years of experience,14
+train_schedules,schedule_id,VARCHAR(10),PK,Unique schedule identifier,SCH00001
+train_schedules,train_id,VARCHAR(10),FK?trains,Train assigned to this schedule,TR0001
+train_schedules,route_id,VARCHAR(10),FK?routes,Route for this schedule,RT0001
+train_schedules,departure_date,DATE,NOT NULL,Date of departure,2024-03-15
+train_schedules,departure_time,TIME,NOT NULL,Scheduled departure time,06:30:00
+train_schedules,arrival_time,TIME,NOT NULL,Scheduled arrival time,22:45:00
+train_schedules,status,VARCHAR(20),NOT NULL,On Time/Delayed/Cancelled/Completed,On Time
+train_schedules,driver_employee_id,VARCHAR(10),FK?employees,Assigned driver,EMP0042
+train_schedules,available_seats,INT,NOT NULL,Seats available at time of record,245
+passengers,passenger_id,VARCHAR(15),PK,Unique passenger identifier,PAS000001
+passengers,passenger_name,VARCHAR(100),NOT NULL,Full name of passenger,Priya Kumar
+passengers,age,INT,NOT NULL,Passenger age,32
+passengers,gender,VARCHAR(10),NOT NULL,Gender,Female
+passengers,email,VARCHAR(100),UNIQUE,Email address,priya@gmail.com
+passengers,phone,VARCHAR(20),NOT NULL,Contact phone number,+91 9876543210
+passengers,city,VARCHAR(50),NOT NULL,City of residence,Delhi
+passengers,loyalty_tier,VARCHAR(20),NOT NULL,None/Silver/Gold/Platinum,Gold
+passengers,registration_date,DATE,NOT NULL,Date of account creation,2020-04-10
+passengers,total_trips,INT,NOT NULL,Total trips taken by passenger,47
+tickets,ticket_id,VARCHAR(15),PK,Unique ticket identifier,TK0000001
+tickets,schedule_id,VARCHAR(10),FK?schedules,Associated schedule,SCH00001
+tickets,passenger_id,VARCHAR(15),FK?passengers,Passenger who booked,PAS000001
+tickets,class,VARCHAR(20),NOT NULL,Travel class,AC 2 Tier
+tickets,route_id,VARCHAR(10),FK?routes,Route of travel,RT0001
+tickets,fare,"DECIMAL(10,2)",NOT NULL,Ticket fare in INR,1850.00
+tickets,booking_date,DATE,NOT NULL,Date when ticket was booked,2024-03-01
+tickets,seat_number,VARCHAR(10),NOT NULL,Allocated seat,A23
+tickets,coach_number,VARCHAR(10),NOT NULL,Coach identifier,C04
+tickets,ticket_status,VARCHAR(20),NOT NULL,Confirmed/Waitlisted/Cancelled/RAC,Confirmed
+tickets,concession_type,VARCHAR(30),NOT NULL,Concession category applied,None
+bookings,booking_id,VARCHAR(15),PK,Unique booking identifier,BK0000001
+bookings,ticket_id,VARCHAR(15),FK?tickets,Associated ticket,TK0000001
+bookings,booking_date,DATE,NOT NULL,Date of booking,2024-03-01
+bookings,booking_channel,VARCHAR(20),NOT NULL,Online/Counter/Mobile App/Agent,Online
+bookings,base_fare,"DECIMAL(10,2)",NOT NULL,Base ticket fare,1850.00
+bookings,convenience_fee,"DECIMAL(8,2)",NOT NULL,Platform/booking fee,30.00
+bookings,total_amount,"DECIMAL(10,2)",NOT NULL,Total charged amount,1880.00
+bookings,booking_status,VARCHAR(20),NOT NULL,Confirmed/Cancelled/Pending,Confirmed
+bookings,pnr_number,VARCHAR(15),UNIQUE,Passenger Name Record number,PNR1234567890
+payments,payment_id,VARCHAR(15),PK,Unique payment identifier,PAY0000001
+payments,booking_id,VARCHAR(15),FK?bookings,Associated booking,BK0000001
+payments,payment_method,VARCHAR(20),NOT NULL,UPI/Credit Card/Debit Card etc.,UPI
+payments,amount,"DECIMAL(10,2)",NOT NULL,Amount paid,1880.00
+payments,payment_status,VARCHAR(20),NOT NULL,Successful/Failed/Refunded/Pending,Successful
+payments,payment_date,DATE,NOT NULL,Date of payment,2024-03-01
+payments,gateway,VARCHAR(30),NOT NULL,Payment gateway used,Razorpay
+payments,transaction_id,VARCHAR(30),UNIQUE,Gateway transaction ID,TXN123456789012
+payments,refund_amount,"DECIMAL(10,2)",NOT NULL,Refunded amount if applicable,0.00
+delays,delay_id,VARCHAR(10),PK,Unique delay record identifier,DLY00001
+delays,schedule_id,VARCHAR(10),FK?schedules,Affected schedule,SCH00042
+delays,delay_reason,VARCHAR(50),NOT NULL,Root cause of delay,Signal Failure
+delays,delay_minutes,INT,NOT NULL,Duration of delay in minutes,45
+delays,affected_station_id,VARCHAR(10),FK?stations,Where delay occurred,ST003
+delays,reported_date,DATE,NOT NULL,Date when delay was reported,2024-03-15
+delays,impact_level,VARCHAR(20),NOT NULL,Low/Medium/High/Critical,Medium
+delays,compensation_given,BOOLEAN,NOT NULL,Whether compensation was paid,True
+delays,compensation_amount,"DECIMAL(10,2)",NOT NULL,Compensation amount in INR,500.00
+maintenance,maintenance_id,VARCHAR(10),PK,Unique maintenance record ID,MNT00001
+maintenance,train_id,VARCHAR(10),FK?trains,Train under maintenance,TR0001
+maintenance,maintenance_type,VARCHAR(50),NOT NULL,Type of maintenance work,Engine Overhaul
+maintenance,start_date,DATE,NOT NULL,Maintenance start date,2024-01-10
+maintenance,end_date,DATE,NOT NULL,Expected/actual end date,2024-01-25
+maintenance,duration_days,INT,NOT NULL,Total days of maintenance,15
+maintenance,cost,"DECIMAL(12,2)",NOT NULL,Total maintenance cost in INR,250000.00
+maintenance,technician_employee_id,VARCHAR(10),FK?employees,Lead technician,EMP0123
+maintenance,status,VARCHAR(20),NOT NULL,Completed/In Progress/Scheduled,Completed
+maintenance,workshop_station_id,VARCHAR(10),FK?stations,Workshop location,ST001
+maintenance,notes,VARCHAR(200),NULL,Additional maintenance notes,Parts replaced

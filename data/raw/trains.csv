@@ -1,0 +1,201 @@
+train_id,train_name,train_type,total_capacity,num_coaches,max_speed_kmph,fuel_type,operational_status,year_commissioned
+TR0001,Rajdhani Express 1,Superfast,1000,16,111,Diesel,Active,2008
+TR0002,Shatabdi Express 2,Intercity,900,18,84,Electric,Active,2012
+TR0003,Chennai Mail 3,Intercity,500,20,105,Electric,Active,2023
+TR0004,Delhi Express 4,Rajdhani,1200,12,177,Diesel,Active,2015
+TR0005,Duronto Express 5,Rajdhani,600,24,123,Electric,Active,2008
+TR0006,Bengaluru Express 6,Shatabdi,700,21,113,Electric,Active,2022
+TR0007,Kolkata Mail 7,Superfast,800,13,150,Electric,Active,2016
+TR0008,Vande Bharat 8,Garib Rath,1000,13,85,Diesel,Active,2007
+TR0009,Bengaluru Express 9,Passenger,500,18,115,Electric,Active,2016
+TR0010,Sampark Kranti 10,Mail,700,15,165,Electric,Active,2007
+TR0011,Howrah Mail 11,Garib Rath,600,20,173,Diesel,Active,2017
+TR0012,Kolkata Mail 12,Rajdhani,1000,23,151,Diesel,Active,2006
+TR0013,Bengaluru Express 13,Passenger,500,24,120,Electric,Active,2011
+TR0014,Kolkata Mail 14,Garib Rath,1000,17,107,Electric,Active,2019
+TR0015,Jan Shatabdi 15,Mail,600,15,175,Electric,Active,2018
+TR0016,Garib Rath 16,Garib Rath,700,15,97,Electric,Active,2006
+TR0017,Duronto Express 17,Superfast,1000,14,167,Electric,Active,2017
+TR0018,Chennai Mail 18,Duronto,800,20,112,Electric,Active,2008
+TR0019,Delhi Express 19,Intercity,700,24,162,Electric,Active,2018
+TR0020,Deccan Queen 20,Mail,500,23,172,Electric,Retired,2010
+TR0021,Kolkata Mail 21,Intercity,500,22,118,Diesel,Active,2010
+TR0022,Delhi Express 22,Intercity,900,12,156,Electric,Active,2008
+TR0023,Kolkata Mail 23,Shatabdi,1200,24,119,Diesel,Active,2023
+TR0024,Shatabdi Express 24,Superfast,1000,19,88,Diesel,Active,2020
+TR0025,Duronto Express 25,Intercity,700,20,157,Electric,Under Maintenance,2022
+TR0026,Mumbai Express 26,Passenger,700,18,165,Electric,Active,2021
+TR0027,Shatabdi Express 27,Vande Bharat,600,15,88,Electric,Active,2022
+TR0028,Chennai Mail 28,Passenger,600,12,89,Electric,Active,2006
+TR0029,Shatabdi Express 29,Shatabdi,900,15,115,Electric,Active,2009
+TR0030,Chennai Mail 30,Garib Rath,800,15,180,Electric,Active,2011
+TR0031,Shatabdi Express 31,Superfast,1000,18,125,Electric,Active,2006
+TR0032,Rajdhani Express 32,Superfast,800,23,123,Electric,Active,2011
+TR0033,Deccan Queen 33,Intercity,600,18,103,Electric,Active,2007
+TR0034,Delhi Express 34,Vande Bharat,1200,20,92,Electric,Active,2022
+TR0035,Shatabdi Express 35,Express,1200,15,101,Electric,Active,2011
+TR0036,Kolkata Mail 36,Duronto,500,14,128,Electric,Retired,2013
+TR0037,Jan Shatabdi 37,Vande Bharat,800,23,173,Electric,Active,2014
+TR0038,Rajdhani Express 38,Passenger,900,23,149,Electric,Active,2006
+TR0039,Chennai Mail 39,Express,800,20,147,Diesel,Active,2021
+TR0040,Bengaluru Express 40,Superfast,600,13,156,Electric,Active,2012
+TR0041,Shatabdi Express 41,Duronto,900,15,154,Electric,Active,2018
+TR0042,Chennai Mail 42,Garib Rath,900,17,113,Diesel,Active,2015
+TR0043,Jan Shatabdi 43,Passenger,800,14,165,Electric,Active,2007
+TR0044,Deccan Queen 44,Express,900,21,92,Electric,Active,2021
+TR0045,Duronto Express 45,Rajdhani,700,13,111,Electric,Active,2019
+TR0046,Mumbai Express 46,Intercity,700,21,163,Electric,Active,2022
+TR0047,Kolkata Mail 47,Rajdhani,1000,13,97,Electric,Active,2008
+TR0048,Duronto Express 48,Intercity,700,16,157,Diesel,Active,2011
+TR0049,Flying Ranee 49,Rajdhani,800,16,86,Electric,Active,2013
+TR0050,Rajdhani Express 50,Express,700,24,96,Electric,Active,2019
+TR0051,Mumbai Express 51,Intercity,800,20,81,Electric,Active,2009
+TR0052,Rajdhani Express 52,Intercity,1200,17,154,Diesel,Active,2006
+TR0053,Sampark Kranti 53,Rajdhani,1200,12,125,Diesel,Active,2008
+TR0054,Delhi Express 54,Shatabdi,900,18,159,Diesel,Under Maintenance,2012
+TR0055,Delhi Express 55,Mail,1200,14,132,Electric,Active,2015
+TR0056,Delhi Express 56,Duronto,1000,23,111,Electric,Active,2008
+TR0057,Bengaluru Express 57,Duronto,500,19,108,Diesel,Active,2019
+TR0058,Jan Shatabdi 58,Shatabdi,1200,24,109,Diesel,Active,2011
+TR0059,Sampark Kranti 59,Duronto,700,13,178,Electric,Active,2021
+TR0060,Howrah Mail 60,Duronto,1200,20,122,Electric,Active,2013
+TR0061,Chennai Mail 61,Mail,700,12,93,Electric,Active,2015
+TR0062,Chennai Mail 62,Duronto,900,13,129,Diesel,Active,2018
+TR0063,Flying Ranee 63,Express,1200,20,167,Diesel,Active,2007
+TR0064,Chennai Mail 64,Shatabdi,700,22,95,Electric,Active,2018
+TR0065,Garib Rath 65,Shatabdi,1000,16,150,Diesel,Active,2017
+TR0066,Chennai Mail 66,Mail,900,16,131,Electric,Active,2011
+TR0067,Delhi Express 67,Duronto,900,21,163,Electric,Active,2019
+TR0068,Flying Ranee 68,Passenger,800,24,174,Diesel,Active,2014
+TR0069,Howrah Mail 69,Intercity,1000,21,122,Electric,Active,2012
+TR0070,Vande Bharat 70,Rajdhani,1200,15,98,Electric,Active,2020
+TR0071,Bengaluru Express 71,Garib Rath,1200,13,138,Electric,Under Maintenance,2023
+TR0072,Mumbai Express 72,Passenger,1000,18,143,Electric,Active,2005
+TR0073,Delhi Express 73,Superfast,800,15,102,Electric,Active,2012
+TR0074,Deccan Queen 74,Superfast,600,24,139,Electric,Under Maintenance,2019
+TR0075,Bengaluru Express 75,Garib Rath,1000,20,134,Electric,Under Maintenance,2020
+TR0076,Jan Shatabdi 76,Vande Bharat,1200,15,161,Electric,Active,2021
+TR0077,Howrah Mail 77,Vande Bharat,600,16,136,Electric,Active,2012
+TR0078,Sampark Kranti 78,Rajdhani,700,20,90,Diesel,Active,2017
+TR0079,Mumbai Express 79,Mail,600,13,133,Electric,Active,2019
+TR0080,Rajdhani Express 80,Duronto,600,18,129,Electric,Under Maintenance,2023
+TR0081,Deccan Queen 81,Duronto,500,17,118,Electric,Under Maintenance,2018
+TR0082,Mumbai Express 82,Intercity,1000,20,157,Diesel,Active,2013
+TR0083,Deccan Queen 83,Duronto,500,18,123,Electric,Active,2019
+TR0084,Chennai Mail 84,Mail,900,12,130,Electric,Active,2018
+TR0085,Bengaluru Express 85,Mail,800,14,86,Electric,Active,2011
+TR0086,Sampark Kranti 86,Vande Bharat,700,24,128,Electric,Active,2018
+TR0087,Bengaluru Express 87,Rajdhani,500,19,82,Electric,Retired,2016
+TR0088,Howrah Mail 88,Passenger,500,24,163,Electric,Active,2012
+TR0089,Bengaluru Express 89,Passenger,500,21,99,Diesel,Active,2008
+TR0090,Vande Bharat 90,Garib Rath,800,23,112,Electric,Active,2008
+TR0091,Jan Shatabdi 91,Mail,500,21,83,Electric,Active,2017
+TR0092,Mumbai Express 92,Duronto,600,13,155,Diesel,Active,2014
+TR0093,Delhi Express 93,Garib Rath,500,24,152,Electric,Active,2018
+TR0094,Shatabdi Express 94,Shatabdi,900,22,123,Electric,Active,2020
+TR0095,Garib Rath 95,Superfast,700,22,138,Diesel,Active,2021
+TR0096,Chennai Mail 96,Rajdhani,1200,20,179,Electric,Active,2023
+TR0097,Sampark Kranti 97,Rajdhani,1200,15,91,Electric,Under Maintenance,2012
+TR0098,Chennai Mail 98,Vande Bharat,900,22,128,Electric,Active,2015
+TR0099,Deccan Queen 99,Mail,600,17,113,Electric,Active,2013
+TR0100,Rajdhani Express 100,Intercity,900,15,90,Diesel,Active,2020
+TR0101,Delhi Express 101,Intercity,600,23,140,Electric,Active,2005
+TR0102,Jan Shatabdi 102,Superfast,600,18,168,Diesel,Active,2023
+TR0103,Deccan Queen 103,Shatabdi,900,20,124,Electric,Retired,2022
+TR0104,Sampark Kranti 104,Shatabdi,1000,19,114,Electric,Active,2008
+TR0105,Sampark Kranti 105,Passenger,500,23,148,Diesel,Active,2020
+TR0106,Mumbai Express 106,Rajdhani,900,24,147,Electric,Retired,2011
+TR0107,Vande Bharat 107,Rajdhani,700,14,118,Electric,Active,2009
+TR0108,Rajdhani Express 108,Rajdhani,500,20,117,Diesel,Active,2020
+TR0109,Bengaluru Express 109,Superfast,500,21,116,Electric,Active,2015
+TR0110,Rajdhani Express 110,Mail,700,19,94,Electric,Active,2007
+TR0111,Howrah Mail 111,Garib Rath,1000,12,99,Diesel,Active,2014
+TR0112,Vande Bharat 112,Superfast,500,20,177,Electric,Active,2012
+TR0113,Garib Rath 113,Intercity,800,19,118,Electric,Active,2006
+TR0114,Mumbai Express 114,Garib Rath,500,24,106,Diesel,Active,2007
+TR0115,Vande Bharat 115,Mail,600,20,89,Diesel,Active,2019
+TR0116,Deccan Queen 116,Garib Rath,700,12,109,Electric,Active,2019
+TR0117,Howrah Mail 117,Superfast,600,16,180,Diesel,Active,2022
+TR0118,Howrah Mail 118,Passenger,600,16,98,Electric,Active,2014
+TR0119,Mumbai Express 119,Garib Rath,1200,21,116,Electric,Active,2014
+TR0120,Jan Shatabdi 120,Duronto,900,20,143,Electric,Active,2006
+TR0121,Mumbai Express 121,Duronto,700,21,112,Electric,Active,2023
+TR0122,Rajdhani Express 122,Garib Rath,1200,22,114,Electric,Active,2010
+TR0123,Flying Ranee 123,Vande Bharat,1000,19,115,Diesel,Retired,2018
+TR0124,Shatabdi Express 124,Vande Bharat,800,17,132,Electric,Active,2008
+TR0125,Sampark Kranti 125,Mail,800,23,143,Electric,Active,2017
+TR0126,Rajdhani Express 126,Intercity,800,13,120,Electric,Active,2017
+TR0127,Bengaluru Express 127,Intercity,500,22,149,Electric,Active,2011
+TR0128,Sampark Kranti 128,Intercity,900,24,143,Electric,Active,2011
+TR0129,Flying Ranee 129,Rajdhani,600,16,136,Electric,Active,2012
+TR0130,Jan Shatabdi 130,Mail,900,12,150,Electric,Active,2008
+TR0131,Shatabdi Express 131,Vande Bharat,1000,14,143,Electric,Active,2013
+TR0132,Bengaluru Express 132,Duronto,800,19,111,Electric,Active,2017
+TR0133,Kolkata Mail 133,Passenger,900,20,175,Diesel,Under Maintenance,2013
+TR0134,Sampark Kranti 134,Duronto,1200,20,114,Electric,Active,2014
+TR0135,Chennai Mail 135,Garib Rath,1000,19,99,Electric,Active,2016
+TR0136,Flying Ranee 136,Shatabdi,1200,20,128,Electric,Under Maintenance,2011
+TR0137,Chennai Mail 137,Passenger,800,15,179,Electric,Active,2020
+TR0138,Garib Rath 138,Duronto,1000,24,163,Diesel,Active,2006
+TR0139,Flying Ranee 139,Mail,900,17,92,Electric,Active,2019
+TR0140,Mumbai Express 140,Express,600,18,163,Diesel,Active,2013
+TR0141,Chennai Mail 141,Shatabdi,1000,18,163,Electric,Under Maintenance,2022
+TR0142,Sampark Kranti 142,Duronto,1000,23,177,Electric,Under Maintenance,2006
+TR0143,Shatabdi Express 143,Garib Rath,600,22,167,Electric,Retired,2007
+TR0144,Shatabdi Express 144,Duronto,1200,22,170,Electric,Active,2014
+TR0145,Rajdhani Express 145,Express,700,24,87,Electric,Active,2018
+TR0146,Vande Bharat 146,Mail,900,18,152,Diesel,Active,2007
+TR0147,Bengaluru Express 147,Garib Rath,800,21,167,Diesel,Active,2023
+TR0148,Vande Bharat 148,Mail,800,22,112,Electric,Active,2005
+TR0149,Kolkata Mail 149,Vande Bharat,700,22,149,Diesel,Active,2016
+TR0150,Jan Shatabdi 150,Garib Rath,1000,18,168,Electric,Active,2014
+TR0151,Garib Rath 151,Passenger,1200,19,93,Diesel,Active,2016
+TR0152,Jan Shatabdi 152,Garib Rath,1000,16,82,Electric,Active,2023
+TR0153,Kolkata Mail 153,Express,900,23,143,Electric,Active,2012
+TR0154,Delhi Express 154,Garib Rath,700,15,161,Diesel,Active,2009
+TR0155,Kolkata Mail 155,Superfast,1000,22,85,Electric,Active,2006
+TR0156,Sampark Kranti 156,Garib Rath,1000,14,91,Electric,Active,2018
+TR0157,Vande Bharat 157,Mail,600,24,149,Electric,Active,2013
+TR0158,Jan Shatabdi 158,Mail,1200,19,117,Electric,Active,2019
+TR0159,Duronto Express 159,Superfast,1200,15,166,Electric,Under Maintenance,2022
+TR0160,Shatabdi Express 160,Shatabdi,1200,18,81,Electric,Active,2019
+TR0161,Howrah Mail 161,Shatabdi,1000,22,113,Electric,Active,2016
+TR0162,Howrah Mail 162,Superfast,600,19,83,Electric,Under Maintenance,2012
+TR0163,Howrah Mail 163,Superfast,1200,19,169,Electric,Active,2008
+TR0164,Rajdhani Express 164,Mail,500,16,143,Electric,Active,2022
+TR0165,Garib Rath 165,Mail,800,17,165,Electric,Active,2009
+TR0166,Howrah Mail 166,Duronto,500,19,158,Electric,Under Maintenance,2013
+TR0167,Mumbai Express 167,Express,700,15,136,Electric,Under Maintenance,2016
+TR0168,Howrah Mail 168,Superfast,700,20,162,Electric,Active,2013
+TR0169,Shatabdi Express 169,Passenger,1200,19,91,Diesel,Active,2005
+TR0170,Delhi Express 170,Express,700,15,96,Diesel,Active,2022
+TR0171,Chennai Mail 171,Passenger,600,15,122,Diesel,Active,2005
+TR0172,Bengaluru Express 172,Rajdhani,600,14,149,Electric,Active,2008
+TR0173,Duronto Express 173,Express,500,17,180,Diesel,Active,2005
+TR0174,Jan Shatabdi 174,Mail,500,14,174,Electric,Active,2007
+TR0175,Deccan Queen 175,Vande Bharat,1200,17,145,Electric,Active,2012
+TR0176,Rajdhani Express 176,Garib Rath,1000,24,164,Electric,Active,2005
+TR0177,Deccan Queen 177,Express,1200,18,134,Electric,Active,2019
+TR0178,Kolkata Mail 178,Superfast,500,17,157,Diesel,Active,2013
+TR0179,Howrah Mail 179,Garib Rath,900,20,171,Electric,Active,2021
+TR0180,Deccan Queen 180,Rajdhani,900,21,135,Electric,Active,2008
+TR0181,Mumbai Express 181,Intercity,1200,15,135,Electric,Under Maintenance,2018
+TR0182,Bengaluru Express 182,Shatabdi,800,18,133,Electric,Active,2015
+TR0183,Sampark Kranti 183,Rajdhani,600,22,140,Electric,Active,2007
+TR0184,Garib Rath 184,Superfast,500,23,174,Electric,Active,2022
+TR0185,Chennai Mail 185,Express,900,20,122,Electric,Active,2018
+TR0186,Jan Shatabdi 186,Express,900,16,125,Electric,Active,2011
+TR0187,Howrah Mail 187,Mail,800,15,93,Electric,Active,2016
+TR0188,Delhi Express 188,Superfast,700,21,108,Electric,Active,2022
+TR0189,Chennai Mail 189,Express,1000,23,114,Electric,Active,2014
+TR0190,Sampark Kranti 190,Shatabdi,500,14,98,Electric,Active,2005
+TR0191,Mumbai Express 191,Superfast,900,15,128,Electric,Active,2010
+TR0192,Jan Shatabdi 192,Shatabdi,1000,17,179,Electric,Under Maintenance,2009
+TR0193,Delhi Express 193,Mail,900,12,166,Electric,Active,2018
+TR0194,Chennai Mail 194,Vande Bharat,800,18,114,Diesel,Active,2008
+TR0195,Garib Rath 195,Shatabdi,500,16,166,Electric,Active,2014
+TR0196,Vande Bharat 196,Express,800,21,87,Electric,Active,2011
+TR0197,Delhi Express 197,Mail,700,16,121,Electric,Active,2018
+TR0198,Duronto Express 198,Mail,800,20,170,Diesel,Active,2016
+TR0199,Garib Rath 199,Superfast,1200,23,85,Electric,Active,2007
+TR0200,Chennai Mail 200,Shatabdi,800,21,131,Electric,Active,2017

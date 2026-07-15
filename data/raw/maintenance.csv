@@ -1,0 +1,1501 @@
+maintenance_id,train_id,maintenance_type,start_date,end_date,duration_days,cost,technician_employee_id,status,workshop_station_id,notes
+MNT00001,TR0009,Engine Overhaul,2023-12-04,2023-12-26,22,9951.84,EMP0141,Completed,ST065,Critical issue found
+MNT00002,TR0109,Wheel Replacement,2024-06-06,2024-06-13,7,365305.47,EMP0048,In Progress,ST013,All systems OK
+MNT00003,TR0068,Wheel Replacement,2024-08-11,2024-09-04,24,408702.51,EMP0371,In Progress,ST036,Routine check completed
+MNT00004,TR0178,Electrical Check,2023-03-15,2023-03-22,7,194584.16,EMP0400,Completed,ST020,All systems OK
+MNT00005,TR0162,Pantry Car Cleaning,2023-05-03,2023-05-18,15,193453.46,EMP0104,Completed,ST016,All systems OK
+MNT00006,TR0130,Safety Audit,2024-02-14,2024-02-20,6,136353.18,EMP0322,Completed,ST051,Routine check completed
+MNT00007,TR0098,Engine Overhaul,2023-11-25,2023-12-24,29,436269.47,EMP0118,Scheduled,ST054,Awaiting spare parts
+MNT00008,TR0126,Signaling Equipment,2024-02-02,2024-02-24,22,433594.35,EMP0408,Completed,ST021,All systems OK
+MNT00009,TR0162,Brake Inspection,2024-10-04,2024-10-13,9,368683.5,EMP0090,Scheduled,ST008,All systems OK
+MNT00010,TR0009,Wheel Replacement,2024-07-07,2024-07-25,18,26925.15,EMP0052,Completed,ST048,All systems OK
+MNT00011,TR0022,Safety Audit,2024-11-01,2024-11-30,29,311172.44,EMP0180,Completed,ST013,Awaiting spare parts
+MNT00012,TR0001,Safety Audit,2023-02-10,2023-03-08,26,24993.73,EMP0432,Cancelled,ST039,Awaiting spare parts
+MNT00013,TR0090,Safety Audit,2024-12-04,2024-12-22,18,265703.71,EMP0392,In Progress,ST075,All systems OK
+MNT00014,TR0098,Engine Overhaul,2024-02-09,2024-02-22,13,122689.62,EMP0074,Completed,ST003,Awaiting spare parts
+MNT00015,TR0001,Brake Inspection,2023-05-10,2023-05-17,7,344039.24,EMP0027,Completed,ST039,Routine check completed
+MNT00016,TR0100,Brake Inspection,2024-03-05,2024-03-28,23,36473.9,EMP0241,Completed,ST067,Routine check completed
+MNT00017,TR0132,Brake Inspection,2024-06-04,2024-07-01,27,142201.18,EMP0386,Completed,ST065,All systems OK
+MNT00018,TR0158,Scheduled Service,2023-08-28,2023-09-09,12,274960.08,EMP0088,Completed,ST067,Critical issue found
+MNT00019,TR0070,Engine Overhaul,2023-03-10,2023-04-06,27,447633.31,EMP0263,In Progress,ST063,Parts replaced
+MNT00020,TR0038,Electrical Check,2024-09-26,2024-10-24,28,262738.52,EMP0358,Scheduled,ST052,Critical issue found
+MNT00021,TR0106,Signaling Equipment,2023-05-28,2023-06-10,13,257676.16,EMP0064,Completed,ST006,All systems OK
+MNT00022,TR0121,Electrical Check,2024-08-13,2024-08-23,10,49847.59,EMP0355,Completed,ST045,Awaiting spare parts
+MNT00023,TR0196,Electrical Check,2023-06-05,2023-06-18,13,266861.8,EMP0157,Deferred,ST032,Critical issue found
+MNT00024,TR0164,Pantry Car Cleaning,2024-06-19,2024-07-18,29,118502.38,EMP0044,Completed,ST053,All systems OK
+MNT00025,TR0190,Brake Inspection,2023-08-11,2023-08-13,2,132163.55,EMP0464,Completed,ST007,Routine check completed
+MNT00026,TR0020,Scheduled Service,2024-07-05,2024-07-23,18,478334.36,EMP0417,Completed,ST062,Critical issue found
+MNT00027,TR0003,Interior Refurbishment,2024-07-11,2024-07-29,18,302453.27,EMP0191,Completed,ST051,All systems OK
+MNT00028,TR0053,Brake Inspection,2024-02-29,2024-03-17,17,19128.09,EMP0156,Completed,ST063,Routine check completed
+MNT00029,TR0196,Safety Audit,2024-11-19,2024-11-20,1,373413.9,EMP0382,Scheduled,ST019,Routine check completed
+MNT00030,TR0121,Interior Refurbishment,2024-12-04,2024-12-16,12,104110.05,EMP0424,Completed,ST039,Awaiting spare parts
+MNT00031,TR0132,Interior Refurbishment,2023-03-25,2023-04-12,18,66960.83,EMP0147,In Progress,ST040,All systems OK
+MNT00032,TR0055,Scheduled Service,2023-12-28,2024-01-10,13,268215.81,EMP0078,Completed,ST052,Critical issue found
+MNT00033,TR0015,Engine Overhaul,2024-10-16,2024-10-22,6,433667.44,EMP0189,Completed,ST065,Parts replaced
+MNT00034,TR0189,Engine Overhaul,2023-09-15,2023-09-20,5,406028.02,EMP0019,Completed,ST018,Routine check completed
+MNT00035,TR0162,Interior Refurbishment,2024-05-27,2024-06-12,16,206033.92,EMP0381,Scheduled,ST010,All systems OK
+MNT00036,TR0036,Safety Audit,2024-01-03,2024-01-11,8,74136.76,EMP0413,In Progress,ST019,Parts replaced
+MNT00037,TR0059,Scheduled Service,2024-01-24,2024-02-23,30,39947.32,EMP0159,Deferred,ST019,All systems OK
+MNT00038,TR0078,AC Servicing,2024-10-17,2024-10-23,6,366036.21,EMP0254,In Progress,ST020,Parts replaced
+MNT00039,TR0197,Interior Refurbishment,2024-09-28,2024-10-03,5,447643.05,EMP0077,In Progress,ST011,Critical issue found
+MNT00040,TR0028,Engine Overhaul,2023-09-13,2023-10-03,20,32792.51,EMP0364,In Progress,ST030,Awaiting spare parts
+MNT00041,TR0047,AC Servicing,2024-04-03,2024-04-29,26,172474.09,EMP0350,Completed,ST026,Awaiting spare parts
+MNT00042,TR0172,Engine Overhaul,2024-09-16,2024-10-07,21,450494.39,EMP0339,Completed,ST047,All systems OK
+MNT00043,TR0106,Engine Overhaul,2023-08-22,2023-09-03,12,368564.6,EMP0446,Completed,ST021,All systems OK
+MNT00044,TR0087,Safety Audit,2023-08-27,2023-09-12,16,453739.97,EMP0289,Cancelled,ST044,Routine check completed
+MNT00045,TR0047,Signaling Equipment,2023-02-01,2023-02-20,19,335053.24,EMP0067,Completed,ST023,Critical issue found
+MNT00046,TR0170,AC Servicing,2023-11-26,2023-12-23,27,283958.29,EMP0279,Completed,ST027,Parts replaced
+MNT00047,TR0159,Signaling Equipment,2023-12-11,2023-12-13,2,199525.65,EMP0057,Scheduled,ST044,Parts replaced
+MNT00048,TR0089,Scheduled Service,2024-09-27,2024-10-07,10,162218.24,EMP0124,Completed,ST018,Awaiting spare parts
+MNT00049,TR0141,Pantry Car Cleaning,2023-05-13,2023-05-16,3,168291.4,EMP0321,Deferred,ST010,Parts replaced
+MNT00050,TR0112,Electrical Check,2024-02-16,2024-02-24,8,323559.88,EMP0062,In Progress,ST035,Routine check completed
+MNT00051,TR0029,Brake Inspection,2023-12-04,2023-12-29,25,109413.15,EMP0432,Scheduled,ST054,All systems OK
+MNT00052,TR0034,Electrical Check,2024-11-19,2024-11-28,9,337207.97,EMP0467,Completed,ST051,Routine check completed
+MNT00053,TR0142,Interior Refurbishment,2024-11-02,2024-11-30,28,179919,EMP0066,Completed,ST044,Parts replaced
+MNT00054,TR0116,Brake Inspection,2023-09-10,2023-09-19,9,74949.66,EMP0455,Completed,ST013,Routine check completed
+MNT00055,TR0087,Signaling Equipment,2023-07-22,2023-08-13,22,360614.99,EMP0252,Completed,ST029,Parts replaced
+MNT00056,TR0004,Safety Audit,2024-12-22,2025-01-19,28,396298.1,EMP0354,Completed,ST053,Awaiting spare parts
+MNT00057,TR0127,Wheel Replacement,2023-07-28,2023-08-10,13,146073.51,EMP0091,Completed,ST013,Critical issue found
+MNT00058,TR0159,Electrical Check,2023-09-26,2023-10-19,23,313633.78,EMP0471,Completed,ST037,All systems OK
+MNT00059,TR0076,Safety Audit,2023-10-09,2023-10-19,10,409190.35,EMP0457,Completed,ST059,Routine check completed
+MNT00060,TR0047,Safety Audit,2024-01-30,2024-02-12,13,275446.12,EMP0200,Completed,ST015,Parts replaced
+MNT00061,TR0026,Interior Refurbishment,2023-02-13,2023-03-11,26,345137.64,EMP0232,In Progress,ST057,All systems OK
+MNT00062,TR0104,AC Servicing,2024-10-02,2024-10-03,1,253340.3,EMP0390,Completed,ST049,Parts replaced
+MNT00063,TR0186,Electrical Check,2023-10-05,2023-10-31,26,415473.32,EMP0110,Scheduled,ST016,Routine check completed
+MNT00064,TR0053,Safety Audit,2023-11-08,2023-11-30,22,241493.72,EMP0118,Scheduled,ST066,Routine check completed
+MNT00065,TR0175,Scheduled Service,2024-02-22,2024-03-16,23,246899.29,EMP0347,Scheduled,ST059,Routine check completed
+MNT00066,TR0139,Safety Audit,2024-01-06,2024-01-22,16,223317.3,EMP0428,Completed,ST064,All systems OK
+MNT00067,TR0045,AC Servicing,2023-11-03,2023-11-05,2,153759.12,EMP0433,Completed,ST004,Critical issue found
+MNT00068,TR0139,Safety Audit,2023-10-31,2023-11-28,28,143163.54,EMP0295,Completed,ST075,Critical issue found
+MNT00069,TR0043,Pantry Car Cleaning,2024-12-02,2024-12-30,28,66195.88,EMP0388,Completed,ST049,Critical issue found
+MNT00070,TR0025,Engine Overhaul,2023-02-05,2023-02-08,3,107208.29,EMP0050,Completed,ST070,Critical issue found
+MNT00071,TR0080,Engine Overhaul,2024-11-09,2024-11-29,20,133466.83,EMP0456,Completed,ST017,All systems OK
+MNT00072,TR0004,Interior Refurbishment,2024-02-04,2024-02-13,9,371227.26,EMP0278,Completed,ST075,All systems OK
+MNT00073,TR0134,Engine Overhaul,2024-01-21,2024-02-15,25,260782.32,EMP0407,Deferred,ST021,Parts replaced
+MNT00074,TR0189,Wheel Replacement,2024-03-25,2024-04-18,24,310894.36,EMP0324,Completed,ST012,Routine check completed
+MNT00075,TR0067,AC Servicing,2023-07-21,2023-08-08,18,128873.47,EMP0076,Completed,ST062,Routine check completed
+MNT00076,TR0056,Wheel Replacement,2024-05-09,2024-05-25,16,74568.08,EMP0215,Cancelled,ST037,Awaiting spare parts
+MNT00077,TR0051,Wheel Replacement,2024-08-31,2024-09-16,16,367102.67,EMP0436,Completed,ST012,Routine check completed
+MNT00078,TR0152,Scheduled Service,2024-02-07,2024-02-16,9,174679.03,EMP0140,Deferred,ST065,Parts replaced
+MNT00079,TR0045,Safety Audit,2024-09-03,2024-09-16,13,421168.17,EMP0488,Scheduled,ST007,Critical issue found
+MNT00080,TR0033,Scheduled Service,2023-03-24,2023-03-28,4,94421.1,EMP0120,In Progress,ST075,Critical issue found
+MNT00081,TR0083,Wheel Replacement,2023-05-12,2023-05-27,15,196564.84,EMP0310,Scheduled,ST068,All systems OK
+MNT00082,TR0114,Interior Refurbishment,2024-08-05,2024-08-07,2,426167.48,EMP0330,Completed,ST040,Parts replaced
+MNT00083,TR0195,Engine Overhaul,2024-10-27,2024-11-18,22,59432.3,EMP0450,In Progress,ST007,Awaiting spare parts
+MNT00084,TR0112,Wheel Replacement,2023-09-27,2023-10-20,23,49913.89,EMP0099,Scheduled,ST057,All systems OK
+MNT00085,TR0060,Safety Audit,2024-09-29,2024-10-10,11,57857.4,EMP0159,Scheduled,ST021,Critical issue found
+MNT00086,TR0073,Interior Refurbishment,2023-05-18,2023-06-11,24,241984.12,EMP0328,Completed,ST009,Critical issue found
+MNT00087,TR0006,Interior Refurbishment,2023-06-15,2023-06-24,9,154273.68,EMP0142,Completed,ST037,Routine check completed
+MNT00088,TR0131,Interior Refurbishment,2024-05-12,2024-06-09,28,499244.78,EMP0184,Completed,ST036,All systems OK
+MNT00089,TR0150,AC Servicing,2024-10-04,2024-11-03,30,496470.9,EMP0087,Completed,ST017,Critical issue found
+MNT00090,TR0073,Interior Refurbishment,2023-05-08,2023-05-26,18,476640.93,EMP0330,Cancelled,ST045,Routine check completed
+MNT00091,TR0169,Scheduled Service,2024-09-28,2024-10-26,28,336311.83,EMP0437,Completed,ST049,Awaiting spare parts
+MNT00092,TR0096,Signaling Equipment,2024-11-04,2024-11-22,18,138968.54,EMP0476,Cancelled,ST074,All systems OK
+MNT00093,TR0040,Brake Inspection,2023-06-01,2023-06-03,2,15157.76,EMP0035,Completed,ST021,Routine check completed
+MNT00094,TR0073,Pantry Car Cleaning,2023-03-20,2023-03-30,10,379690.82,EMP0364,In Progress,ST054,Routine check completed
+MNT00095,TR0014,Interior Refurbishment,2024-01-23,2024-02-02,10,232850.21,EMP0279,Completed,ST074,Parts replaced
+MNT00096,TR0096,Wheel Replacement,2024-12-08,2024-12-26,18,323233.39,EMP0017,Completed,ST046,Parts replaced
+MNT00097,TR0084,AC Servicing,2024-11-01,2024-11-14,13,291577.49,EMP0022,Completed,ST016,All systems OK
+MNT00098,TR0085,Safety Audit,2023-03-15,2023-04-13,29,283861.8,EMP0399,Completed,ST073,Critical issue found
+MNT00099,TR0128,Electrical Check,2023-05-17,2023-05-24,7,35755.36,EMP0326,Completed,ST021,Routine check completed
+MNT00100,TR0073,AC Servicing,2024-11-25,2024-12-16,21,330329.42,EMP0449,Completed,ST043,Awaiting spare parts
+MNT00101,TR0189,Electrical Check,2024-08-20,2024-08-26,6,263608.84,EMP0147,Deferred,ST067,All systems OK
+MNT00102,TR0040,AC Servicing,2023-01-15,2023-01-19,4,91226.27,EMP0027,Completed,ST037,All systems OK
+MNT00103,TR0152,Wheel Replacement,2023-04-08,2023-04-20,12,477125.9,EMP0178,Completed,ST038,Routine check completed
+MNT00104,TR0008,Safety Audit,2024-12-05,2024-12-25,20,94154.11,EMP0244,Completed,ST052,Awaiting spare parts
+MNT00105,TR0029,Wheel Replacement,2023-12-18,2023-12-30,12,336473.23,EMP0247,In Progress,ST040,Awaiting spare parts
+MNT00106,TR0106,Brake Inspection,2024-07-08,2024-07-13,5,428217.92,EMP0034,Scheduled,ST015,Routine check completed
+MNT00107,TR0066,Brake Inspection,2023-05-08,2023-06-04,27,111480.86,EMP0006,Completed,ST068,Parts replaced
+MNT00108,TR0195,Engine Overhaul,2023-12-30,2024-01-04,5,152208.81,EMP0205,Scheduled,ST023,Parts replaced
+MNT00109,TR0021,Wheel Replacement,2024-07-10,2024-08-07,28,86449.94,EMP0006,Completed,ST013,Routine check completed
+MNT00110,TR0194,Engine Overhaul,2024-08-31,2024-09-28,28,92022.52,EMP0218,Completed,ST041,Awaiting spare parts
+MNT00111,TR0013,AC Servicing,2024-07-31,2024-08-03,3,475393.39,EMP0280,Completed,ST035,Critical issue found
+MNT00112,TR0115,Electrical Check,2023-09-02,2023-09-22,20,176285.06,EMP0457,Completed,ST030,Critical issue found
+MNT00113,TR0134,Interior Refurbishment,2023-02-05,2023-02-26,21,229546.46,EMP0484,Scheduled,ST004,Critical issue found
+MNT00114,TR0073,Safety Audit,2023-04-20,2023-05-18,28,383910.53,EMP0381,Completed,ST042,All systems OK
+MNT00115,TR0104,Signaling Equipment,2023-08-14,2023-09-06,23,324575.56,EMP0214,Cancelled,ST003,All systems OK
+MNT00116,TR0180,Electrical Check,2024-05-07,2024-05-19,12,321754.23,EMP0310,Scheduled,ST037,Parts replaced
+MNT00117,TR0007,Brake Inspection,2023-10-22,2023-11-04,13,27327.46,EMP0285,Completed,ST002,All systems OK
+MNT00118,TR0081,Safety Audit,2024-05-30,2024-06-06,7,436157.36,EMP0088,In Progress,ST006,Critical issue found
+MNT00119,TR0168,Interior Refurbishment,2023-08-24,2023-09-17,24,71049.67,EMP0292,In Progress,ST008,Routine check completed
+MNT00120,TR0191,AC Servicing,2024-06-18,2024-07-06,18,250952.69,EMP0295,Completed,ST028,Routine check completed
+MNT00121,TR0199,Engine Overhaul,2024-05-09,2024-05-25,16,425677.66,EMP0340,Completed,ST061,Awaiting spare parts
+MNT00122,TR0190,Brake Inspection,2024-06-14,2024-07-11,27,201459.71,EMP0249,Deferred,ST037,Critical issue found
+MNT00123,TR0053,Safety Audit,2024-03-05,2024-03-14,9,23376.95,EMP0298,Scheduled,ST032,Awaiting spare parts
+MNT00124,TR0055,Electrical Check,2023-05-19,2023-06-03,15,278289.54,EMP0461,Completed,ST006,Parts replaced
+MNT00125,TR0122,Scheduled Service,2024-09-14,2024-09-15,1,98781.05,EMP0400,In Progress,ST010,Awaiting spare parts
+MNT00126,TR0115,Electrical Check,2023-09-14,2023-09-19,5,399849.7,EMP0312,Completed,ST035,Parts replaced
+MNT00127,TR0031,Scheduled Service,2023-03-20,2023-04-08,19,434312.23,EMP0359,Completed,ST017,Parts replaced
+MNT00128,TR0029,Engine Overhaul,2024-11-10,2024-11-29,19,350343.9,EMP0051,Deferred,ST015,All systems OK
+MNT00129,TR0097,Engine Overhaul,2024-01-15,2024-02-10,26,234115.02,EMP0482,In Progress,ST039,Critical issue found
+MNT00130,TR0177,Pantry Car Cleaning,2024-11-24,2024-12-24,30,108065.84,EMP0050,Completed,ST029,Awaiting spare parts
+MNT00131,TR0092,Scheduled Service,2023-04-30,2023-05-23,23,423818.27,EMP0286,Cancelled,ST013,Critical issue found
+MNT00132,TR0036,Pantry Car Cleaning,2024-03-31,2024-04-12,12,452707.16,EMP0209,Completed,ST036,Awaiting spare parts
+MNT00133,TR0038,Brake Inspection,2024-10-09,2024-10-10,1,469196.07,EMP0345,Completed,ST067,Routine check completed
+MNT00134,TR0081,Signaling Equipment,2023-10-09,2023-10-19,10,202477.73,EMP0043,Completed,ST027,Awaiting spare parts
+MNT00135,TR0048,AC Servicing,2024-02-26,2024-03-27,30,213206.4,EMP0059,Completed,ST047,Routine check completed
+MNT00136,TR0096,Scheduled Service,2023-11-25,2023-12-06,11,492190.85,EMP0010,Completed,ST056,All systems OK
+MNT00137,TR0067,Wheel Replacement,2024-01-14,2024-02-11,28,301254.89,EMP0465,Scheduled,ST032,Routine check completed
+MNT00138,TR0136,Wheel Replacement,2023-06-02,2023-06-14,12,265951.54,EMP0409,Completed,ST024,Parts replaced
+MNT00139,TR0040,Scheduled Service,2023-07-11,2023-07-31,20,164851.71,EMP0329,Completed,ST001,Routine check completed
+MNT00140,TR0113,Wheel Replacement,2023-10-31,2023-11-11,11,449760.34,EMP0212,Scheduled,ST064,Routine check completed
+MNT00141,TR0186,Interior Refurbishment,2024-04-24,2024-05-24,30,26867.84,EMP0176,In Progress,ST008,Critical issue found
+MNT00142,TR0189,Brake Inspection,2023-09-16,2023-10-03,17,327771.92,EMP0190,Completed,ST017,Critical issue found
+MNT00143,TR0070,Electrical Check,2024-02-09,2024-02-15,6,119755.57,EMP0361,Completed,ST005,Parts replaced
+MNT00144,TR0151,Wheel Replacement,2024-02-26,2024-03-16,19,11056.87,EMP0145,Completed,ST040,Awaiting spare parts
+MNT00145,TR0041,Signaling Equipment,2024-11-05,2024-11-25,20,171342.53,EMP0315,Completed,ST054,Parts replaced
+MNT00146,TR0114,Safety Audit,2024-02-21,2024-03-15,23,304430.26,EMP0287,In Progress,ST022,Critical issue found
+MNT00147,TR0053,Signaling Equipment,2024-02-23,2024-02-28,5,392687.29,EMP0150,In Progress,ST051,Routine check completed
+MNT00148,TR0161,Wheel Replacement,2023-11-04,2023-11-08,4,457676.42,EMP0197,Completed,ST053,Routine check completed
+MNT00149,TR0067,Electrical Check,2024-03-05,2024-04-02,28,80866.15,EMP0145,Completed,ST005,Parts replaced
+MNT00150,TR0170,Pantry Car Cleaning,2024-02-09,2024-03-01,21,141681.42,EMP0219,Scheduled,ST056,Awaiting spare parts
+MNT00151,TR0005,AC Servicing,2023-08-12,2023-09-11,30,21450.76,EMP0274,Completed,ST065,Critical issue found
+MNT00152,TR0117,Wheel Replacement,2024-06-06,2024-07-05,29,462962.02,EMP0192,Cancelled,ST033,Parts replaced
+MNT00153,TR0021,Wheel Replacement,2024-05-13,2024-05-30,17,72731.06,EMP0101,Completed,ST064,Parts replaced
+MNT00154,TR0036,Pantry Car Cleaning,2024-01-29,2024-02-14,16,321579.94,EMP0228,Deferred,ST001,Awaiting spare parts
+MNT00155,TR0063,Wheel Replacement,2024-08-24,2024-09-07,14,492233.91,EMP0072,Cancelled,ST062,All systems OK
+MNT00156,TR0175,Signaling Equipment,2023-11-27,2023-12-15,18,354064.45,EMP0392,Scheduled,ST034,Awaiting spare parts
+MNT00157,TR0102,AC Servicing,2023-11-21,2023-11-24,3,440091.99,EMP0191,Scheduled,ST070,All systems OK
+MNT00158,TR0095,Pantry Car Cleaning,2023-12-07,2023-12-30,23,135386.98,EMP0433,Completed,ST059,Awaiting spare parts
+MNT00159,TR0057,Signaling Equipment,2024-04-25,2024-05-05,10,6013.81,EMP0127,Completed,ST052,Parts replaced
+MNT00160,TR0170,Electrical Check,2024-12-21,2025-01-16,26,494889.2,EMP0168,Completed,ST006,Awaiting spare parts
+MNT00161,TR0077,AC Servicing,2023-12-07,2023-12-13,6,20186.4,EMP0202,Cancelled,ST052,Critical issue found
+MNT00162,TR0134,Brake Inspection,2023-08-28,2023-09-15,18,279881.84,EMP0147,Completed,ST057,Critical issue found
+MNT00163,TR0165,Scheduled Service,2023-12-07,2023-12-19,12,67905.89,EMP0025,Scheduled,ST055,All systems OK
+MNT00164,TR0161,Safety Audit,2024-04-04,2024-04-21,17,338918.4,EMP0289,Completed,ST028,Critical issue found
+MNT00165,TR0147,Scheduled Service,2024-06-03,2024-06-14,11,20887.67,EMP0020,Completed,ST009,Routine check completed
+MNT00166,TR0081,Interior Refurbishment,2024-08-11,2024-08-31,20,460907.6,EMP0128,Completed,ST011,Awaiting spare parts
+MNT00167,TR0129,Interior Refurbishment,2023-08-27,2023-09-04,8,73009.58,EMP0348,Completed,ST055,Awaiting spare parts
+MNT00168,TR0040,Interior Refurbishment,2024-03-04,2024-03-18,14,326707.54,EMP0485,Cancelled,ST061,All systems OK
+MNT00169,TR0181,Brake Inspection,2023-09-09,2023-09-28,19,257752.92,EMP0250,In Progress,ST059,All systems OK
+MNT00170,TR0141,Interior Refurbishment,2023-09-01,2023-09-07,6,271133.16,EMP0311,Completed,ST016,Routine check completed
+MNT00171,TR0161,Pantry Car Cleaning,2023-11-13,2023-11-29,16,229928.19,EMP0077,Completed,ST023,All systems OK
+MNT00172,TR0126,Electrical Check,2024-04-21,2024-04-30,9,210736.54,EMP0322,Completed,ST047,Awaiting spare parts
+MNT00173,TR0081,AC Servicing,2024-11-25,2024-12-13,18,177462.35,EMP0161,Completed,ST011,Parts replaced
+MNT00174,TR0188,Interior Refurbishment,2024-09-28,2024-10-25,27,476208.51,EMP0478,Scheduled,ST021,Critical issue found
+MNT00175,TR0094,Interior Refurbishment,2024-09-15,2024-10-05,20,287184.33,EMP0245,Deferred,ST031,Routine check completed
+MNT00176,TR0022,AC Servicing,2024-02-11,2024-02-29,18,23474.02,EMP0215,Cancelled,ST037,All systems OK
+MNT00177,TR0116,Signaling Equipment,2023-04-15,2023-04-29,14,58951.53,EMP0176,Scheduled,ST075,All systems OK
+MNT00178,TR0066,Interior Refurbishment,2023-01-08,2023-01-26,18,114283.12,EMP0205,Completed,ST040,Routine check completed
+MNT00179,TR0078,Electrical Check,2023-01-08,2023-01-13,5,164558.86,EMP0438,In Progress,ST057,Critical issue found
+MNT00180,TR0061,Brake Inspection,2023-07-03,2023-07-21,18,43702.68,EMP0318,Completed,ST007,Critical issue found
+MNT00181,TR0017,Electrical Check,2024-12-21,2025-01-20,30,348155.04,EMP0069,Completed,ST015,Routine check completed
+MNT00182,TR0185,Signaling Equipment,2024-10-25,2024-11-03,9,208254.76,EMP0321,Scheduled,ST030,All systems OK
+MNT00183,TR0167,Interior Refurbishment,2024-09-26,2024-10-17,21,117719.8,EMP0398,Scheduled,ST002,Critical issue found
+MNT00184,TR0106,Signaling Equipment,2024-07-25,2024-08-18,24,204964.72,EMP0137,Completed,ST025,Parts replaced
+MNT00185,TR0062,Wheel Replacement,2024-04-26,2024-04-29,3,441414.77,EMP0268,Scheduled,ST065,Awaiting spare parts
+MNT00186,TR0177,Safety Audit,2024-02-09,2024-02-23,14,320175.52,EMP0285,Cancelled,ST002,Awaiting spare parts
+MNT00187,TR0140,Wheel Replacement,2023-06-16,2023-07-11,25,32765.68,EMP0041,Completed,ST025,Parts replaced
+MNT00188,TR0108,Safety Audit,2024-01-17,2024-02-15,29,49115.96,EMP0105,Completed,ST024,Critical issue found
+MNT00189,TR0136,Scheduled Service,2023-04-25,2023-05-13,18,342066.26,EMP0303,Completed,ST051,All systems OK
+MNT00190,TR0073,Signaling Equipment,2023-12-28,2024-01-19,22,22880.4,EMP0254,In Progress,ST073,Parts replaced
+MNT00191,TR0050,Wheel Replacement,2024-08-24,2024-09-02,9,48040.97,EMP0122,In Progress,ST023,Parts replaced
+MNT00192,TR0197,Electrical Check,2024-11-13,2024-11-15,2,399323.4,EMP0431,Completed,ST038,Awaiting spare parts
+MNT00193,TR0112,Safety Audit,2024-01-22,2024-01-30,8,95668.53,EMP0427,In Progress,ST005,Critical issue found
+MNT00194,TR0156,AC Servicing,2024-01-25,2024-02-20,26,160817.89,EMP0156,Scheduled,ST029,Critical issue found
+MNT00195,TR0056,Engine Overhaul,2023-01-06,2023-02-01,26,250558.28,EMP0079,Scheduled,ST044,Routine check completed
+MNT00196,TR0119,Pantry Car Cleaning,2023-04-16,2023-04-29,13,242898.61,EMP0429,Scheduled,ST033,All systems OK
+MNT00197,TR0175,AC Servicing,2023-11-14,2023-12-07,23,59571.66,EMP0091,Completed,ST005,Awaiting spare parts
+MNT00198,TR0101,AC Servicing,2024-05-24,2024-06-21,28,237080.25,EMP0083,Completed,ST073,Parts replaced
+MNT00199,TR0017,Signaling Equipment,2024-04-02,2024-04-25,23,293606.11,EMP0065,Completed,ST061,Critical issue found
+MNT00200,TR0097,Electrical Check,2023-06-17,2023-07-01,14,292710.08,EMP0066,Scheduled,ST041,Awaiting spare parts
+MNT00201,TR0137,Scheduled Service,2024-08-06,2024-08-13,7,190890.95,EMP0169,Completed,ST065,Critical issue found
+MNT00202,TR0042,Scheduled Service,2024-01-29,2024-02-07,9,381038.97,EMP0112,Completed,ST063,Parts replaced
+MNT00203,TR0033,Engine Overhaul,2024-07-21,2024-08-01,11,338898.6,EMP0172,Completed,ST014,Awaiting spare parts
+MNT00204,TR0013,Wheel Replacement,2023-02-27,2023-03-18,19,370717.46,EMP0324,Completed,ST019,Routine check completed
+MNT00205,TR0121,Scheduled Service,2024-11-29,2024-12-18,19,340134.26,EMP0088,In Progress,ST060,Parts replaced
+MNT00206,TR0100,Engine Overhaul,2024-06-03,2024-06-06,3,472895.02,EMP0289,Completed,ST010,Awaiting spare parts
+MNT00207,TR0197,Interior Refurbishment,2023-04-30,2023-05-04,4,81823.03,EMP0207,Scheduled,ST059,Critical issue found
+MNT00208,TR0166,Interior Refurbishment,2023-08-30,2023-09-04,5,494505.13,EMP0429,In Progress,ST056,Routine check completed
+MNT00209,TR0124,Wheel Replacement,2023-08-14,2023-08-27,13,455934.25,EMP0063,Deferred,ST005,All systems OK
+MNT00210,TR0165,AC Servicing,2024-08-27,2024-09-01,5,169382.16,EMP0006,Completed,ST013,Critical issue found
+MNT00211,TR0047,Safety Audit,2024-06-09,2024-07-09,30,414935.58,EMP0185,Completed,ST046,Parts replaced
+MNT00212,TR0140,Brake Inspection,2023-10-06,2023-10-28,22,279051.35,EMP0100,In Progress,ST023,Routine check completed
+MNT00213,TR0158,Scheduled Service,2024-09-15,2024-10-15,30,47909.16,EMP0300,Cancelled,ST031,Critical issue found
+MNT00214,TR0053,Pantry Car Cleaning,2023-01-19,2023-01-21,2,492742.26,EMP0197,Completed,ST003,All systems OK
+MNT00215,TR0185,Brake Inspection,2023-05-30,2023-06-02,3,212919.32,EMP0228,Completed,ST004,Routine check completed
+MNT00216,TR0179,Signaling Equipment,2024-11-23,2024-12-15,22,315258.45,EMP0149,Completed,ST053,Awaiting spare parts
+MNT00217,TR0185,Interior Refurbishment,2023-07-18,2023-08-05,18,141667.91,EMP0386,Scheduled,ST007,Parts replaced
+MNT00218,TR0168,AC Servicing,2024-04-25,2024-04-29,4,450596.21,EMP0115,Completed,ST064,Routine check completed
+MNT00219,TR0008,Safety Audit,2023-03-12,2023-03-13,1,147433.3,EMP0227,Completed,ST030,Critical issue found
+MNT00220,TR0176,Pantry Car Cleaning,2024-04-27,2024-05-19,22,14293.82,EMP0204,Completed,ST055,Critical issue found
+MNT00221,TR0045,AC Servicing,2024-12-04,2024-12-07,3,421678.94,EMP0229,Completed,ST074,Parts replaced
+MNT00222,TR0025,Scheduled Service,2024-12-14,2025-01-01,18,490961.17,EMP0203,Scheduled,ST061,Awaiting spare parts
+MNT00223,TR0150,Engine Overhaul,2023-01-06,2023-01-28,22,433218.43,EMP0264,Completed,ST059,Routine check completed
+MNT00224,TR0138,Wheel Replacement,2023-04-22,2023-05-03,11,35375.3,EMP0015,Completed,ST064,Parts replaced
+MNT00225,TR0013,Electrical Check,2023-12-08,2023-12-30,22,424047.6,EMP0014,Cancelled,ST058,Parts replaced
+MNT00226,TR0100,Engine Overhaul,2024-10-18,2024-11-13,26,54508.17,EMP0350,Completed,ST053,Routine check completed
+MNT00227,TR0142,Pantry Car Cleaning,2024-01-01,2024-01-24,23,163872.91,EMP0201,Scheduled,ST072,Routine check completed
+MNT00228,TR0012,Brake Inspection,2024-01-22,2024-02-13,22,212663.98,EMP0432,Completed,ST058,All systems OK
+MNT00229,TR0168,Electrical Check,2023-11-15,2023-12-06,21,26230.98,EMP0285,Completed,ST049,All systems OK
+MNT00230,TR0071,Signaling Equipment,2024-01-20,2024-02-17,28,51251.21,EMP0180,Scheduled,ST001,All systems OK
+MNT00231,TR0148,Electrical Check,2024-06-10,2024-06-27,17,230381.69,EMP0235,Completed,ST033,Routine check completed
+MNT00232,TR0121,Safety Audit,2023-02-02,2023-02-24,22,37341.37,EMP0450,Completed,ST032,Critical issue found
+MNT00233,TR0181,Pantry Car Cleaning,2023-02-25,2023-03-18,21,66718.27,EMP0426,Completed,ST006,Critical issue found
+MNT00234,TR0147,Interior Refurbishment,2023-08-10,2023-09-02,23,409798.63,EMP0462,Completed,ST002,All systems OK
+MNT00235,TR0136,AC Servicing,2023-07-23,2023-07-27,4,204824.99,EMP0298,Completed,ST075,Parts replaced
+MNT00236,TR0200,Scheduled Service,2023-04-16,2023-04-20,4,10074.13,EMP0095,Completed,ST065,Parts replaced
+MNT00237,TR0016,Signaling Equipment,2024-10-08,2024-10-18,10,107268.75,EMP0006,Completed,ST028,Awaiting spare parts
+MNT00238,TR0055,AC Servicing,2023-11-03,2023-11-22,19,311440.3,EMP0281,Scheduled,ST005,Routine check completed
+MNT00239,TR0022,Interior Refurbishment,2023-11-19,2023-11-28,9,51037.74,EMP0042,In Progress,ST053,Awaiting spare parts
+MNT00240,TR0150,Safety Audit,2023-06-07,2023-06-21,14,390629.85,EMP0222,Cancelled,ST068,Awaiting spare parts
+MNT00241,TR0149,Pantry Car Cleaning,2023-06-29,2023-07-03,4,382165.57,EMP0209,Completed,ST043,Parts replaced
+MNT00242,TR0101,Pantry Car Cleaning,2023-12-09,2023-12-22,13,352716.35,EMP0315,Completed,ST026,Critical issue found
+MNT00243,TR0181,Safety Audit,2023-09-14,2023-09-17,3,427191.5,EMP0139,Completed,ST074,Routine check completed
+MNT00244,TR0037,Scheduled Service,2023-10-16,2023-11-03,18,101088.12,EMP0009,Deferred,ST039,Routine check completed
+MNT00245,TR0086,Engine Overhaul,2023-01-05,2023-01-08,3,99887.12,EMP0200,Completed,ST019,Critical issue found
+MNT00246,TR0163,Electrical Check,2024-08-27,2024-09-11,15,231419.69,EMP0416,Scheduled,ST067,Critical issue found
+MNT00247,TR0013,Interior Refurbishment,2024-03-08,2024-04-04,27,468562.36,EMP0495,In Progress,ST007,Parts replaced
+MNT00248,TR0006,Electrical Check,2024-06-27,2024-07-05,8,209573.62,EMP0072,Completed,ST049,All systems OK
+MNT00249,TR0021,Interior Refurbishment,2024-05-17,2024-06-09,23,277469.12,EMP0481,Completed,ST041,Routine check completed
+MNT00250,TR0066,Signaling Equipment,2023-10-18,2023-10-28,10,207177.1,EMP0097,In Progress,ST031,Critical issue found
+MNT00251,TR0178,Safety Audit,2023-06-11,2023-06-25,14,115314.5,EMP0119,Scheduled,ST047,All systems OK
+MNT00252,TR0187,Safety Audit,2023-10-10,2023-11-08,29,257456.22,EMP0420,Completed,ST009,Routine check completed
+MNT00253,TR0028,Safety Audit,2024-01-18,2024-02-04,17,448715.04,EMP0050,Completed,ST037,All systems OK
+MNT00254,TR0008,Wheel Replacement,2023-08-01,2023-08-04,3,105507.03,EMP0201,Cancelled,ST052,All systems OK
+MNT00255,TR0073,Scheduled Service,2023-06-24,2023-07-15,21,368006.74,EMP0302,Completed,ST021,Critical issue found
+MNT00256,TR0057,Engine Overhaul,2023-06-08,2023-06-12,4,45609.11,EMP0405,Completed,ST036,Awaiting spare parts
+MNT00257,TR0043,Wheel Replacement,2023-03-28,2023-04-25,28,280205.9,EMP0405,Completed,ST027,Parts replaced
+MNT00258,TR0197,Pantry Car Cleaning,2024-12-09,2024-12-18,9,306924.28,EMP0198,Completed,ST011,All systems OK
+MNT00259,TR0020,Pantry Car Cleaning,2024-09-06,2024-10-04,28,182050.17,EMP0344,Completed,ST068,All systems OK
+MNT00260,TR0129,Wheel Replacement,2024-10-10,2024-11-05,26,260344.86,EMP0168,Completed,ST019,Critical issue found
+MNT00261,TR0128,Electrical Check,2024-03-06,2024-04-03,28,270215.57,EMP0347,Completed,ST028,Critical issue found
+MNT00262,TR0145,Engine Overhaul,2024-09-04,2024-09-11,7,73722.92,EMP0245,In Progress,ST009,Critical issue found
+MNT00263,TR0049,Brake Inspection,2023-03-22,2023-03-26,4,137591.06,EMP0347,Completed,ST013,Critical issue found
+MNT00264,TR0075,Signaling Equipment,2024-01-24,2024-02-16,23,421454.48,EMP0363,In Progress,ST002,Awaiting spare parts
+MNT00265,TR0098,Safety Audit,2024-10-23,2024-11-04,12,306091.89,EMP0297,Completed,ST044,Critical issue found
+MNT00266,TR0115,Signaling Equipment,2023-06-08,2023-06-11,3,265466.49,EMP0048,Completed,ST017,Awaiting spare parts
+MNT00267,TR0152,Engine Overhaul,2023-02-07,2023-02-08,1,328935.19,EMP0092,In Progress,ST047,Parts replaced
+MNT00268,TR0026,Electrical Check,2023-03-07,2023-03-21,14,360258.21,EMP0083,In Progress,ST012,All systems OK
+MNT00269,TR0109,Signaling Equipment,2024-05-04,2024-05-05,1,20860.43,EMP0213,Completed,ST014,Parts replaced
+MNT00270,TR0039,Wheel Replacement,2023-02-24,2023-03-09,13,235815.53,EMP0472,In Progress,ST065,Routine check completed
+MNT00271,TR0099,Pantry Car Cleaning,2024-11-19,2024-11-28,9,217104.52,EMP0498,Completed,ST038,All systems OK
+MNT00272,TR0100,Brake Inspection,2024-08-13,2024-08-19,6,43478.93,EMP0412,Completed,ST030,Critical issue found
+MNT00273,TR0058,Safety Audit,2023-11-14,2023-11-21,7,193181.38,EMP0384,Completed,ST035,Routine check completed
+MNT00274,TR0065,Engine Overhaul,2023-07-07,2023-07-22,15,337662.51,EMP0325,Completed,ST068,Awaiting spare parts
+MNT00275,TR0183,Wheel Replacement,2023-04-14,2023-04-22,8,235701.66,EMP0156,Completed,ST044,Routine check completed
+MNT00276,TR0098,Scheduled Service,2024-08-17,2024-08-24,7,265064.26,EMP0141,In Progress,ST015,Awaiting spare parts
+MNT00277,TR0082,Safety Audit,2023-02-16,2023-03-06,18,165192.8,EMP0403,In Progress,ST016,Critical issue found
+MNT00278,TR0041,Scheduled Service,2023-09-19,2023-10-09,20,256859.78,EMP0130,Completed,ST036,Routine check completed
+MNT00279,TR0123,Signaling Equipment,2023-06-30,2023-07-24,24,187992.86,EMP0096,Completed,ST036,Parts replaced
+MNT00280,TR0137,Scheduled Service,2023-01-09,2023-01-17,8,101517.34,EMP0278,Scheduled,ST003,Awaiting spare parts
+MNT00281,TR0006,Brake Inspection,2023-03-21,2023-03-31,10,389817.02,EMP0310,In Progress,ST046,Awaiting spare parts
+MNT00282,TR0112,Scheduled Service,2023-07-24,2023-08-08,15,377229.51,EMP0441,Deferred,ST008,All systems OK
+MNT00283,TR0107,Electrical Check,2023-11-06,2023-11-10,4,279539.29,EMP0371,Deferred,ST019,Routine check completed
+MNT00284,TR0051,Interior Refurbishment,2023-01-13,2023-02-01,19,75030.98,EMP0073,In Progress,ST018,Routine check completed
+MNT00285,TR0140,AC Servicing,2023-01-18,2023-02-12,25,99766.84,EMP0223,Completed,ST026,Critical issue found
+MNT00286,TR0189,Interior Refurbishment,2024-03-01,2024-03-11,10,240124.77,EMP0463,Completed,ST030,Parts replaced
+MNT00287,TR0190,Pantry Car Cleaning,2024-03-24,2024-04-07,14,218566.7,EMP0091,Completed,ST048,Awaiting spare parts
+MNT00288,TR0075,Pantry Car Cleaning,2024-07-01,2024-07-17,16,67347.65,EMP0052,In Progress,ST007,Critical issue found
+MNT00289,TR0116,Safety Audit,2023-04-23,2023-05-20,27,349124.63,EMP0055,Completed,ST019,Critical issue found
+MNT00290,TR0172,Electrical Check,2024-02-02,2024-02-16,14,262563.73,EMP0438,In Progress,ST053,Awaiting spare parts
+MNT00291,TR0090,Electrical Check,2024-07-31,2024-08-15,15,329379.77,EMP0416,Cancelled,ST051,Parts replaced
+MNT00292,TR0156,Engine Overhaul,2023-04-06,2023-05-05,29,366210.3,EMP0154,Completed,ST037,Parts replaced
+MNT00293,TR0034,AC Servicing,2024-12-08,2024-12-19,11,8415.07,EMP0027,In Progress,ST022,Parts replaced
+MNT00294,TR0118,Brake Inspection,2023-02-16,2023-02-27,11,64381.71,EMP0046,Completed,ST045,Parts replaced
+MNT00295,TR0175,Safety Audit,2023-02-21,2023-03-21,28,137154.19,EMP0233,Completed,ST010,Parts replaced
+MNT00296,TR0095,Engine Overhaul,2023-01-25,2023-02-02,8,99058.2,EMP0004,Scheduled,ST024,Parts replaced
+MNT00297,TR0086,Brake Inspection,2024-02-14,2024-03-09,24,129341.44,EMP0161,Completed,ST019,Critical issue found
+MNT00298,TR0118,Electrical Check,2024-03-11,2024-03-28,17,34276.46,EMP0412,Scheduled,ST065,Parts replaced
+MNT00299,TR0008,AC Servicing,2023-05-31,2023-06-18,18,45808.3,EMP0004,Scheduled,ST047,Critical issue found
+MNT00300,TR0196,Electrical Check,2023-09-12,2023-09-19,7,454697.03,EMP0057,Completed,ST029,Critical issue found
+MNT00301,TR0088,Electrical Check,2024-02-08,2024-03-03,24,327684.5,EMP0011,Scheduled,ST025,Awaiting spare parts
+MNT00302,TR0094,Electrical Check,2024-12-09,2024-12-28,19,46730.96,EMP0218,In Progress,ST012,Parts replaced
+MNT00303,TR0054,Scheduled Service,2024-04-04,2024-04-11,7,189090.3,EMP0144,Completed,ST045,All systems OK
+MNT00304,TR0196,AC Servicing,2024-02-20,2024-03-19,28,302133.55,EMP0448,Scheduled,ST044,Awaiting spare parts
+MNT00305,TR0067,Wheel Replacement,2024-01-05,2024-01-27,22,498052.69,EMP0320,Completed,ST045,Routine check completed
+MNT00306,TR0170,Engine Overhaul,2023-07-20,2023-08-12,23,108034.16,EMP0011,Completed,ST032,All systems OK
+MNT00307,TR0155,Brake Inspection,2023-07-16,2023-08-11,26,115701.68,EMP0285,Completed,ST042,All systems OK
+MNT00308,TR0133,Engine Overhaul,2024-06-25,2024-07-10,15,96446.07,EMP0055,Completed,ST058,Routine check completed
+MNT00309,TR0109,Signaling Equipment,2023-12-12,2024-01-05,24,421076.71,EMP0288,Completed,ST005,Awaiting spare parts
+MNT00310,TR0067,Safety Audit,2023-09-12,2023-09-30,18,354616.55,EMP0326,Completed,ST008,Critical issue found
+MNT00311,TR0037,Brake Inspection,2024-02-26,2024-03-01,4,341063.22,EMP0458,Completed,ST053,Routine check completed
+MNT00312,TR0125,Interior Refurbishment,2024-09-25,2024-10-05,10,346726.16,EMP0208,Completed,ST020,Awaiting spare parts
+MNT00313,TR0041,Electrical Check,2024-10-27,2024-10-28,1,167575.64,EMP0466,Completed,ST047,Parts replaced
+MNT00314,TR0057,Brake Inspection,2024-10-09,2024-11-04,26,167344.19,EMP0002,Completed,ST029,Parts replaced
+MNT00315,TR0130,AC Servicing,2024-07-02,2024-07-19,17,328021.85,EMP0125,In Progress,ST053,Parts replaced
+MNT00316,TR0051,Brake Inspection,2023-07-21,2023-08-04,14,235293.23,EMP0265,Scheduled,ST058,All systems OK
+MNT00317,TR0053,Electrical Check,2024-06-25,2024-07-14,19,234999.44,EMP0463,Completed,ST042,Awaiting spare parts
+MNT00318,TR0079,Engine Overhaul,2024-09-18,2024-10-18,30,209928.4,EMP0364,Completed,ST028,All systems OK
+MNT00319,TR0073,Pantry Car Cleaning,2023-02-15,2023-02-21,6,36206.53,EMP0148,Completed,ST039,All systems OK
+MNT00320,TR0199,Scheduled Service,2023-04-23,2023-05-03,10,369189.2,EMP0207,In Progress,ST058,Routine check completed
+MNT00321,TR0160,Safety Audit,2024-11-03,2024-11-22,19,110114.37,EMP0387,Completed,ST034,Awaiting spare parts
+MNT00322,TR0155,Signaling Equipment,2023-01-11,2023-02-03,23,50321.41,EMP0109,Completed,ST015,All systems OK
+MNT00323,TR0170,Electrical Check,2023-06-26,2023-07-08,12,188565.21,EMP0205,Completed,ST039,Critical issue found
+MNT00324,TR0062,Interior Refurbishment,2024-01-03,2024-01-27,24,427350.41,EMP0195,Completed,ST038,Awaiting spare parts
+MNT00325,TR0165,Wheel Replacement,2024-07-17,2024-07-22,5,308246.21,EMP0392,Completed,ST072,All systems OK
+MNT00326,TR0188,Interior Refurbishment,2023-05-24,2023-05-26,2,394640.08,EMP0183,Completed,ST037,Routine check completed
+MNT00327,TR0150,Engine Overhaul,2024-02-22,2024-03-21,28,117769.75,EMP0407,Completed,ST071,Routine check completed
+MNT00328,TR0185,Engine Overhaul,2024-03-10,2024-04-01,22,67961.67,EMP0067,Scheduled,ST019,Parts replaced
+MNT00329,TR0163,Interior Refurbishment,2023-02-26,2023-03-20,22,366843.07,EMP0155,Completed,ST065,Awaiting spare parts
+MNT00330,TR0027,Safety Audit,2024-12-07,2024-12-30,23,325266.63,EMP0258,Completed,ST040,Parts replaced
+MNT00331,TR0079,Pantry Car Cleaning,2023-10-14,2023-10-23,9,297116.35,EMP0076,Completed,ST053,Routine check completed
+MNT00332,TR0184,Signaling Equipment,2023-07-15,2023-08-12,28,235922.1,EMP0136,Completed,ST060,Parts replaced
+MNT00333,TR0056,Interior Refurbishment,2024-09-10,2024-09-15,5,489963.49,EMP0272,Completed,ST014,All systems OK
+MNT00334,TR0002,Engine Overhaul,2023-02-20,2023-03-01,9,448902.27,EMP0219,Completed,ST042,Awaiting spare parts
+MNT00335,TR0105,Scheduled Service,2024-02-25,2024-03-07,11,123575.29,EMP0280,Completed,ST066,Parts replaced
+MNT00336,TR0129,Safety Audit,2024-12-30,2025-01-19,20,161595.55,EMP0422,Deferred,ST014,Parts replaced
+MNT00337,TR0178,Scheduled Service,2023-10-23,2023-11-11,19,473041,EMP0414,In Progress,ST009,Routine check completed
+MNT00338,TR0109,Signaling Equipment,2024-02-21,2024-03-08,16,248506.53,EMP0461,Scheduled,ST025,All systems OK
+MNT00339,TR0141,Electrical Check,2023-02-08,2023-03-01,21,290262.44,EMP0332,In Progress,ST044,Awaiting spare parts
+MNT00340,TR0173,Electrical Check,2023-08-09,2023-08-13,4,233446.56,EMP0357,Completed,ST048,All systems OK
+MNT00341,TR0036,Interior Refurbishment,2023-08-13,2023-09-08,26,86458.97,EMP0116,Completed,ST022,Routine check completed
+MNT00342,TR0128,Engine Overhaul,2024-12-17,2024-12-25,8,179044.28,EMP0188,Completed,ST047,Awaiting spare parts
+MNT00343,TR0058,Interior Refurbishment,2023-02-16,2023-03-16,28,396285.21,EMP0033,Scheduled,ST014,All systems OK
+MNT00344,TR0185,Safety Audit,2024-08-19,2024-08-24,5,78911.44,EMP0337,In Progress,ST068,Awaiting spare parts
+MNT00345,TR0038,Signaling Equipment,2023-10-26,2023-11-07,12,144407.23,EMP0048,Completed,ST050,Awaiting spare parts
+MNT00346,TR0141,Scheduled Service,2023-04-02,2023-04-05,3,459461.6,EMP0115,Scheduled,ST029,Awaiting spare parts
+MNT00347,TR0099,Wheel Replacement,2024-02-09,2024-02-28,19,448945.87,EMP0122,Completed,ST010,Critical issue found
+MNT00348,TR0010,Scheduled Service,2023-05-04,2023-05-23,19,209951.51,EMP0350,Completed,ST031,All systems OK
+MNT00349,TR0133,Interior Refurbishment,2024-05-08,2024-05-25,17,482445.21,EMP0446,Scheduled,ST008,Parts replaced
+MNT00350,TR0086,Pantry Car Cleaning,2023-04-20,2023-05-04,14,470723.88,EMP0190,Deferred,ST011,All systems OK
+MNT00351,TR0177,Interior Refurbishment,2023-11-30,2023-12-06,6,9242.95,EMP0450,Scheduled,ST064,Routine check completed
+MNT00352,TR0087,Engine Overhaul,2023-08-31,2023-09-25,25,225901.62,EMP0330,Scheduled,ST044,Parts replaced
+MNT00353,TR0001,Scheduled Service,2023-01-13,2023-02-04,22,181258.33,EMP0161,In Progress,ST017,Critical issue found
+MNT00354,TR0018,Scheduled Service,2024-07-02,2024-07-26,24,429211.28,EMP0015,Scheduled,ST055,All systems OK
+MNT00355,TR0035,AC Servicing,2024-07-29,2024-08-16,18,471488.71,EMP0148,Completed,ST050,Routine check completed
+MNT00356,TR0171,Wheel Replacement,2024-07-28,2024-08-15,18,359476.36,EMP0125,Completed,ST014,Critical issue found
+MNT00357,TR0184,AC Servicing,2024-12-08,2025-01-06,29,391060.5,EMP0373,Completed,ST035,Routine check completed
+MNT00358,TR0127,Electrical Check,2023-07-26,2023-08-16,21,220367.77,EMP0281,Scheduled,ST015,Parts replaced
+MNT00359,TR0111,Signaling Equipment,2024-12-09,2024-12-10,1,133800.76,EMP0094,In Progress,ST021,Awaiting spare parts
+MNT00360,TR0021,Brake Inspection,2023-01-23,2023-02-03,11,344338.72,EMP0284,Completed,ST057,Awaiting spare parts
+MNT00361,TR0158,Brake Inspection,2024-08-11,2024-08-27,16,332077.11,EMP0279,Completed,ST041,All systems OK
+MNT00362,TR0048,Brake Inspection,2024-06-07,2024-07-02,25,264489.96,EMP0075,In Progress,ST060,Awaiting spare parts
+MNT00363,TR0084,Signaling Equipment,2024-09-20,2024-10-18,28,253136.98,EMP0054,In Progress,ST005,Critical issue found
+MNT00364,TR0034,Safety Audit,2023-01-27,2023-01-31,4,369194.7,EMP0459,Completed,ST005,Critical issue found
+MNT00365,TR0010,Interior Refurbishment,2024-01-18,2024-02-10,23,378595.31,EMP0383,Cancelled,ST050,Parts replaced
+MNT00366,TR0042,Pantry Car Cleaning,2024-05-31,2024-06-06,6,14988.6,EMP0035,Scheduled,ST003,Routine check completed
+MNT00367,TR0123,Engine Overhaul,2023-05-19,2023-06-12,24,455381.22,EMP0166,Completed,ST011,All systems OK
+MNT00368,TR0111,Brake Inspection,2023-03-10,2023-03-31,21,114789.93,EMP0293,Scheduled,ST067,All systems OK
+MNT00369,TR0037,Safety Audit,2024-06-05,2024-07-05,30,76453.14,EMP0103,Completed,ST058,Awaiting spare parts
+MNT00370,TR0003,Engine Overhaul,2024-11-09,2024-11-22,13,51614.21,EMP0143,Completed,ST065,Critical issue found
+MNT00371,TR0098,Scheduled Service,2023-09-26,2023-10-12,16,44936.71,EMP0478,Completed,ST011,Critical issue found
+MNT00372,TR0155,Electrical Check,2024-04-11,2024-04-21,10,364040.84,EMP0032,Completed,ST074,Awaiting spare parts
+MNT00373,TR0014,Electrical Check,2023-01-31,2023-02-06,6,316809.57,EMP0159,Completed,ST051,All systems OK
+MNT00374,TR0086,Scheduled Service,2024-10-11,2024-11-06,26,124540.18,EMP0166,Completed,ST069,All systems OK
+MNT00375,TR0169,Signaling Equipment,2024-11-06,2024-11-25,19,79332.1,EMP0219,Completed,ST032,Critical issue found
+MNT00376,TR0038,Brake Inspection,2023-12-05,2023-12-28,23,205715.83,EMP0432,Deferred,ST057,Awaiting spare parts
+MNT00377,TR0009,AC Servicing,2024-03-20,2024-03-28,8,16739.89,EMP0363,Cancelled,ST073,Critical issue found
+MNT00378,TR0018,Engine Overhaul,2024-07-04,2024-07-27,23,33247.88,EMP0309,Scheduled,ST015,Parts replaced
+MNT00379,TR0129,Brake Inspection,2024-02-21,2024-03-13,21,369492.77,EMP0075,Completed,ST074,Critical issue found
+MNT00380,TR0044,Pantry Car Cleaning,2023-02-15,2023-03-04,17,401331.98,EMP0287,Scheduled,ST044,Routine check completed
+MNT00381,TR0112,Scheduled Service,2024-02-05,2024-02-16,11,412274.65,EMP0090,Completed,ST039,Routine check completed
+MNT00382,TR0172,Interior Refurbishment,2024-08-25,2024-09-19,25,476335.68,EMP0467,Completed,ST040,Critical issue found
+MNT00383,TR0169,Pantry Car Cleaning,2023-06-08,2023-07-05,27,244608.04,EMP0326,In Progress,ST066,Routine check completed
+MNT00384,TR0038,Engine Overhaul,2024-06-21,2024-06-30,9,493316.02,EMP0008,Completed,ST002,Awaiting spare parts
+MNT00385,TR0076,Scheduled Service,2024-06-17,2024-06-28,11,161153.53,EMP0496,Completed,ST070,Critical issue found
+MNT00386,TR0131,Wheel Replacement,2024-07-05,2024-07-25,20,378474.55,EMP0204,Completed,ST072,Awaiting spare parts
+MNT00387,TR0184,Safety Audit,2023-06-06,2023-06-20,14,136507.87,EMP0493,In Progress,ST026,Awaiting spare parts
+MNT00388,TR0079,Scheduled Service,2023-12-15,2024-01-14,30,203885.27,EMP0166,Scheduled,ST032,All systems OK
+MNT00389,TR0058,Safety Audit,2023-09-01,2023-09-26,25,213874.49,EMP0393,Completed,ST038,Parts replaced
+MNT00390,TR0197,AC Servicing,2023-06-19,2023-07-01,12,142549.78,EMP0440,Completed,ST031,Critical issue found
+MNT00391,TR0093,Interior Refurbishment,2023-12-22,2024-01-20,29,214136.5,EMP0491,In Progress,ST042,Routine check completed
+MNT00392,TR0040,Scheduled Service,2024-12-10,2025-01-07,28,44792.09,EMP0439,Completed,ST067,All systems OK
+MNT00393,TR0102,Pantry Car Cleaning,2024-10-24,2024-11-02,9,438171.35,EMP0216,Completed,ST021,All systems OK
+MNT00394,TR0178,Electrical Check,2024-01-12,2024-02-09,28,294676.5,EMP0299,Completed,ST006,Routine check completed
+MNT00395,TR0099,Interior Refurbishment,2023-04-01,2023-04-10,9,237236.91,EMP0212,In Progress,ST032,Parts replaced
+MNT00396,TR0192,Pantry Car Cleaning,2023-01-07,2023-01-08,1,316457.53,EMP0023,Completed,ST052,All systems OK
+MNT00397,TR0061,Signaling Equipment,2024-10-05,2024-10-21,16,56772.42,EMP0002,Scheduled,ST013,All systems OK
+MNT00398,TR0034,AC Servicing,2024-04-27,2024-05-24,27,314393.36,EMP0086,Completed,ST073,Routine check completed
+MNT00399,TR0007,AC Servicing,2024-06-15,2024-07-07,22,40360.17,EMP0119,Scheduled,ST032,Critical issue found
+MNT00400,TR0158,Pantry Car Cleaning,2024-05-26,2024-06-06,11,36911.75,EMP0413,Completed,ST046,Critical issue found
+MNT00401,TR0096,Engine Overhaul,2023-11-05,2023-11-24,19,187616,EMP0080,Completed,ST069,Awaiting spare parts
+MNT00402,TR0072,Pantry Car Cleaning,2024-07-22,2024-08-16,25,150940.18,EMP0061,Completed,ST062,Routine check completed
+MNT00403,TR0115,Interior Refurbishment,2024-07-02,2024-07-21,19,16200.59,EMP0442,Completed,ST047,Critical issue found
+MNT00404,TR0052,Engine Overhaul,2024-09-16,2024-09-28,12,86571.8,EMP0284,Completed,ST004,Parts replaced
+MNT00405,TR0178,Pantry Car Cleaning,2023-03-03,2023-03-18,15,426099.29,EMP0261,Completed,ST062,Routine check completed
+MNT00406,TR0078,Wheel Replacement,2023-03-29,2023-03-30,1,474672.6,EMP0366,Completed,ST007,Routine check completed
+MNT00407,TR0105,Interior Refurbishment,2023-10-13,2023-11-12,30,184104.54,EMP0484,Completed,ST048,Critical issue found
+MNT00408,TR0006,Electrical Check,2023-01-24,2023-02-08,15,162943.43,EMP0021,Completed,ST062,Critical issue found
+MNT00409,TR0069,Brake Inspection,2023-03-13,2023-03-29,16,38440.99,EMP0389,Scheduled,ST066,Routine check completed
+MNT00410,TR0037,Engine Overhaul,2024-07-12,2024-07-24,12,193969.74,EMP0494,Scheduled,ST023,Critical issue found
+MNT00411,TR0009,Safety Audit,2023-01-03,2023-01-04,1,209103.97,EMP0414,Completed,ST035,Parts replaced
+MNT00412,TR0050,Electrical Check,2024-05-14,2024-05-22,8,451975.34,EMP0140,In Progress,ST074,Routine check completed
+MNT00413,TR0115,Electrical Check,2023-11-07,2023-12-04,27,399376.18,EMP0301,Completed,ST019,All systems OK
+MNT00414,TR0106,Signaling Equipment,2023-03-08,2023-03-28,20,403189.51,EMP0476,Completed,ST008,Critical issue found
+MNT00415,TR0025,Scheduled Service,2023-09-16,2023-09-26,10,297962.84,EMP0410,Completed,ST023,Routine check completed
+MNT00416,TR0095,Electrical Check,2024-09-22,2024-10-11,19,336806.9,EMP0355,Completed,ST044,Awaiting spare parts
+MNT00417,TR0024,Safety Audit,2024-08-14,2024-08-30,16,269644.45,EMP0417,Completed,ST048,Parts replaced
+MNT00418,TR0133,Brake Inspection,2024-02-02,2024-02-20,18,213104.59,EMP0193,Completed,ST026,All systems OK
+MNT00419,TR0145,Signaling Equipment,2023-12-09,2023-12-17,8,74840.94,EMP0411,Cancelled,ST038,Parts replaced
+MNT00420,TR0132,Wheel Replacement,2023-10-16,2023-10-22,6,283940.1,EMP0051,Completed,ST070,Awaiting spare parts
+MNT00421,TR0197,Safety Audit,2024-11-06,2024-11-23,17,231108.91,EMP0254,In Progress,ST067,Routine check completed
+MNT00422,TR0121,Signaling Equipment,2024-10-25,2024-11-20,26,461041.8,EMP0128,In Progress,ST061,All systems OK
+MNT00423,TR0173,Safety Audit,2024-08-10,2024-08-25,15,181942.09,EMP0103,Completed,ST005,Awaiting spare parts
+MNT00424,TR0030,Pantry Car Cleaning,2023-10-03,2023-10-26,23,32120.54,EMP0206,In Progress,ST030,Critical issue found
+MNT00425,TR0160,Pantry Car Cleaning,2023-07-21,2023-08-05,15,168840.69,EMP0012,Completed,ST058,Routine check completed
+MNT00426,TR0066,Wheel Replacement,2024-06-17,2024-06-24,7,261511.21,EMP0442,In Progress,ST036,Parts replaced
+MNT00427,TR0170,Wheel Replacement,2023-03-05,2023-03-12,7,331970.67,EMP0127,In Progress,ST056,All systems OK
+MNT00428,TR0184,Scheduled Service,2024-03-28,2024-04-27,30,262335.28,EMP0196,Completed,ST036,Routine check completed
+MNT00429,TR0106,Signaling Equipment,2023-05-12,2023-06-09,28,324794.26,EMP0134,Completed,ST039,Awaiting spare parts
+MNT00430,TR0171,Brake Inspection,2023-08-13,2023-08-25,12,155830.5,EMP0119,Scheduled,ST071,Routine check completed
+MNT00431,TR0127,Electrical Check,2023-02-03,2023-02-26,23,129807.81,EMP0119,Completed,ST037,Routine check completed
+MNT00432,TR0037,Electrical Check,2024-03-07,2024-03-13,6,359348.29,EMP0068,Completed,ST019,Critical issue found
+MNT00433,TR0049,Signaling Equipment,2023-03-17,2023-03-28,11,346800.71,EMP0031,Deferred,ST052,Parts replaced
+MNT00434,TR0062,AC Servicing,2024-09-10,2024-09-16,6,390826.45,EMP0115,Completed,ST048,Parts replaced
+MNT00435,TR0149,AC Servicing,2023-07-14,2023-07-18,4,109547.27,EMP0203,Completed,ST022,Awaiting spare parts
+MNT00436,TR0071,Interior Refurbishment,2023-05-21,2023-06-11,21,325778.26,EMP0161,Scheduled,ST009,All systems OK
+MNT00437,TR0057,Scheduled Service,2023-05-30,2023-06-12,13,473566.8,EMP0052,Completed,ST039,Routine check completed
+MNT00438,TR0083,AC Servicing,2023-02-27,2023-03-29,30,406532.49,EMP0209,Cancelled,ST007,Routine check completed
+MNT00439,TR0012,Signaling Equipment,2024-08-27,2024-09-16,20,310139.46,EMP0089,Cancelled,ST072,Awaiting spare parts
+MNT00440,TR0003,Scheduled Service,2023-12-23,2024-01-08,16,368287.25,EMP0123,Completed,ST007,Parts replaced
+MNT00441,TR0179,Scheduled Service,2023-02-08,2023-03-08,28,207404.89,EMP0177,In Progress,ST020,Parts replaced
+MNT00442,TR0188,Engine Overhaul,2023-08-04,2023-08-25,21,211283.55,EMP0174,Completed,ST012,Parts replaced
+MNT00443,TR0131,Electrical Check,2024-08-15,2024-08-30,15,439035.07,EMP0431,Deferred,ST060,Routine check completed
+MNT00444,TR0118,Pantry Car Cleaning,2023-11-12,2023-11-16,4,214645.49,EMP0166,Completed,ST001,Awaiting spare parts
+MNT00445,TR0027,Safety Audit,2023-04-30,2023-05-08,8,329598.82,EMP0460,Completed,ST047,Parts replaced
+MNT00446,TR0017,Engine Overhaul,2024-07-31,2024-08-20,20,470086.55,EMP0397,In Progress,ST065,Routine check completed
+MNT00447,TR0092,Pantry Car Cleaning,2024-03-23,2024-04-20,28,333677.79,EMP0212,Completed,ST072,Critical issue found
+MNT00448,TR0146,Signaling Equipment,2024-09-10,2024-10-10,30,63919.41,EMP0086,Completed,ST001,Parts replaced
+MNT00449,TR0112,Electrical Check,2023-07-11,2023-08-02,22,332089.95,EMP0482,Completed,ST028,Parts replaced
+MNT00450,TR0069,AC Servicing,2023-06-13,2023-06-20,7,285696.12,EMP0419,Completed,ST061,Routine check completed
+MNT00451,TR0160,AC Servicing,2024-08-16,2024-08-26,10,192440.22,EMP0488,Completed,ST014,Critical issue found
+MNT00452,TR0058,Safety Audit,2023-01-07,2023-02-05,29,416949.38,EMP0029,In Progress,ST031,Routine check completed
+MNT00453,TR0048,Wheel Replacement,2023-05-14,2023-05-17,3,448636.02,EMP0131,Completed,ST015,Parts replaced
+MNT00454,TR0164,Safety Audit,2023-08-31,2023-09-12,12,345425.98,EMP0477,Completed,ST025,Critical issue found
+MNT00455,TR0189,Safety Audit,2024-05-17,2024-05-30,13,329134.51,EMP0354,In Progress,ST016,Routine check completed
+MNT00456,TR0086,Engine Overhaul,2023-10-12,2023-10-27,15,266731.63,EMP0457,Deferred,ST038,All systems OK
+MNT00457,TR0064,Pantry Car Cleaning,2023-09-19,2023-10-10,21,129905.98,EMP0255,Completed,ST064,Routine check completed
+MNT00458,TR0075,Wheel Replacement,2024-12-12,2025-01-08,27,286836.81,EMP0354,Completed,ST050,Routine check completed
+MNT00459,TR0116,Electrical Check,2024-12-09,2024-12-10,1,492876.32,EMP0070,In Progress,ST036,Critical issue found
+MNT00460,TR0074,Scheduled Service,2024-08-29,2024-09-25,27,57736.11,EMP0011,Completed,ST002,Critical issue found
+MNT00461,TR0089,Pantry Car Cleaning,2023-03-05,2023-03-29,24,21383.73,EMP0104,Completed,ST061,All systems OK
+MNT00462,TR0006,Safety Audit,2023-05-23,2023-06-07,15,52656.45,EMP0006,Completed,ST026,Awaiting spare parts
+MNT00463,TR0152,Signaling Equipment,2024-05-10,2024-06-01,22,254591.56,EMP0283,In Progress,ST032,Routine check completed
+MNT00464,TR0164,Brake Inspection,2023-07-16,2023-08-04,19,219790.96,EMP0295,Completed,ST027,Awaiting spare parts
+MNT00465,TR0189,Electrical Check,2023-08-28,2023-08-31,3,375263.24,EMP0157,In Progress,ST055,All systems OK
+MNT00466,TR0068,Signaling Equipment,2024-01-22,2024-01-25,3,104491.63,EMP0452,Scheduled,ST045,Parts replaced
+MNT00467,TR0093,Electrical Check,2024-01-06,2024-01-22,16,237798.42,EMP0125,Completed,ST049,Routine check completed
+MNT00468,TR0159,Electrical Check,2023-05-29,2023-06-22,24,231170.18,EMP0009,In Progress,ST033,Awaiting spare parts
+MNT00469,TR0072,Engine Overhaul,2024-03-04,2024-03-21,17,493692.48,EMP0419,Completed,ST024,Parts replaced
+MNT00470,TR0168,Scheduled Service,2024-09-19,2024-09-24,5,419983.39,EMP0259,Completed,ST051,Routine check completed
+MNT00471,TR0016,Electrical Check,2024-12-15,2024-12-28,13,390933.94,EMP0244,Deferred,ST044,Parts replaced
+MNT00472,TR0169,Wheel Replacement,2023-07-29,2023-08-10,12,38267.69,EMP0406,In Progress,ST020,Parts replaced
+MNT00473,TR0098,Signaling Equipment,2023-10-07,2023-10-30,23,11875.2,EMP0370,Completed,ST016,Awaiting spare parts
+MNT00474,TR0116,Safety Audit,2023-05-15,2023-05-21,6,255769.47,EMP0156,In Progress,ST021,Awaiting spare parts
+MNT00475,TR0109,Wheel Replacement,2024-12-18,2025-01-01,14,213435.92,EMP0149,Completed,ST007,All systems OK
+MNT00476,TR0193,Pantry Car Cleaning,2024-06-17,2024-07-11,24,371053.2,EMP0376,Scheduled,ST010,All systems OK
+MNT00477,TR0134,Pantry Car Cleaning,2023-10-25,2023-10-26,1,453599.04,EMP0454,Completed,ST002,All systems OK
+MNT00478,TR0175,Scheduled Service,2023-06-12,2023-06-29,17,451420.73,EMP0274,Completed,ST052,Critical issue found
+MNT00479,TR0154,Wheel Replacement,2023-07-16,2023-08-05,20,131575.38,EMP0498,In Progress,ST011,Parts replaced
+MNT00480,TR0041,Engine Overhaul,2024-09-21,2024-10-14,23,478021.88,EMP0112,Completed,ST020,Awaiting spare parts
+MNT00481,TR0119,Safety Audit,2023-03-09,2023-04-02,24,356646.03,EMP0161,In Progress,ST060,Parts replaced
+MNT00482,TR0057,AC Servicing,2024-08-26,2024-09-19,24,440932.96,EMP0289,Completed,ST036,All systems OK
+MNT00483,TR0120,Safety Audit,2023-12-29,2024-01-20,22,434757.88,EMP0131,Completed,ST054,Parts replaced
+MNT00484,TR0142,AC Servicing,2023-08-24,2023-08-26,2,365127.15,EMP0057,Completed,ST005,Routine check completed
+MNT00485,TR0171,Safety Audit,2024-10-12,2024-11-03,22,166078.49,EMP0151,Scheduled,ST066,Routine check completed
+MNT00486,TR0091,Pantry Car Cleaning,2023-12-30,2024-01-09,10,98014.4,EMP0096,Completed,ST016,Critical issue found
+MNT00487,TR0057,Electrical Check,2023-07-12,2023-07-26,14,359011.1,EMP0398,In Progress,ST007,Awaiting spare parts
+MNT00488,TR0090,Safety Audit,2023-11-17,2023-12-01,14,429360.84,EMP0069,Completed,ST012,Awaiting spare parts
+MNT00489,TR0169,Brake Inspection,2024-04-09,2024-04-28,19,7976.52,EMP0201,Cancelled,ST039,Routine check completed
+MNT00490,TR0044,Electrical Check,2024-07-08,2024-07-31,23,486157.18,EMP0182,Scheduled,ST030,Routine check completed
+MNT00491,TR0032,Scheduled Service,2023-10-14,2023-11-09,26,61378.84,EMP0328,Completed,ST019,Awaiting spare parts
+MNT00492,TR0066,AC Servicing,2024-06-27,2024-07-02,5,400365.97,EMP0267,In Progress,ST032,Critical issue found
+MNT00493,TR0143,Electrical Check,2023-11-27,2023-12-22,25,22805.1,EMP0283,Completed,ST071,All systems OK
+MNT00494,TR0038,Interior Refurbishment,2023-10-17,2023-11-03,17,167738.22,EMP0324,Completed,ST054,Awaiting spare parts
+MNT00495,TR0048,Engine Overhaul,2024-07-31,2024-08-17,17,489818.81,EMP0044,Completed,ST014,Awaiting spare parts
+MNT00496,TR0061,Pantry Car Cleaning,2023-05-24,2023-05-29,5,250594.38,EMP0005,Completed,ST060,Critical issue found
+MNT00497,TR0035,Engine Overhaul,2024-07-30,2024-08-23,24,334727.19,EMP0402,Cancelled,ST001,Awaiting spare parts
+MNT00498,TR0079,Interior Refurbishment,2024-07-31,2024-08-02,2,39194.3,EMP0039,Completed,ST021,Routine check completed
+MNT00499,TR0183,Safety Audit,2023-11-07,2023-11-10,3,276659.63,EMP0146,In Progress,ST043,Routine check completed
+MNT00500,TR0142,Wheel Replacement,2023-02-21,2023-03-11,18,268342.91,EMP0289,Scheduled,ST042,Routine check completed
+MNT00501,TR0082,Brake Inspection,2023-03-06,2023-03-31,25,376839.75,EMP0195,Scheduled,ST064,Awaiting spare parts
+MNT00502,TR0150,Interior Refurbishment,2023-03-23,2023-04-14,22,405942.25,EMP0142,In Progress,ST039,All systems OK
+MNT00503,TR0044,Signaling Equipment,2024-10-09,2024-10-20,11,278390.6,EMP0039,Completed,ST007,Critical issue found
+MNT00504,TR0112,Electrical Check,2024-05-10,2024-05-23,13,203470.42,EMP0038,Completed,ST029,Critical issue found
+MNT00505,TR0139,Electrical Check,2024-08-02,2024-08-22,20,446591.14,EMP0434,Scheduled,ST075,Parts replaced
+MNT00506,TR0180,Brake Inspection,2023-12-22,2023-12-23,1,65159.76,EMP0220,In Progress,ST074,Parts replaced
+MNT00507,TR0193,Pantry Car Cleaning,2024-12-07,2024-12-14,7,74528.55,EMP0102,Completed,ST018,Routine check completed
+MNT00508,TR0045,Engine Overhaul,2023-05-28,2023-06-27,30,269158.47,EMP0419,Completed,ST029,Critical issue found
+MNT00509,TR0059,Engine Overhaul,2024-09-16,2024-09-17,1,100683.49,EMP0119,Cancelled,ST009,Parts replaced
+MNT00510,TR0065,Interior Refurbishment,2024-06-08,2024-07-01,23,362681.38,EMP0315,Completed,ST006,Parts replaced
+MNT00511,TR0037,Signaling Equipment,2024-01-12,2024-02-09,28,205169.15,EMP0458,Scheduled,ST068,Routine check completed
+MNT00512,TR0161,Electrical Check,2024-05-31,2024-06-17,17,25399.84,EMP0184,Completed,ST052,Parts replaced
+MNT00513,TR0192,AC Servicing,2024-05-01,2024-05-10,9,306756.9,EMP0215,Completed,ST068,Critical issue found
+MNT00514,TR0023,Wheel Replacement,2024-02-10,2024-02-14,4,149288.47,EMP0469,In Progress,ST064,Routine check completed
+MNT00515,TR0072,Interior Refurbishment,2023-12-13,2023-12-19,6,492770.48,EMP0025,Completed,ST071,Awaiting spare parts
+MNT00516,TR0160,Signaling Equipment,2024-04-11,2024-05-07,26,280297.58,EMP0101,In Progress,ST040,Awaiting spare parts
+MNT00517,TR0013,Wheel Replacement,2023-07-21,2023-07-31,10,26208.11,EMP0231,Scheduled,ST050,All systems OK
+MNT00518,TR0087,Interior Refurbishment,2024-10-22,2024-10-25,3,355538.47,EMP0128,Completed,ST043,Awaiting spare parts
+MNT00519,TR0051,Brake Inspection,2023-09-27,2023-09-29,2,235311.24,EMP0248,Completed,ST025,Parts replaced
+MNT00520,TR0156,Signaling Equipment,2023-02-22,2023-03-15,21,59378.66,EMP0037,In Progress,ST056,Routine check completed
+MNT00521,TR0028,Signaling Equipment,2023-03-07,2023-03-30,23,230990.44,EMP0010,Completed,ST031,Awaiting spare parts
+MNT00522,TR0100,Brake Inspection,2024-10-26,2024-11-14,19,481016.78,EMP0184,Completed,ST019,Critical issue found
+MNT00523,TR0013,Brake Inspection,2024-01-26,2024-02-19,24,278844.83,EMP0458,Completed,ST069,Routine check completed
+MNT00524,TR0077,Interior Refurbishment,2024-06-16,2024-07-09,23,70834.06,EMP0303,Completed,ST012,Routine check completed
+MNT00525,TR0178,Wheel Replacement,2024-05-12,2024-05-30,18,429062.27,EMP0140,Completed,ST054,Awaiting spare parts
+MNT00526,TR0166,Safety Audit,2024-12-16,2025-01-14,29,266794.35,EMP0036,Scheduled,ST021,Routine check completed
+MNT00527,TR0035,Safety Audit,2023-03-17,2023-03-30,13,375905.16,EMP0163,Completed,ST070,Critical issue found
+MNT00528,TR0015,Engine Overhaul,2024-03-03,2024-03-26,23,278702.43,EMP0283,Completed,ST033,Parts replaced
+MNT00529,TR0092,Engine Overhaul,2023-02-04,2023-02-27,23,328641.39,EMP0007,Cancelled,ST011,All systems OK
+MNT00530,TR0177,Electrical Check,2023-03-25,2023-04-22,28,22074.9,EMP0176,Completed,ST067,Parts replaced
+MNT00531,TR0066,Safety Audit,2023-03-20,2023-04-08,19,129050.71,EMP0415,Completed,ST058,Awaiting spare parts
+MNT00532,TR0012,Safety Audit,2024-06-04,2024-06-23,19,20147.14,EMP0156,In Progress,ST023,Awaiting spare parts
+MNT00533,TR0143,AC Servicing,2024-11-17,2024-12-03,16,384441.01,EMP0047,Completed,ST016,Critical issue found
+MNT00534,TR0164,AC Servicing,2024-12-12,2024-12-18,6,423998.35,EMP0019,Scheduled,ST023,Awaiting spare parts
+MNT00535,TR0076,Electrical Check,2023-08-30,2023-09-22,23,178728.5,EMP0433,Completed,ST010,Routine check completed
+MNT00536,TR0001,Scheduled Service,2023-07-27,2023-08-26,30,277844.91,EMP0296,Completed,ST030,All systems OK
+MNT00537,TR0173,Wheel Replacement,2024-05-04,2024-05-22,18,162616.02,EMP0271,Deferred,ST054,Critical issue found
+MNT00538,TR0042,Safety Audit,2023-11-08,2023-12-01,23,477788.23,EMP0225,Scheduled,ST051,All systems OK
+MNT00539,TR0184,Electrical Check,2023-02-20,2023-03-13,21,304057.97,EMP0465,Completed,ST030,Critical issue found
+MNT00540,TR0093,Electrical Check,2024-10-06,2024-11-03,28,126103.7,EMP0191,Scheduled,ST059,Routine check completed
+MNT00541,TR0074,Interior Refurbishment,2023-03-21,2023-04-18,28,38872.44,EMP0004,Completed,ST073,All systems OK
+MNT00542,TR0194,Safety Audit,2023-07-24,2023-08-06,13,181359.39,EMP0190,Scheduled,ST004,Critical issue found
+MNT00543,TR0107,Safety Audit,2023-06-17,2023-06-21,4,242441.13,EMP0246,In Progress,ST035,Routine check completed
+MNT00544,TR0193,Wheel Replacement,2024-08-31,2024-09-13,13,352142.53,EMP0345,Completed,ST061,Routine check completed
+MNT00545,TR0038,Engine Overhaul,2023-07-18,2023-08-05,18,464862.29,EMP0488,Completed,ST009,All systems OK
+MNT00546,TR0196,Engine Overhaul,2024-01-11,2024-02-05,25,236207.26,EMP0380,Completed,ST054,All systems OK
+MNT00547,TR0086,Signaling Equipment,2024-07-20,2024-08-18,29,176488.93,EMP0087,Scheduled,ST031,Awaiting spare parts
+MNT00548,TR0022,Scheduled Service,2023-01-10,2023-02-08,29,449399.23,EMP0492,Completed,ST060,Routine check completed
+MNT00549,TR0148,Signaling Equipment,2024-05-21,2024-06-09,19,493379.77,EMP0078,Scheduled,ST034,Awaiting spare parts
+MNT00550,TR0173,Engine Overhaul,2023-02-05,2023-02-26,21,448512.87,EMP0079,Completed,ST032,Routine check completed
+MNT00551,TR0060,Signaling Equipment,2023-01-26,2023-02-02,7,455611.47,EMP0379,Completed,ST023,Critical issue found
+MNT00552,TR0171,Engine Overhaul,2023-08-12,2023-09-01,20,10448.59,EMP0471,Completed,ST036,All systems OK
+MNT00553,TR0067,Electrical Check,2024-11-13,2024-12-04,21,425275.75,EMP0477,In Progress,ST049,Parts replaced
+MNT00554,TR0023,Pantry Car Cleaning,2024-07-29,2024-08-28,30,469398.14,EMP0218,Completed,ST002,Parts replaced
+MNT00555,TR0073,Signaling Equipment,2024-06-14,2024-06-27,13,169845.18,EMP0305,Completed,ST025,Critical issue found
+MNT00556,TR0193,Brake Inspection,2023-01-08,2023-01-12,4,53048.36,EMP0328,Completed,ST007,Awaiting spare parts
+MNT00557,TR0110,Electrical Check,2024-06-21,2024-07-11,20,205409.65,EMP0465,Completed,ST013,Critical issue found
+MNT00558,TR0040,Interior Refurbishment,2024-07-27,2024-08-03,7,405876.14,EMP0447,Completed,ST063,Routine check completed
+MNT00559,TR0054,Safety Audit,2023-07-06,2023-08-02,27,419651.47,EMP0452,Completed,ST033,Critical issue found
+MNT00560,TR0190,Signaling Equipment,2024-03-04,2024-03-11,7,161085.21,EMP0442,In Progress,ST068,Awaiting spare parts
+MNT00561,TR0122,Brake Inspection,2023-02-17,2023-03-02,13,376735.63,EMP0089,Completed,ST064,Awaiting spare parts
+MNT00562,TR0170,Engine Overhaul,2023-12-12,2023-12-14,2,377984.01,EMP0065,Scheduled,ST069,Parts replaced
+MNT00563,TR0095,Scheduled Service,2024-08-26,2024-08-29,3,364079.27,EMP0180,Completed,ST041,Routine check completed
+MNT00564,TR0153,Interior Refurbishment,2023-09-21,2023-10-08,17,138802.33,EMP0328,Completed,ST012,Parts replaced
+MNT00565,TR0119,Pantry Car Cleaning,2023-06-16,2023-06-19,3,20526.93,EMP0177,Completed,ST018,Routine check completed
+MNT00566,TR0035,Interior Refurbishment,2024-05-30,2024-06-10,11,170800.49,EMP0352,Completed,ST019,Critical issue found
+MNT00567,TR0122,Engine Overhaul,2024-04-04,2024-04-13,9,32118.82,EMP0491,Scheduled,ST065,Awaiting spare parts
+MNT00568,TR0139,Brake Inspection,2024-12-19,2024-12-23,4,212902.58,EMP0193,Completed,ST063,Parts replaced
+MNT00569,TR0113,Electrical Check,2024-03-16,2024-03-30,14,45251.29,EMP0324,Completed,ST011,Routine check completed
+MNT00570,TR0024,AC Servicing,2024-03-12,2024-04-03,22,342237.74,EMP0497,Completed,ST015,All systems OK
+MNT00571,TR0191,Interior Refurbishment,2023-05-07,2023-05-19,12,449804.33,EMP0421,Deferred,ST010,Awaiting spare parts
+MNT00572,TR0037,Interior Refurbishment,2024-03-14,2024-03-18,4,383986.88,EMP0436,Completed,ST037,Parts replaced
+MNT00573,TR0046,Safety Audit,2023-12-01,2023-12-07,6,159204.9,EMP0081,Completed,ST067,Awaiting spare parts
+MNT00574,TR0106,Pantry Car Cleaning,2023-12-27,2024-01-17,21,495546.04,EMP0391,Completed,ST054,Awaiting spare parts
+MNT00575,TR0163,Safety Audit,2023-04-20,2023-04-21,1,125178.24,EMP0148,Scheduled,ST060,Critical issue found
+MNT00576,TR0066,Interior Refurbishment,2024-03-25,2024-04-18,24,66611.52,EMP0446,In Progress,ST058,Awaiting spare parts
+MNT00577,TR0180,Interior Refurbishment,2023-07-29,2023-08-14,16,64535.59,EMP0299,Completed,ST013,All systems OK
+MNT00578,TR0009,Scheduled Service,2023-09-21,2023-10-16,25,432654.01,EMP0341,Scheduled,ST006,Critical issue found
+MNT00579,TR0171,AC Servicing,2023-01-16,2023-01-19,3,143573.41,EMP0115,Scheduled,ST067,Awaiting spare parts
+MNT00580,TR0025,Brake Inspection,2023-06-06,2023-06-15,9,86646.11,EMP0245,Completed,ST035,Routine check completed
+MNT00581,TR0142,Pantry Car Cleaning,2023-10-26,2023-11-25,30,361664.84,EMP0200,Completed,ST029,Parts replaced
+MNT00582,TR0066,Safety Audit,2024-09-30,2024-10-03,3,203229.83,EMP0274,Scheduled,ST045,Awaiting spare parts
+MNT00583,TR0145,Electrical Check,2024-11-07,2024-12-05,28,66600.24,EMP0222,Cancelled,ST053,Critical issue found
+MNT00584,TR0056,Wheel Replacement,2023-06-17,2023-06-26,9,326360.06,EMP0242,Completed,ST074,Awaiting spare parts
+MNT00585,TR0017,Safety Audit,2023-09-06,2023-09-13,7,121241.38,EMP0084,Deferred,ST028,Critical issue found
+MNT00586,TR0156,Scheduled Service,2024-05-19,2024-05-22,3,478489.53,EMP0363,Completed,ST030,Parts replaced
+MNT00587,TR0068,Scheduled Service,2023-04-19,2023-05-01,12,233612.25,EMP0375,Completed,ST056,Awaiting spare parts
+MNT00588,TR0098,Scheduled Service,2024-10-28,2024-11-20,23,31749.26,EMP0335,Deferred,ST006,Critical issue found
+MNT00589,TR0121,Electrical Check,2023-03-16,2023-03-23,7,111667.88,EMP0028,Completed,ST020,Critical issue found
+MNT00590,TR0063,Signaling Equipment,2024-12-17,2024-12-23,6,194008.21,EMP0231,In Progress,ST002,Critical issue found
+MNT00591,TR0059,Interior Refurbishment,2023-03-07,2023-03-30,23,200268.19,EMP0048,Completed,ST033,Critical issue found
+MNT00592,TR0119,Pantry Car Cleaning,2023-07-31,2023-08-24,24,426938.35,EMP0407,Scheduled,ST044,Routine check completed
+MNT00593,TR0130,AC Servicing,2023-11-10,2023-12-10,30,172330.22,EMP0371,In Progress,ST069,Critical issue found
+MNT00594,TR0100,Wheel Replacement,2023-02-10,2023-02-26,16,405887.4,EMP0130,Completed,ST046,Critical issue found
+MNT00595,TR0009,Safety Audit,2024-03-11,2024-04-04,24,289062.13,EMP0065,Completed,ST045,Routine check completed
+MNT00596,TR0057,Electrical Check,2024-05-03,2024-05-22,19,55633.92,EMP0358,Cancelled,ST074,Critical issue found
+MNT00597,TR0023,Scheduled Service,2024-12-27,2025-01-14,18,135758.13,EMP0253,In Progress,ST072,Critical issue found
+MNT00598,TR0162,Signaling Equipment,2024-10-13,2024-10-23,10,458837.32,EMP0461,Completed,ST016,Routine check completed
+MNT00599,TR0125,Signaling Equipment,2024-09-13,2024-09-14,1,360749.89,EMP0470,In Progress,ST039,Critical issue found
+MNT00600,TR0169,Scheduled Service,2024-06-14,2024-07-10,26,250255.63,EMP0475,In Progress,ST070,Routine check completed
+MNT00601,TR0067,Electrical Check,2023-08-20,2023-09-04,15,131640.28,EMP0230,Scheduled,ST005,Routine check completed
+MNT00602,TR0129,Electrical Check,2024-12-01,2024-12-08,7,8025.58,EMP0204,In Progress,ST046,Routine check completed
+MNT00603,TR0084,Interior Refurbishment,2024-12-08,2025-01-07,30,444585.83,EMP0439,Completed,ST017,All systems OK
+MNT00604,TR0092,Engine Overhaul,2023-04-05,2023-04-29,24,53492.43,EMP0283,Completed,ST042,Routine check completed
+MNT00605,TR0099,Pantry Car Cleaning,2024-10-16,2024-10-17,1,480666.17,EMP0190,Completed,ST062,All systems OK
+MNT00606,TR0172,Pantry Car Cleaning,2024-04-17,2024-05-06,19,95812.96,EMP0161,Completed,ST041,Routine check completed
+MNT00607,TR0048,Safety Audit,2023-08-25,2023-09-16,22,371844.2,EMP0441,Cancelled,ST060,Routine check completed
+MNT00608,TR0065,Engine Overhaul,2023-12-22,2023-12-23,1,458965.22,EMP0462,Scheduled,ST066,Awaiting spare parts
+MNT00609,TR0134,Wheel Replacement,2024-04-21,2024-05-19,28,170207.98,EMP0205,Completed,ST074,Parts replaced
+MNT00610,TR0176,Electrical Check,2023-09-08,2023-10-02,24,270528.49,EMP0194,Completed,ST069,Critical issue found
+MNT00611,TR0057,Pantry Car Cleaning,2024-03-08,2024-03-17,9,473616.92,EMP0083,In Progress,ST034,Critical issue found
+MNT00612,TR0128,AC Servicing,2023-12-01,2023-12-09,8,134608.22,EMP0463,Deferred,ST066,Awaiting spare parts
+MNT00613,TR0097,Wheel Replacement,2023-08-20,2023-09-16,27,281785.25,EMP0141,Cancelled,ST070,Routine check completed
+MNT00614,TR0125,Electrical Check,2024-06-09,2024-07-04,25,88751.38,EMP0171,Completed,ST052,Critical issue found
+MNT00615,TR0041,Pantry Car Cleaning,2024-04-30,2024-05-29,29,489972.41,EMP0099,Completed,ST069,All systems OK
+MNT00616,TR0096,Interior Refurbishment,2023-07-21,2023-07-25,4,182242.1,EMP0347,Completed,ST054,All systems OK
+MNT00617,TR0068,Interior Refurbishment,2023-06-09,2023-06-20,11,343425.37,EMP0318,In Progress,ST024,Critical issue found
+MNT00618,TR0115,Signaling Equipment,2024-12-18,2024-12-29,11,445984.63,EMP0412,Completed,ST070,Routine check completed
+MNT00619,TR0101,Safety Audit,2023-05-19,2023-06-06,18,318380.46,EMP0490,In Progress,ST069,Routine check completed
+MNT00620,TR0065,Pantry Car Cleaning,2023-09-05,2023-09-27,22,208743.89,EMP0083,Completed,ST035,Awaiting spare parts
+MNT00621,TR0084,Brake Inspection,2023-07-26,2023-08-05,10,156384.24,EMP0329,Completed,ST054,Awaiting spare parts
+MNT00622,TR0067,Engine Overhaul,2023-12-04,2023-12-14,10,412277.57,EMP0414,Completed,ST023,Routine check completed
+MNT00623,TR0124,Scheduled Service,2024-08-26,2024-09-09,14,96060.09,EMP0386,Completed,ST014,Awaiting spare parts
+MNT00624,TR0058,Scheduled Service,2024-06-15,2024-07-10,25,49586.68,EMP0146,Completed,ST062,Awaiting spare parts
+MNT00625,TR0142,Interior Refurbishment,2024-07-23,2024-08-12,20,273519.63,EMP0107,Completed,ST075,Awaiting spare parts
+MNT00626,TR0139,Engine Overhaul,2023-03-27,2023-04-13,17,78863.56,EMP0272,Completed,ST004,All systems OK
+MNT00627,TR0128,Interior Refurbishment,2023-01-19,2023-02-07,19,299808.99,EMP0021,Completed,ST026,Awaiting spare parts
+MNT00628,TR0132,AC Servicing,2024-08-09,2024-08-18,9,435418.68,EMP0310,Completed,ST041,Parts replaced
+MNT00629,TR0071,Pantry Car Cleaning,2023-09-17,2023-09-29,12,338108.19,EMP0464,Completed,ST055,Awaiting spare parts
+MNT00630,TR0041,Brake Inspection,2024-08-30,2024-09-13,14,137243.72,EMP0306,Completed,ST063,Awaiting spare parts
+MNT00631,TR0009,Interior Refurbishment,2024-12-21,2024-12-27,6,114098.31,EMP0289,In Progress,ST030,Routine check completed
+MNT00632,TR0086,Brake Inspection,2024-07-27,2024-07-31,4,122128.4,EMP0360,In Progress,ST034,Routine check completed
+MNT00633,TR0152,Safety Audit,2024-09-09,2024-10-08,29,260145.19,EMP0415,Completed,ST030,All systems OK
+MNT00634,TR0126,Signaling Equipment,2024-03-05,2024-03-19,14,273589.35,EMP0282,Deferred,ST068,All systems OK
+MNT00635,TR0134,Electrical Check,2024-12-28,2025-01-26,29,66240.71,EMP0473,Completed,ST026,Parts replaced
+MNT00636,TR0018,Brake Inspection,2023-06-15,2023-07-10,25,387730.05,EMP0296,Completed,ST064,Parts replaced
+MNT00637,TR0111,Brake Inspection,2023-08-10,2023-09-03,24,237136.6,EMP0425,Completed,ST005,Routine check completed
+MNT00638,TR0173,Scheduled Service,2023-09-14,2023-10-02,18,350898.46,EMP0056,Completed,ST017,Parts replaced
+MNT00639,TR0136,Safety Audit,2024-03-07,2024-03-14,7,365588.23,EMP0271,Completed,ST002,Parts replaced
+MNT00640,TR0147,Brake Inspection,2024-03-28,2024-04-02,5,258856.73,EMP0239,Completed,ST051,Routine check completed
+MNT00641,TR0173,AC Servicing,2024-05-06,2024-05-10,4,311588.86,EMP0092,Completed,ST023,Parts replaced
+MNT00642,TR0198,Signaling Equipment,2023-03-14,2023-03-21,7,193267.47,EMP0123,Completed,ST030,Critical issue found
+MNT00643,TR0180,Interior Refurbishment,2024-02-24,2024-03-08,13,15916.72,EMP0356,In Progress,ST020,Routine check completed
+MNT00644,TR0104,Signaling Equipment,2023-04-23,2023-05-20,27,62025.58,EMP0120,Deferred,ST065,All systems OK
+MNT00645,TR0134,Wheel Replacement,2023-07-17,2023-07-24,7,449966.47,EMP0062,Completed,ST063,Awaiting spare parts
+MNT00646,TR0091,AC Servicing,2023-01-20,2023-02-15,26,66868.15,EMP0013,Completed,ST036,All systems OK
+MNT00647,TR0030,Brake Inspection,2023-04-28,2023-05-26,28,278848.61,EMP0261,Completed,ST048,All systems OK
+MNT00648,TR0119,Signaling Equipment,2024-03-05,2024-03-09,4,343804.77,EMP0457,Completed,ST042,All systems OK
+MNT00649,TR0127,Engine Overhaul,2023-02-06,2023-02-17,11,180184.84,EMP0154,Completed,ST029,Critical issue found
+MNT00650,TR0191,Brake Inspection,2024-03-28,2024-04-18,21,115629.37,EMP0421,Completed,ST046,Critical issue found
+MNT00651,TR0059,Scheduled Service,2023-07-13,2023-07-25,12,263929.73,EMP0252,Completed,ST013,Critical issue found
+MNT00652,TR0115,Engine Overhaul,2024-12-06,2025-01-05,30,317296.66,EMP0400,Completed,ST049,Parts replaced
+MNT00653,TR0017,Engine Overhaul,2024-03-20,2024-04-19,30,131452.9,EMP0368,Completed,ST041,Parts replaced
+MNT00654,TR0157,AC Servicing,2024-09-27,2024-10-15,18,373302.32,EMP0443,Completed,ST036,All systems OK
+MNT00655,TR0181,Wheel Replacement,2023-11-09,2023-11-18,9,136481.89,EMP0403,Completed,ST009,Routine check completed
+MNT00656,TR0052,Engine Overhaul,2023-12-31,2024-01-09,9,167555.42,EMP0092,Completed,ST043,Routine check completed
+MNT00657,TR0089,Interior Refurbishment,2023-10-26,2023-11-21,26,246936.04,EMP0458,Completed,ST059,Routine check completed
+MNT00658,TR0013,AC Servicing,2024-03-12,2024-04-08,27,368960.43,EMP0289,Completed,ST002,Routine check completed
+MNT00659,TR0059,Engine Overhaul,2024-06-17,2024-07-03,16,478928.05,EMP0285,Completed,ST021,Critical issue found
+MNT00660,TR0005,Brake Inspection,2023-01-16,2023-01-25,9,197844.19,EMP0446,Completed,ST057,Critical issue found
+MNT00661,TR0132,Scheduled Service,2023-04-04,2023-05-03,29,467777.78,EMP0077,Completed,ST044,Parts replaced
+MNT00662,TR0045,Signaling Equipment,2024-08-13,2024-09-04,22,491722.2,EMP0468,Cancelled,ST040,Critical issue found
+MNT00663,TR0006,Engine Overhaul,2023-03-18,2023-03-22,4,347662.19,EMP0447,Completed,ST003,Parts replaced
+MNT00664,TR0151,Brake Inspection,2024-04-29,2024-05-25,26,83981.71,EMP0356,Completed,ST018,Critical issue found
+MNT00665,TR0118,Wheel Replacement,2023-06-26,2023-07-18,22,65082.82,EMP0414,Cancelled,ST071,Parts replaced
+MNT00666,TR0025,AC Servicing,2024-05-22,2024-06-09,18,122769.24,EMP0392,Completed,ST029,Awaiting spare parts
+MNT00667,TR0167,Brake Inspection,2024-02-24,2024-03-02,7,468436.6,EMP0244,Scheduled,ST024,Parts replaced
+MNT00668,TR0026,Electrical Check,2023-05-22,2023-05-27,5,453366.33,EMP0400,Completed,ST046,Routine check completed
+MNT00669,TR0070,AC Servicing,2023-10-21,2023-11-05,15,165834.49,EMP0436,Scheduled,ST024,All systems OK
+MNT00670,TR0044,Safety Audit,2023-08-18,2023-08-28,10,127180.75,EMP0002,Completed,ST038,All systems OK
+MNT00671,TR0137,Signaling Equipment,2024-02-08,2024-03-05,26,187396.19,EMP0137,Scheduled,ST061,Critical issue found
+MNT00672,TR0140,Signaling Equipment,2023-11-08,2023-11-14,6,420439.45,EMP0362,Completed,ST054,Critical issue found
+MNT00673,TR0131,AC Servicing,2023-08-24,2023-09-02,9,187841.25,EMP0019,Completed,ST059,Parts replaced
+MNT00674,TR0079,Brake Inspection,2024-10-04,2024-10-29,25,40426,EMP0491,Completed,ST008,All systems OK
+MNT00675,TR0150,Safety Audit,2024-09-21,2024-10-15,24,359876.85,EMP0349,Cancelled,ST009,Routine check completed
+MNT00676,TR0179,Signaling Equipment,2023-01-25,2023-01-29,4,18279.65,EMP0272,Completed,ST017,Parts replaced
+MNT00677,TR0042,Signaling Equipment,2024-02-27,2024-03-18,20,463229.92,EMP0076,In Progress,ST054,Critical issue found
+MNT00678,TR0102,Wheel Replacement,2024-10-27,2024-11-04,8,275034.33,EMP0496,Completed,ST011,Awaiting spare parts
+MNT00679,TR0099,Brake Inspection,2023-04-05,2023-04-14,9,23859.26,EMP0107,Completed,ST042,Critical issue found
+MNT00680,TR0143,Signaling Equipment,2024-02-10,2024-02-16,6,127230.65,EMP0160,Scheduled,ST047,Routine check completed
+MNT00681,TR0199,AC Servicing,2024-01-10,2024-02-09,30,438505.65,EMP0251,Completed,ST045,Critical issue found
+MNT00682,TR0039,AC Servicing,2024-01-27,2024-02-02,6,195538.16,EMP0423,Cancelled,ST028,Awaiting spare parts
+MNT00683,TR0099,Interior Refurbishment,2023-06-09,2023-06-20,11,455774.11,EMP0178,In Progress,ST061,Parts replaced
+MNT00684,TR0108,Wheel Replacement,2023-06-26,2023-06-28,2,87720.85,EMP0462,Cancelled,ST030,Parts replaced
+MNT00685,TR0099,Interior Refurbishment,2023-08-06,2023-09-02,27,105043.42,EMP0184,In Progress,ST019,All systems OK
+MNT00686,TR0092,AC Servicing,2023-12-08,2023-12-09,1,446125.8,EMP0164,Deferred,ST040,Routine check completed
+MNT00687,TR0146,Electrical Check,2023-11-29,2023-12-15,16,295488.62,EMP0013,Completed,ST075,Critical issue found
+MNT00688,TR0131,Engine Overhaul,2024-03-28,2024-04-14,17,15912.13,EMP0041,Scheduled,ST015,All systems OK
+MNT00689,TR0176,Safety Audit,2024-09-21,2024-10-08,17,51842.7,EMP0218,Deferred,ST024,Routine check completed
+MNT00690,TR0102,AC Servicing,2023-10-18,2023-11-02,15,285260.38,EMP0027,Cancelled,ST006,Parts replaced
+MNT00691,TR0157,Wheel Replacement,2024-10-11,2024-10-24,13,218506.98,EMP0339,Cancelled,ST049,All systems OK
+MNT00692,TR0101,Pantry Car Cleaning,2024-12-23,2025-01-09,17,123058.37,EMP0224,Completed,ST075,Routine check completed
+MNT00693,TR0181,Brake Inspection,2024-02-18,2024-02-19,1,94257.92,EMP0134,Completed,ST054,Parts replaced
+MNT00694,TR0060,Electrical Check,2023-03-08,2023-03-15,7,369104.29,EMP0208,Completed,ST034,Parts replaced
+MNT00695,TR0045,Signaling Equipment,2023-12-13,2023-12-17,4,240826.57,EMP0298,Cancelled,ST030,Critical issue found
+MNT00696,TR0177,Safety Audit,2024-03-30,2024-04-08,9,392764.96,EMP0068,In Progress,ST064,Routine check completed
+MNT00697,TR0093,AC Servicing,2024-04-15,2024-05-11,26,182685.58,EMP0228,Completed,ST007,Routine check completed
+MNT00698,TR0043,Signaling Equipment,2023-04-22,2023-05-02,10,495412.51,EMP0068,Scheduled,ST012,Awaiting spare parts
+MNT00699,TR0157,AC Servicing,2024-08-16,2024-09-03,18,468671.05,EMP0387,Completed,ST036,Routine check completed
+MNT00700,TR0004,Engine Overhaul,2023-05-22,2023-05-29,7,28045.92,EMP0254,Completed,ST008,All systems OK
+MNT00701,TR0055,Safety Audit,2024-08-30,2024-09-17,18,99828.82,EMP0463,Completed,ST014,Routine check completed
+MNT00702,TR0153,Signaling Equipment,2024-12-17,2025-01-10,24,453444.74,EMP0242,Completed,ST017,Awaiting spare parts
+MNT00703,TR0068,Pantry Car Cleaning,2024-08-14,2024-09-08,25,300902.69,EMP0156,Completed,ST068,Critical issue found
+MNT00704,TR0113,Brake Inspection,2024-11-06,2024-11-18,12,295818.59,EMP0248,Completed,ST022,All systems OK
+MNT00705,TR0008,Pantry Car Cleaning,2024-09-27,2024-10-27,30,387904.99,EMP0267,Cancelled,ST017,All systems OK
+MNT00706,TR0066,Interior Refurbishment,2024-08-18,2024-08-27,9,419951.88,EMP0393,In Progress,ST015,Routine check completed
+MNT00707,TR0006,Interior Refurbishment,2024-06-11,2024-06-25,14,339445.32,EMP0446,Completed,ST064,Critical issue found
+MNT00708,TR0055,Electrical Check,2023-06-07,2023-06-09,2,390005.51,EMP0116,Completed,ST046,Awaiting spare parts
+MNT00709,TR0160,AC Servicing,2024-11-23,2024-11-29,6,136813.03,EMP0412,Completed,ST034,Routine check completed
+MNT00710,TR0038,Engine Overhaul,2023-11-20,2023-11-28,8,84031.73,EMP0036,Completed,ST033,Parts replaced
+MNT00711,TR0185,Safety Audit,2023-02-13,2023-03-12,27,392419.45,EMP0096,Completed,ST066,All systems OK
+MNT00712,TR0144,Interior Refurbishment,2023-06-11,2023-06-23,12,194186.71,EMP0266,Scheduled,ST051,Critical issue found
+MNT00713,TR0165,Scheduled Service,2023-01-20,2023-01-27,7,192390.31,EMP0015,Deferred,ST006,Routine check completed
+MNT00714,TR0198,Signaling Equipment,2024-04-03,2024-04-05,2,433310.65,EMP0307,In Progress,ST066,All systems OK
+MNT00715,TR0018,Pantry Car Cleaning,2023-03-04,2023-03-16,12,473469.96,EMP0335,Completed,ST029,Routine check completed
+MNT00716,TR0132,Interior Refurbishment,2024-03-19,2024-04-03,15,179796.64,EMP0203,In Progress,ST053,Awaiting spare parts
+MNT00717,TR0157,Scheduled Service,2023-06-27,2023-07-04,7,113384.77,EMP0117,In Progress,ST031,Parts replaced
+MNT00718,TR0116,Wheel Replacement,2023-05-27,2023-06-14,18,309437.86,EMP0157,In Progress,ST053,Awaiting spare parts
+MNT00719,TR0189,AC Servicing,2023-03-01,2023-03-20,19,59279.42,EMP0404,Completed,ST008,Awaiting spare parts
+MNT00720,TR0024,Electrical Check,2023-08-20,2023-09-02,13,11361.13,EMP0500,Scheduled,ST017,Routine check completed
+MNT00721,TR0124,AC Servicing,2024-10-14,2024-11-05,22,85967.91,EMP0279,Completed,ST060,Routine check completed
+MNT00722,TR0125,Safety Audit,2024-03-23,2024-04-20,28,188949.13,EMP0463,Completed,ST049,Parts replaced
+MNT00723,TR0048,Brake Inspection,2023-04-18,2023-04-19,1,130757.49,EMP0401,In Progress,ST069,Awaiting spare parts
+MNT00724,TR0164,AC Servicing,2024-12-29,2025-01-18,20,119183.69,EMP0294,Scheduled,ST003,Awaiting spare parts
+MNT00725,TR0183,Signaling Equipment,2024-07-30,2024-08-28,29,81007.41,EMP0462,Completed,ST050,Parts replaced
+MNT00726,TR0166,AC Servicing,2023-12-26,2024-01-12,17,343903.42,EMP0097,In Progress,ST057,Critical issue found
+MNT00727,TR0017,AC Servicing,2024-08-22,2024-09-20,29,206285.26,EMP0399,Completed,ST013,Awaiting spare parts
+MNT00728,TR0149,Wheel Replacement,2024-07-22,2024-07-24,2,203707.73,EMP0481,Completed,ST047,Awaiting spare parts
+MNT00729,TR0128,Scheduled Service,2023-01-08,2023-01-18,10,392869.55,EMP0136,Completed,ST003,All systems OK
+MNT00730,TR0024,Electrical Check,2023-04-18,2023-05-17,29,465281.18,EMP0352,Completed,ST021,Parts replaced
+MNT00731,TR0170,Safety Audit,2023-10-30,2023-11-15,16,173855.2,EMP0326,Completed,ST063,Critical issue found
+MNT00732,TR0173,Brake Inspection,2023-03-21,2023-03-24,3,72190.81,EMP0376,Completed,ST040,Awaiting spare parts
+MNT00733,TR0122,Electrical Check,2023-09-19,2023-09-29,10,258009.71,EMP0127,In Progress,ST020,All systems OK
+MNT00734,TR0116,Scheduled Service,2024-09-29,2024-10-15,16,284218.38,EMP0058,In Progress,ST009,Critical issue found
+MNT00735,TR0187,Pantry Car Cleaning,2023-02-05,2023-02-15,10,103292.97,EMP0070,Cancelled,ST016,Parts replaced
+MNT00736,TR0164,Engine Overhaul,2024-05-19,2024-05-28,9,203763.41,EMP0336,Deferred,ST062,Routine check completed
+MNT00737,TR0125,Signaling Equipment,2024-06-04,2024-06-05,1,279311.42,EMP0062,In Progress,ST001,Critical issue found
+MNT00738,TR0130,Safety Audit,2023-06-21,2023-07-08,17,161462.13,EMP0014,Scheduled,ST063,All systems OK
+MNT00739,TR0159,Scheduled Service,2023-04-09,2023-05-01,22,350631.58,EMP0297,Completed,ST066,All systems OK
+MNT00740,TR0137,Electrical Check,2024-01-26,2024-02-02,7,59189.05,EMP0239,Completed,ST025,Critical issue found
+MNT00741,TR0036,Interior Refurbishment,2023-02-13,2023-02-27,14,400513.86,EMP0108,Scheduled,ST067,Awaiting spare parts
+MNT00742,TR0068,AC Servicing,2024-08-18,2024-09-07,20,155071.65,EMP0460,Completed,ST042,Parts replaced
+MNT00743,TR0042,Signaling Equipment,2024-11-07,2024-11-12,5,243663.21,EMP0318,Scheduled,ST041,Routine check completed
+MNT00744,TR0188,Brake Inspection,2024-03-01,2024-03-03,2,287203.06,EMP0222,Completed,ST021,Critical issue found
+MNT00745,TR0166,Electrical Check,2023-12-23,2024-01-06,14,272575.72,EMP0223,Completed,ST053,Critical issue found
+MNT00746,TR0150,Interior Refurbishment,2023-09-03,2023-09-10,7,432357.69,EMP0184,In Progress,ST036,Routine check completed
+MNT00747,TR0188,Interior Refurbishment,2024-05-08,2024-05-17,9,83512.45,EMP0455,Completed,ST026,Routine check completed
+MNT00748,TR0034,AC Servicing,2024-07-21,2024-08-01,11,322781.26,EMP0197,Completed,ST073,Awaiting spare parts
+MNT00749,TR0064,Engine Overhaul,2023-07-15,2023-08-03,19,444930.57,EMP0116,Completed,ST049,Routine check completed
+MNT00750,TR0189,Engine Overhaul,2024-12-20,2025-01-11,22,127436.11,EMP0428,Completed,ST007,Parts replaced
+MNT00751,TR0048,Pantry Car Cleaning,2024-08-19,2024-09-15,27,446976.18,EMP0334,Completed,ST010,Parts replaced
+MNT00752,TR0071,Interior Refurbishment,2023-05-25,2023-06-09,15,464886.26,EMP0136,Completed,ST045,All systems OK
+MNT00753,TR0057,Signaling Equipment,2024-04-05,2024-04-14,9,205813.02,EMP0483,In Progress,ST026,All systems OK
+MNT00754,TR0096,Engine Overhaul,2023-01-14,2023-01-30,16,22044.09,EMP0050,Scheduled,ST006,All systems OK
+MNT00755,TR0109,Scheduled Service,2023-11-04,2023-11-30,26,306092.15,EMP0490,Completed,ST031,Parts replaced
+MNT00756,TR0193,AC Servicing,2023-10-26,2023-11-06,11,157973.72,EMP0320,Completed,ST053,Awaiting spare parts
+MNT00757,TR0060,Electrical Check,2024-06-03,2024-06-22,19,386957.67,EMP0301,Scheduled,ST007,Awaiting spare parts
+MNT00758,TR0045,Wheel Replacement,2023-10-09,2023-11-06,28,472804.03,EMP0311,Scheduled,ST050,Awaiting spare parts
+MNT00759,TR0056,Electrical Check,2023-02-22,2023-03-04,10,337933.15,EMP0259,Scheduled,ST026,All systems OK
+MNT00760,TR0047,Pantry Car Cleaning,2024-08-03,2024-08-29,26,358498.92,EMP0334,Completed,ST049,All systems OK
+MNT00761,TR0018,Engine Overhaul,2024-03-31,2024-04-23,23,113512.06,EMP0412,Completed,ST053,Routine check completed
+MNT00762,TR0104,Safety Audit,2023-12-23,2024-01-17,25,68394.24,EMP0121,Completed,ST019,Critical issue found
+MNT00763,TR0041,Interior Refurbishment,2024-01-26,2024-02-25,30,164630.44,EMP0068,Completed,ST013,All systems OK
+MNT00764,TR0155,AC Servicing,2023-03-10,2023-03-29,19,498360.42,EMP0177,Completed,ST011,Awaiting spare parts
+MNT00765,TR0166,Wheel Replacement,2023-10-25,2023-10-29,4,262536.86,EMP0116,Completed,ST036,Awaiting spare parts
+MNT00766,TR0193,Brake Inspection,2023-01-20,2023-01-21,1,111753.99,EMP0480,Completed,ST065,Parts replaced
+MNT00767,TR0057,AC Servicing,2024-05-17,2024-06-04,18,115752.16,EMP0412,Completed,ST068,Awaiting spare parts
+MNT00768,TR0022,Pantry Car Cleaning,2023-02-26,2023-03-13,15,499936.4,EMP0013,Completed,ST074,Routine check completed
+MNT00769,TR0190,Electrical Check,2023-08-30,2023-09-16,17,320416.95,EMP0162,Scheduled,ST012,Critical issue found
+MNT00770,TR0171,Electrical Check,2023-05-19,2023-05-27,8,274842.71,EMP0396,Completed,ST012,Routine check completed
+MNT00771,TR0045,AC Servicing,2024-08-05,2024-08-11,6,212179.96,EMP0442,Deferred,ST006,Parts replaced
+MNT00772,TR0020,Brake Inspection,2023-09-29,2023-10-26,27,141672.32,EMP0425,Completed,ST010,Awaiting spare parts
+MNT00773,TR0108,Safety Audit,2024-10-14,2024-11-12,29,381887.11,EMP0456,In Progress,ST020,Critical issue found
+MNT00774,TR0037,Engine Overhaul,2023-02-05,2023-02-16,11,160532.44,EMP0300,Completed,ST072,All systems OK
+MNT00775,TR0017,Wheel Replacement,2023-10-30,2023-11-18,19,474060.8,EMP0300,Scheduled,ST013,All systems OK
+MNT00776,TR0017,Safety Audit,2024-07-15,2024-07-17,2,434379.73,EMP0021,Scheduled,ST003,Awaiting spare parts
+MNT00777,TR0088,Engine Overhaul,2023-10-08,2023-11-03,26,156173.24,EMP0248,Completed,ST008,Critical issue found
+MNT00778,TR0069,Interior Refurbishment,2023-03-05,2023-03-06,1,471843.69,EMP0448,Scheduled,ST004,Awaiting spare parts
+MNT00779,TR0094,Safety Audit,2024-05-03,2024-05-30,27,428476.7,EMP0251,Completed,ST029,All systems OK
+MNT00780,TR0022,Brake Inspection,2023-11-02,2023-11-15,13,263794.57,EMP0331,Scheduled,ST035,Parts replaced
+MNT00781,TR0168,Safety Audit,2024-07-30,2024-08-07,8,166580.29,EMP0127,Completed,ST007,Parts replaced
+MNT00782,TR0028,Safety Audit,2023-07-10,2023-07-23,13,278821.48,EMP0149,Deferred,ST012,Parts replaced
+MNT00783,TR0063,Brake Inspection,2023-01-10,2023-01-26,16,15323.76,EMP0430,Completed,ST020,Critical issue found
+MNT00784,TR0111,Pantry Car Cleaning,2024-11-27,2024-12-13,16,55465.29,EMP0339,Scheduled,ST054,Routine check completed
+MNT00785,TR0131,AC Servicing,2024-01-06,2024-01-14,8,458014.52,EMP0336,Completed,ST037,All systems OK
+MNT00786,TR0029,Wheel Replacement,2024-07-25,2024-08-18,24,77638.35,EMP0370,Completed,ST019,Awaiting spare parts
+MNT00787,TR0020,Interior Refurbishment,2024-02-06,2024-03-03,26,304265.21,EMP0084,Scheduled,ST050,All systems OK
+MNT00788,TR0119,Electrical Check,2024-07-11,2024-07-20,9,297289.54,EMP0054,Scheduled,ST011,Parts replaced
+MNT00789,TR0158,Electrical Check,2023-02-22,2023-03-15,21,289685.36,EMP0201,Completed,ST070,Awaiting spare parts
+MNT00790,TR0186,Brake Inspection,2024-03-12,2024-04-08,27,105315.51,EMP0108,In Progress,ST040,Awaiting spare parts
+MNT00791,TR0100,Scheduled Service,2023-08-25,2023-09-07,13,365519,EMP0366,Completed,ST043,All systems OK
+MNT00792,TR0161,Pantry Car Cleaning,2023-08-28,2023-09-17,20,303254.75,EMP0447,In Progress,ST033,Awaiting spare parts
+MNT00793,TR0178,Scheduled Service,2024-10-26,2024-11-21,26,357374.82,EMP0223,Completed,ST003,Routine check completed
+MNT00794,TR0096,Safety Audit,2024-04-28,2024-05-22,24,22655.64,EMP0482,Scheduled,ST041,Parts replaced
+MNT00795,TR0115,Electrical Check,2023-09-06,2023-10-01,25,36684.54,EMP0029,Completed,ST072,Parts replaced
+MNT00796,TR0126,Pantry Car Cleaning,2024-07-01,2024-07-23,22,431445.53,EMP0436,Scheduled,ST013,Awaiting spare parts
+MNT00797,TR0189,Signaling Equipment,2024-09-15,2024-09-21,6,362760.25,EMP0236,In Progress,ST007,Awaiting spare parts
+MNT00798,TR0053,AC Servicing,2024-02-02,2024-02-03,1,226430.14,EMP0414,Completed,ST010,Routine check completed
+MNT00799,TR0070,AC Servicing,2023-11-20,2023-11-27,7,279887.54,EMP0467,Completed,ST012,Routine check completed
+MNT00800,TR0105,Signaling Equipment,2024-03-01,2024-03-02,1,248198.85,EMP0313,Completed,ST046,Awaiting spare parts
+MNT00801,TR0118,Safety Audit,2024-03-07,2024-04-05,29,401133.52,EMP0006,Scheduled,ST066,All systems OK
+MNT00802,TR0072,Scheduled Service,2024-05-23,2024-06-09,17,216913.84,EMP0412,Completed,ST032,All systems OK
+MNT00803,TR0004,AC Servicing,2024-04-12,2024-05-05,23,356586.73,EMP0376,Scheduled,ST062,Routine check completed
+MNT00804,TR0184,Wheel Replacement,2023-02-01,2023-02-25,24,179296.32,EMP0499,Completed,ST009,Awaiting spare parts
+MNT00805,TR0063,Interior Refurbishment,2023-10-13,2023-10-27,14,247567.64,EMP0112,Completed,ST051,Parts replaced
+MNT00806,TR0046,Pantry Car Cleaning,2023-01-28,2023-02-03,6,266628.65,EMP0126,Completed,ST030,Parts replaced
+MNT00807,TR0082,Scheduled Service,2023-02-09,2023-02-25,16,403155.78,EMP0060,Completed,ST064,Routine check completed
+MNT00808,TR0038,Electrical Check,2023-06-04,2023-06-14,10,55431.81,EMP0143,Scheduled,ST051,Routine check completed
+MNT00809,TR0016,Interior Refurbishment,2023-04-14,2023-04-30,16,168705.11,EMP0385,Completed,ST050,Parts replaced
+MNT00810,TR0128,Signaling Equipment,2023-03-11,2023-03-23,12,418721.83,EMP0176,Completed,ST075,Critical issue found
+MNT00811,TR0157,Scheduled Service,2023-04-20,2023-04-23,3,475573.31,EMP0495,Completed,ST040,Routine check completed
+MNT00812,TR0128,AC Servicing,2024-06-09,2024-07-04,25,369788.97,EMP0194,In Progress,ST069,Parts replaced
+MNT00813,TR0114,Signaling Equipment,2024-11-18,2024-11-25,7,483078.82,EMP0379,Completed,ST015,Critical issue found
+MNT00814,TR0092,Interior Refurbishment,2024-10-05,2024-10-19,14,428627.1,EMP0197,Completed,ST002,Critical issue found
+MNT00815,TR0189,Engine Overhaul,2024-03-18,2024-04-16,29,52345.62,EMP0105,Completed,ST049,Routine check completed
+MNT00816,TR0113,Pantry Car Cleaning,2023-07-02,2023-07-17,15,106206.19,EMP0084,Completed,ST042,Awaiting spare parts
+MNT00817,TR0019,Engine Overhaul,2023-04-28,2023-05-08,10,100518.81,EMP0144,Deferred,ST058,Awaiting spare parts
+MNT00818,TR0197,AC Servicing,2024-01-10,2024-02-05,26,432922.38,EMP0187,Scheduled,ST049,Routine check completed
+MNT00819,TR0085,Engine Overhaul,2023-06-05,2023-06-25,20,131604.64,EMP0464,Completed,ST031,Awaiting spare parts
+MNT00820,TR0192,Pantry Car Cleaning,2023-04-02,2023-04-21,19,129150.37,EMP0019,In Progress,ST043,Critical issue found
+MNT00821,TR0059,Signaling Equipment,2023-01-08,2023-01-22,14,280516.16,EMP0076,Completed,ST045,Routine check completed
+MNT00822,TR0071,Wheel Replacement,2024-06-08,2024-06-29,21,471971.28,EMP0373,Completed,ST018,All systems OK
+MNT00823,TR0092,Wheel Replacement,2024-10-20,2024-10-24,4,235968.48,EMP0476,Completed,ST012,Parts replaced
+MNT00824,TR0117,Signaling Equipment,2023-11-07,2023-11-29,22,450591.58,EMP0305,Deferred,ST030,Routine check completed
+MNT00825,TR0104,Engine Overhaul,2024-03-26,2024-04-25,30,347314.03,EMP0181,Completed,ST055,Routine check completed
+MNT00826,TR0103,Interior Refurbishment,2024-01-03,2024-01-31,28,391355.4,EMP0293,In Progress,ST074,Parts replaced
+MNT00827,TR0197,Pantry Car Cleaning,2024-01-20,2024-02-17,28,375744.22,EMP0310,In Progress,ST068,All systems OK
+MNT00828,TR0062,Wheel Replacement,2023-02-09,2023-02-26,17,197240.92,EMP0485,Completed,ST043,Awaiting spare parts
+MNT00829,TR0022,Safety Audit,2024-10-18,2024-11-07,20,45100.51,EMP0304,Completed,ST056,Critical issue found
+MNT00830,TR0107,Pantry Car Cleaning,2024-02-18,2024-02-28,10,54735.66,EMP0318,Completed,ST075,Awaiting spare parts
+MNT00831,TR0147,Pantry Car Cleaning,2023-05-25,2023-06-08,14,73511.48,EMP0057,Scheduled,ST028,Parts replaced
+MNT00832,TR0107,Engine Overhaul,2024-02-20,2024-03-19,28,23938.26,EMP0050,Deferred,ST003,Awaiting spare parts
+MNT00833,TR0102,Engine Overhaul,2024-08-27,2024-09-19,23,114129.03,EMP0231,Completed,ST023,Critical issue found
+MNT00834,TR0150,Brake Inspection,2023-01-27,2023-02-05,9,326826.88,EMP0253,In Progress,ST070,Critical issue found
+MNT00835,TR0195,Scheduled Service,2024-02-12,2024-02-28,16,56033.12,EMP0216,Completed,ST007,Parts replaced
+MNT00836,TR0041,Brake Inspection,2024-01-02,2024-01-14,12,332865.24,EMP0143,In Progress,ST034,Critical issue found
+MNT00837,TR0083,AC Servicing,2023-09-07,2023-09-10,3,173245.07,EMP0480,Deferred,ST041,Awaiting spare parts
+MNT00838,TR0143,Interior Refurbishment,2023-12-18,2023-12-26,8,82265.35,EMP0196,Completed,ST041,Critical issue found
+MNT00839,TR0196,Signaling Equipment,2024-04-03,2024-04-14,11,261551.7,EMP0437,Completed,ST007,All systems OK
+MNT00840,TR0051,Signaling Equipment,2024-10-12,2024-11-01,20,406316.3,EMP0069,Scheduled,ST013,Critical issue found
+MNT00841,TR0192,Wheel Replacement,2024-04-03,2024-04-28,25,411266.42,EMP0273,Completed,ST021,Routine check completed
+MNT00842,TR0065,Signaling Equipment,2023-08-01,2023-08-19,18,111435.78,EMP0440,Cancelled,ST043,All systems OK
+MNT00843,TR0045,Brake Inspection,2023-11-16,2023-12-13,27,497414.92,EMP0316,In Progress,ST017,Parts replaced
+MNT00844,TR0103,Wheel Replacement,2023-02-28,2023-03-20,20,207465.25,EMP0463,Cancelled,ST010,Routine check completed
+MNT00845,TR0102,Pantry Car Cleaning,2023-11-17,2023-12-12,25,223159.74,EMP0409,Completed,ST011,All systems OK
+MNT00846,TR0199,Scheduled Service,2024-02-07,2024-02-26,19,488219.39,EMP0398,Completed,ST024,Critical issue found
+MNT00847,TR0072,AC Servicing,2024-05-15,2024-05-24,9,288063.18,EMP0313,Scheduled,ST015,Routine check completed
+MNT00848,TR0190,Scheduled Service,2024-01-06,2024-01-17,11,273471.08,EMP0351,Completed,ST001,Awaiting spare parts
+MNT00849,TR0104,Safety Audit,2024-03-31,2024-04-13,13,422196.93,EMP0477,Completed,ST035,Parts replaced
+MNT00850,TR0109,Signaling Equipment,2024-12-01,2024-12-27,26,307535.2,EMP0458,Completed,ST016,Parts replaced
+MNT00851,TR0049,Safety Audit,2023-01-02,2023-01-06,4,179741.59,EMP0113,Completed,ST005,Critical issue found
+MNT00852,TR0135,Electrical Check,2023-02-27,2023-03-14,15,485997.06,EMP0176,Scheduled,ST058,Awaiting spare parts
+MNT00853,TR0023,Engine Overhaul,2023-06-27,2023-07-01,4,42232.9,EMP0027,Completed,ST004,Parts replaced
+MNT00854,TR0023,Scheduled Service,2023-05-16,2023-06-14,29,46794.05,EMP0476,Completed,ST025,Parts replaced
+MNT00855,TR0193,AC Servicing,2023-11-23,2023-12-21,28,254202.59,EMP0125,Completed,ST015,Critical issue found
+MNT00856,TR0143,Wheel Replacement,2023-05-20,2023-06-17,28,262068.56,EMP0202,Completed,ST066,All systems OK
+MNT00857,TR0186,Safety Audit,2023-03-19,2023-04-02,14,32409.78,EMP0269,Completed,ST040,Routine check completed
+MNT00858,TR0130,Interior Refurbishment,2023-09-08,2023-09-22,14,396695.82,EMP0316,Completed,ST044,Parts replaced
+MNT00859,TR0147,Brake Inspection,2023-07-08,2023-07-23,15,279262.42,EMP0132,Completed,ST061,All systems OK
+MNT00860,TR0108,Wheel Replacement,2023-09-13,2023-10-09,26,185723.26,EMP0140,In Progress,ST067,Routine check completed
+MNT00861,TR0115,Interior Refurbishment,2024-04-22,2024-04-26,4,410879.08,EMP0050,Completed,ST044,All systems OK
+MNT00862,TR0114,AC Servicing,2024-08-29,2024-09-22,24,200373.16,EMP0467,Completed,ST054,Parts replaced
+MNT00863,TR0030,Signaling Equipment,2024-01-01,2024-01-22,21,150415.6,EMP0225,Completed,ST015,Routine check completed
+MNT00864,TR0164,Pantry Car Cleaning,2024-03-29,2024-04-14,16,418434.63,EMP0402,Completed,ST063,Awaiting spare parts
+MNT00865,TR0010,Safety Audit,2023-09-13,2023-09-26,13,208090.56,EMP0464,In Progress,ST055,Critical issue found
+MNT00866,TR0081,Safety Audit,2023-02-06,2023-02-19,13,22545.85,EMP0407,In Progress,ST042,Critical issue found
+MNT00867,TR0131,Brake Inspection,2024-05-23,2024-06-09,17,31604.57,EMP0456,Completed,ST059,Awaiting spare parts
+MNT00868,TR0161,Pantry Car Cleaning,2024-08-27,2024-09-21,25,179869.02,EMP0088,Scheduled,ST007,Parts replaced
+MNT00869,TR0151,Scheduled Service,2023-06-30,2023-07-08,8,90369.27,EMP0155,Completed,ST056,Critical issue found
+MNT00870,TR0199,Pantry Car Cleaning,2024-08-28,2024-09-21,24,307592.25,EMP0472,Completed,ST057,Parts replaced
+MNT00871,TR0053,Interior Refurbishment,2024-08-13,2024-09-08,26,467154.09,EMP0128,Completed,ST041,Critical issue found
+MNT00872,TR0114,Pantry Car Cleaning,2023-11-13,2023-12-05,22,474099.01,EMP0404,Completed,ST023,All systems OK
+MNT00873,TR0158,Wheel Replacement,2024-09-13,2024-09-19,6,286707.76,EMP0287,Completed,ST038,All systems OK
+MNT00874,TR0194,Signaling Equipment,2023-01-01,2023-01-11,10,129818.25,EMP0146,Completed,ST073,All systems OK
+MNT00875,TR0176,Engine Overhaul,2023-06-08,2023-06-21,13,49668.26,EMP0242,Completed,ST039,Critical issue found
+MNT00876,TR0121,Engine Overhaul,2023-09-24,2023-10-22,28,71387.14,EMP0483,Completed,ST049,All systems OK
+MNT00877,TR0030,Electrical Check,2023-04-28,2023-05-02,4,115301.52,EMP0108,Completed,ST062,Routine check completed
+MNT00878,TR0122,Interior Refurbishment,2023-04-18,2023-05-09,21,229655.65,EMP0447,Completed,ST016,All systems OK
+MNT00879,TR0098,Wheel Replacement,2023-02-06,2023-03-01,23,160101.77,EMP0065,Completed,ST045,Parts replaced
+MNT00880,TR0056,AC Servicing,2024-09-24,2024-09-30,6,111977.43,EMP0459,Completed,ST075,All systems OK
+MNT00881,TR0193,Brake Inspection,2023-05-11,2023-06-07,27,6809.99,EMP0304,Scheduled,ST033,Parts replaced
+MNT00882,TR0122,Scheduled Service,2023-07-25,2023-08-15,21,347605.35,EMP0087,Completed,ST004,Awaiting spare parts
+MNT00883,TR0149,Wheel Replacement,2024-10-28,2024-11-24,27,260026.71,EMP0321,In Progress,ST002,All systems OK
+MNT00884,TR0109,Signaling Equipment,2023-10-10,2023-10-28,18,259160.78,EMP0451,Completed,ST017,All systems OK
+MNT00885,TR0169,Interior Refurbishment,2024-03-07,2024-03-27,20,410031.64,EMP0283,Completed,ST059,Parts replaced
+MNT00886,TR0091,Brake Inspection,2024-02-04,2024-02-28,24,130107.86,EMP0474,Completed,ST038,Parts replaced
+MNT00887,TR0039,AC Servicing,2023-01-14,2023-02-02,19,449403.98,EMP0141,Completed,ST027,All systems OK
+MNT00888,TR0149,Scheduled Service,2023-01-27,2023-02-05,9,464011.03,EMP0277,Deferred,ST050,Critical issue found
+MNT00889,TR0095,Brake Inspection,2023-01-15,2023-01-25,10,336738.58,EMP0422,Scheduled,ST038,Critical issue found
+MNT00890,TR0175,Electrical Check,2023-12-17,2024-01-08,22,320471.08,EMP0096,Completed,ST046,Critical issue found
+MNT00891,TR0066,Wheel Replacement,2024-01-21,2024-02-13,23,34632.88,EMP0387,Completed,ST010,Parts replaced
+MNT00892,TR0064,Engine Overhaul,2024-01-17,2024-01-21,4,466037.8,EMP0282,Scheduled,ST064,Awaiting spare parts
+MNT00893,TR0096,Signaling Equipment,2023-11-04,2023-12-03,29,41660.34,EMP0478,Completed,ST010,All systems OK
+MNT00894,TR0058,Wheel Replacement,2024-08-17,2024-08-31,14,218598.05,EMP0463,Completed,ST021,Critical issue found
+MNT00895,TR0108,Signaling Equipment,2024-05-24,2024-06-07,14,47489.27,EMP0450,Completed,ST060,Critical issue found
+MNT00896,TR0015,Pantry Car Cleaning,2024-12-20,2025-01-10,21,60439.74,EMP0217,Completed,ST037,Critical issue found
+MNT00897,TR0167,Interior Refurbishment,2023-03-31,2023-04-26,26,464025.74,EMP0060,In Progress,ST037,All systems OK
+MNT00898,TR0195,Signaling Equipment,2024-08-17,2024-08-28,11,114568.33,EMP0050,Completed,ST073,Awaiting spare parts
+MNT00899,TR0168,Electrical Check,2023-11-06,2023-11-13,7,234651.36,EMP0268,Completed,ST072,Routine check completed
+MNT00900,TR0125,Brake Inspection,2024-07-04,2024-07-14,10,174829.6,EMP0090,Completed,ST003,Awaiting spare parts
+MNT00901,TR0094,Scheduled Service,2024-10-30,2024-11-26,27,230451.35,EMP0285,Deferred,ST075,Awaiting spare parts
+MNT00902,TR0061,Engine Overhaul,2023-07-24,2023-08-01,8,162174.16,EMP0372,Completed,ST044,Awaiting spare parts
+MNT00903,TR0001,Safety Audit,2024-08-07,2024-08-20,13,423749.26,EMP0351,Completed,ST060,Parts replaced
+MNT00904,TR0121,Brake Inspection,2023-08-10,2023-09-02,23,381710.65,EMP0393,Completed,ST068,Parts replaced
+MNT00905,TR0068,Wheel Replacement,2024-01-15,2024-02-03,19,47786.68,EMP0405,In Progress,ST062,Parts replaced
+MNT00906,TR0186,Signaling Equipment,2024-04-02,2024-04-29,27,229777.83,EMP0302,Completed,ST030,All systems OK
+MNT00907,TR0129,Pantry Car Cleaning,2023-05-30,2023-05-31,1,316335.17,EMP0165,Completed,ST051,Critical issue found
+MNT00908,TR0153,Electrical Check,2024-06-28,2024-07-16,18,201394.68,EMP0370,Completed,ST040,Critical issue found
+MNT00909,TR0174,Brake Inspection,2024-10-30,2024-11-27,28,194941.59,EMP0419,Completed,ST074,Routine check completed
+MNT00910,TR0049,Safety Audit,2023-03-19,2023-03-22,3,28782.19,EMP0096,Scheduled,ST010,All systems OK
+MNT00911,TR0099,Wheel Replacement,2024-06-12,2024-07-06,24,209620.43,EMP0194,Cancelled,ST006,All systems OK
+MNT00912,TR0052,Wheel Replacement,2024-10-21,2024-10-29,8,247276.63,EMP0022,In Progress,ST065,Critical issue found
+MNT00913,TR0018,Wheel Replacement,2023-11-28,2023-12-07,9,441689.16,EMP0181,Completed,ST022,Awaiting spare parts
+MNT00914,TR0167,Interior Refurbishment,2024-10-10,2024-11-05,26,13124.06,EMP0206,In Progress,ST046,Parts replaced
+MNT00915,TR0143,Signaling Equipment,2024-03-08,2024-03-29,21,484544.87,EMP0197,Scheduled,ST038,Awaiting spare parts
+MNT00916,TR0106,Electrical Check,2024-02-29,2024-03-05,5,59232.36,EMP0296,In Progress,ST070,Routine check completed
+MNT00917,TR0171,Wheel Replacement,2024-01-24,2024-02-03,10,331161.78,EMP0150,Completed,ST045,Awaiting spare parts
+MNT00918,TR0045,Safety Audit,2023-03-09,2023-03-30,21,278200.85,EMP0191,Completed,ST015,Critical issue found
+MNT00919,TR0112,Safety Audit,2024-09-27,2024-09-29,2,29427.06,EMP0297,Completed,ST032,Parts replaced
+MNT00920,TR0040,Pantry Car Cleaning,2024-12-11,2025-01-05,25,165655.04,EMP0118,Deferred,ST052,Parts replaced
+MNT00921,TR0163,Interior Refurbishment,2023-10-20,2023-10-26,6,43605.83,EMP0025,Deferred,ST055,Critical issue found
+MNT00922,TR0148,Scheduled Service,2023-02-02,2023-02-10,8,495163.09,EMP0326,Cancelled,ST010,Parts replaced
+MNT00923,TR0056,Engine Overhaul,2023-08-09,2023-08-23,14,240160.45,EMP0339,In Progress,ST071,Routine check completed
+MNT00924,TR0135,Pantry Car Cleaning,2024-10-27,2024-11-21,25,183470.41,EMP0390,Completed,ST040,Routine check completed
+MNT00925,TR0135,AC Servicing,2023-05-13,2023-05-29,16,287172.49,EMP0471,Completed,ST007,Critical issue found
+MNT00926,TR0167,AC Servicing,2024-11-16,2024-12-07,21,351708.53,EMP0150,In Progress,ST032,Awaiting spare parts
+MNT00927,TR0054,Scheduled Service,2024-11-21,2024-12-11,20,232782.87,EMP0100,In Progress,ST026,Parts replaced
+MNT00928,TR0137,Interior Refurbishment,2023-02-14,2023-02-22,8,326240.94,EMP0054,Cancelled,ST042,Awaiting spare parts
+MNT00929,TR0116,Signaling Equipment,2023-02-23,2023-03-12,17,490567.93,EMP0458,Completed,ST028,Parts replaced
+MNT00930,TR0173,Interior Refurbishment,2023-03-25,2023-04-02,8,257162.97,EMP0452,In Progress,ST063,Parts replaced
+MNT00931,TR0105,Interior Refurbishment,2024-06-09,2024-07-09,30,446366.3,EMP0353,Deferred,ST065,Awaiting spare parts
+MNT00932,TR0006,Safety Audit,2024-08-13,2024-08-26,13,238757.6,EMP0314,Completed,ST054,Awaiting spare parts
+MNT00933,TR0039,Interior Refurbishment,2023-11-29,2023-12-08,9,282035.71,EMP0395,Completed,ST034,All systems OK
+MNT00934,TR0182,Brake Inspection,2024-06-23,2024-06-27,4,33232.2,EMP0247,Completed,ST069,Awaiting spare parts
+MNT00935,TR0062,Brake Inspection,2024-01-25,2024-02-02,8,491765.14,EMP0120,Completed,ST033,All systems OK
+MNT00936,TR0001,Electrical Check,2024-12-21,2025-01-17,27,26008.68,EMP0425,Completed,ST053,Routine check completed
+MNT00937,TR0197,Wheel Replacement,2024-05-15,2024-06-09,25,160246.8,EMP0108,Completed,ST069,All systems OK
+MNT00938,TR0101,Scheduled Service,2023-05-16,2023-06-04,19,271184.04,EMP0236,Completed,ST062,Awaiting spare parts
+MNT00939,TR0044,Electrical Check,2024-09-17,2024-10-14,27,130307.91,EMP0369,Completed,ST070,Critical issue found
+MNT00940,TR0143,Electrical Check,2023-08-24,2023-09-07,14,364973.4,EMP0120,Completed,ST072,Critical issue found
+MNT00941,TR0158,Scheduled Service,2024-09-29,2024-10-18,19,111952.15,EMP0150,Cancelled,ST067,Parts replaced
+MNT00942,TR0109,Pantry Car Cleaning,2023-05-09,2023-05-10,1,305565.21,EMP0198,Completed,ST007,All systems OK
+MNT00943,TR0147,Wheel Replacement,2024-04-09,2024-04-17,8,406469.65,EMP0007,Completed,ST053,Awaiting spare parts
+MNT00944,TR0055,Engine Overhaul,2023-06-14,2023-06-22,8,276038.88,EMP0150,Completed,ST014,All systems OK
+MNT00945,TR0002,Electrical Check,2023-03-27,2023-04-15,19,179305.33,EMP0205,Completed,ST013,All systems OK
+MNT00946,TR0094,Interior Refurbishment,2023-08-04,2023-08-06,2,496046.2,EMP0442,Completed,ST056,Awaiting spare parts
+MNT00947,TR0159,Wheel Replacement,2024-02-09,2024-02-19,10,86854.31,EMP0143,Completed,ST003,Critical issue found
+MNT00948,TR0157,Brake Inspection,2023-04-13,2023-05-02,19,285995.76,EMP0073,Completed,ST033,All systems OK
+MNT00949,TR0054,Scheduled Service,2024-08-26,2024-09-12,17,497862,EMP0066,Completed,ST016,Awaiting spare parts
+MNT00950,TR0180,Pantry Car Cleaning,2023-07-03,2023-07-31,28,147143.82,EMP0373,Cancelled,ST014,Awaiting spare parts
+MNT00951,TR0003,Safety Audit,2023-06-05,2023-06-13,8,366643.98,EMP0137,Scheduled,ST017,Routine check completed
+MNT00952,TR0126,Signaling Equipment,2023-01-24,2023-02-22,29,21229.59,EMP0363,Completed,ST050,Parts replaced
+MNT00953,TR0048,Scheduled Service,2023-09-26,2023-10-13,17,35316.8,EMP0263,Completed,ST073,Parts replaced
+MNT00954,TR0151,Pantry Car Cleaning,2024-07-11,2024-07-16,5,309405.96,EMP0453,Completed,ST033,Critical issue found
+MNT00955,TR0112,Safety Audit,2024-11-30,2024-12-18,18,446786.64,EMP0235,In Progress,ST037,Critical issue found
+MNT00956,TR0198,Wheel Replacement,2024-05-08,2024-05-09,1,284550.64,EMP0202,In Progress,ST007,Critical issue found
+MNT00957,TR0106,Electrical Check,2023-03-31,2023-04-07,7,252738.12,EMP0029,Completed,ST068,Critical issue found
+MNT00958,TR0056,Interior Refurbishment,2023-08-26,2023-09-23,28,409435.09,EMP0290,In Progress,ST041,All systems OK
+MNT00959,TR0090,Electrical Check,2024-03-30,2024-04-11,12,464353.75,EMP0380,Scheduled,ST020,Parts replaced
+MNT00960,TR0130,AC Servicing,2024-06-26,2024-07-12,16,481211.09,EMP0319,Scheduled,ST067,Routine check completed
+MNT00961,TR0051,Engine Overhaul,2024-10-22,2024-11-04,13,473544.35,EMP0452,Completed,ST006,Critical issue found
+MNT00962,TR0104,Signaling Equipment,2023-03-13,2023-03-30,17,201632.23,EMP0225,Completed,ST004,Awaiting spare parts
+MNT00963,TR0183,Scheduled Service,2023-12-06,2023-12-17,11,158755.13,EMP0228,Completed,ST027,All systems OK
+MNT00964,TR0131,Pantry Car Cleaning,2024-09-24,2024-09-26,2,213771.52,EMP0006,Completed,ST021,Routine check completed
+MNT00965,TR0067,Safety Audit,2024-10-27,2024-10-29,2,384583.85,EMP0084,Cancelled,ST035,Routine check completed
+MNT00966,TR0167,Safety Audit,2024-01-07,2024-01-09,2,342382.64,EMP0437,Completed,ST045,Critical issue found
+MNT00967,TR0043,Interior Refurbishment,2024-11-24,2024-12-08,14,86292.18,EMP0194,Completed,ST051,Critical issue found
+MNT00968,TR0012,Safety Audit,2023-05-22,2023-06-02,11,354420.92,EMP0435,In Progress,ST019,All systems OK
+MNT00969,TR0114,AC Servicing,2024-09-23,2024-10-03,10,56369.95,EMP0228,Completed,ST029,Parts replaced
+MNT00970,TR0063,Wheel Replacement,2023-05-25,2023-06-17,23,396717.94,EMP0074,Completed,ST061,Awaiting spare parts
+MNT00971,TR0103,Engine Overhaul,2023-02-14,2023-03-08,22,406637.99,EMP0320,Completed,ST066,Parts replaced
+MNT00972,TR0122,Electrical Check,2023-07-12,2023-07-24,12,471925.03,EMP0194,Scheduled,ST009,Critical issue found
+MNT00973,TR0143,Wheel Replacement,2024-10-14,2024-11-05,22,65026.22,EMP0069,In Progress,ST008,Awaiting spare parts
+MNT00974,TR0082,Signaling Equipment,2024-02-19,2024-03-18,28,294087.5,EMP0253,Completed,ST023,Critical issue found
+MNT00975,TR0090,Electrical Check,2023-03-18,2023-03-27,9,432489.03,EMP0096,In Progress,ST039,Awaiting spare parts
+MNT00976,TR0141,Signaling Equipment,2023-12-29,2024-01-08,10,391115.39,EMP0358,Cancelled,ST025,Awaiting spare parts
+MNT00977,TR0137,Signaling Equipment,2024-01-03,2024-01-26,23,374150.65,EMP0378,Completed,ST058,Parts replaced
+MNT00978,TR0007,AC Servicing,2024-05-07,2024-05-24,17,385233.95,EMP0420,Completed,ST057,Awaiting spare parts
+MNT00979,TR0093,Pantry Car Cleaning,2024-10-09,2024-11-03,25,437814.74,EMP0270,Scheduled,ST053,Routine check completed
+MNT00980,TR0094,Brake Inspection,2023-03-29,2023-04-27,29,116468.76,EMP0308,Completed,ST069,Parts replaced
+MNT00981,TR0059,Brake Inspection,2023-06-18,2023-07-14,26,327357.77,EMP0458,In Progress,ST065,Parts replaced
+MNT00982,TR0037,Signaling Equipment,2023-04-07,2023-04-19,12,138070.31,EMP0439,Completed,ST058,Parts replaced
+MNT00983,TR0003,Engine Overhaul,2023-11-08,2023-11-10,2,481566.95,EMP0370,Completed,ST070,Routine check completed
+MNT00984,TR0132,Electrical Check,2023-12-16,2024-01-11,26,219177.11,EMP0136,Completed,ST041,Critical issue found
+MNT00985,TR0044,Brake Inspection,2023-04-15,2023-04-20,5,439261.29,EMP0087,Completed,ST041,Critical issue found
+MNT00986,TR0200,Interior Refurbishment,2023-02-10,2023-02-26,16,339545.15,EMP0390,Scheduled,ST017,Routine check completed
+MNT00987,TR0056,Safety Audit,2024-05-10,2024-05-27,17,242638.3,EMP0033,Completed,ST061,Critical issue found
+MNT00988,TR0114,Scheduled Service,2024-11-04,2024-11-08,4,463630.58,EMP0256,Completed,ST043,Awaiting spare parts
+MNT00989,TR0106,AC Servicing,2024-04-20,2024-04-28,8,250796.86,EMP0203,Scheduled,ST053,All systems OK
+MNT00990,TR0043,Signaling Equipment,2024-08-02,2024-08-18,16,220463.57,EMP0422,Completed,ST029,Parts replaced
+MNT00991,TR0063,Signaling Equipment,2024-07-22,2024-08-12,21,266538.59,EMP0468,Completed,ST026,Routine check completed
+MNT00992,TR0110,Brake Inspection,2024-02-02,2024-02-03,1,248457.19,EMP0197,Scheduled,ST037,Awaiting spare parts
+MNT00993,TR0071,Safety Audit,2024-03-26,2024-04-22,27,239116.34,EMP0059,Completed,ST073,Parts replaced
+MNT00994,TR0110,Signaling Equipment,2024-10-30,2024-11-08,9,313579.9,EMP0151,Completed,ST033,Parts replaced
+MNT00995,TR0180,Brake Inspection,2024-06-25,2024-07-19,24,251230.45,EMP0242,Completed,ST020,Awaiting spare parts
+MNT00996,TR0012,AC Servicing,2023-09-27,2023-10-23,26,197892.52,EMP0038,Completed,ST073,Routine check completed
+MNT00997,TR0156,Interior Refurbishment,2023-03-24,2023-04-03,10,243999.1,EMP0396,In Progress,ST071,Parts replaced
+MNT00998,TR0104,Signaling Equipment,2023-03-13,2023-03-27,14,208833.89,EMP0300,Completed,ST053,Routine check completed
+MNT00999,TR0159,Pantry Car Cleaning,2024-02-29,2024-03-03,3,438067.17,EMP0370,Completed,ST073,Parts replaced
+MNT01000,TR0189,Electrical Check,2024-02-07,2024-02-29,22,48229.43,EMP0024,Scheduled,ST037,All systems OK
+MNT01001,TR0186,AC Servicing,2023-01-20,2023-02-12,23,55479.08,EMP0287,Completed,ST041,Routine check completed
+MNT01002,TR0184,Signaling Equipment,2024-05-18,2024-06-09,22,326611.04,EMP0072,Completed,ST034,Parts replaced
+MNT01003,TR0155,Scheduled Service,2024-06-14,2024-07-10,26,206608.61,EMP0498,Completed,ST066,All systems OK
+MNT01004,TR0141,Brake Inspection,2023-10-13,2023-10-14,1,314725.8,EMP0394,Scheduled,ST035,Parts replaced
+MNT01005,TR0111,Engine Overhaul,2023-07-06,2023-07-24,18,277873.42,EMP0235,Completed,ST017,Awaiting spare parts
+MNT01006,TR0062,Scheduled Service,2024-10-24,2024-11-04,11,449222.94,EMP0157,Completed,ST070,Awaiting spare parts
+MNT01007,TR0180,Wheel Replacement,2024-04-14,2024-05-09,25,7301.34,EMP0265,Completed,ST068,Parts replaced
+MNT01008,TR0038,Interior Refurbishment,2024-09-17,2024-09-21,4,35972.98,EMP0236,Scheduled,ST063,Awaiting spare parts
+MNT01009,TR0067,Electrical Check,2023-04-17,2023-04-22,5,18647.92,EMP0232,Deferred,ST057,Parts replaced
+MNT01010,TR0006,Brake Inspection,2024-08-05,2024-08-09,4,12910.99,EMP0260,In Progress,ST023,Parts replaced
+MNT01011,TR0149,AC Servicing,2024-12-17,2024-12-21,4,15962.7,EMP0082,In Progress,ST019,Critical issue found
+MNT01012,TR0001,Wheel Replacement,2023-11-08,2023-11-18,10,324558.01,EMP0406,In Progress,ST005,All systems OK
+MNT01013,TR0058,Electrical Check,2023-12-03,2023-12-05,2,487269.91,EMP0109,Completed,ST066,Awaiting spare parts
+MNT01014,TR0143,Safety Audit,2024-06-20,2024-07-02,12,129668.37,EMP0348,Completed,ST031,Routine check completed
+MNT01015,TR0119,Interior Refurbishment,2023-06-30,2023-07-14,14,259529.81,EMP0106,Completed,ST005,Critical issue found
+MNT01016,TR0013,Signaling Equipment,2024-02-26,2024-02-28,2,380391.12,EMP0314,Completed,ST005,All systems OK
+MNT01017,TR0063,Wheel Replacement,2023-07-19,2023-07-21,2,413895.45,EMP0183,Scheduled,ST027,Awaiting spare parts
+MNT01018,TR0110,AC Servicing,2023-10-27,2023-11-12,16,275989.24,EMP0070,Completed,ST013,Routine check completed
+MNT01019,TR0142,AC Servicing,2024-09-28,2024-10-15,17,472379.6,EMP0395,Completed,ST044,All systems OK
+MNT01020,TR0144,Interior Refurbishment,2023-10-19,2023-10-31,12,370663.62,EMP0019,Completed,ST062,All systems OK
+MNT01021,TR0116,Safety Audit,2023-04-18,2023-05-16,28,316626.62,EMP0496,Deferred,ST070,Parts replaced
+MNT01022,TR0031,AC Servicing,2024-05-12,2024-05-20,8,421502.43,EMP0335,Deferred,ST058,All systems OK
+MNT01023,TR0101,Signaling Equipment,2024-02-09,2024-03-03,23,388076.18,EMP0431,Completed,ST048,Routine check completed
+MNT01024,TR0156,AC Servicing,2024-04-30,2024-05-17,17,82521.74,EMP0013,Cancelled,ST016,Awaiting spare parts
+MNT01025,TR0188,Interior Refurbishment,2023-01-20,2023-01-28,8,421023.55,EMP0463,Scheduled,ST026,Parts replaced
+MNT01026,TR0045,Pantry Car Cleaning,2023-09-24,2023-09-29,5,481129.37,EMP0390,Completed,ST058,Parts replaced
+MNT01027,TR0130,Scheduled Service,2024-07-06,2024-07-26,20,324410.26,EMP0334,Completed,ST024,Awaiting spare parts
+MNT01028,TR0050,Scheduled Service,2023-03-31,2023-04-23,23,259225.03,EMP0157,Deferred,ST057,Routine check completed
+MNT01029,TR0166,Signaling Equipment,2023-05-18,2023-05-21,3,495644.06,EMP0153,Completed,ST052,Parts replaced
+MNT01030,TR0127,Safety Audit,2023-05-11,2023-05-12,1,22712.48,EMP0245,In Progress,ST002,Parts replaced
+MNT01031,TR0029,Pantry Car Cleaning,2024-07-04,2024-07-07,3,332682.27,EMP0302,In Progress,ST069,Awaiting spare parts
+MNT01032,TR0197,AC Servicing,2023-11-19,2023-12-17,28,207695.95,EMP0500,Completed,ST001,Critical issue found
+MNT01033,TR0132,Pantry Car Cleaning,2024-02-04,2024-02-20,16,118877.17,EMP0342,In Progress,ST017,Awaiting spare parts
+MNT01034,TR0009,Safety Audit,2023-03-31,2023-04-02,2,438636.38,EMP0200,In Progress,ST029,Critical issue found
+MNT01035,TR0112,Interior Refurbishment,2023-04-16,2023-05-16,30,441393.62,EMP0074,Completed,ST024,Routine check completed
+MNT01036,TR0154,Pantry Car Cleaning,2023-02-26,2023-03-23,25,283324.29,EMP0124,Completed,ST029,All systems OK
+MNT01037,TR0089,Wheel Replacement,2023-08-07,2023-08-28,21,448636.26,EMP0424,Scheduled,ST017,Routine check completed
+MNT01038,TR0045,Electrical Check,2023-02-04,2023-02-18,14,336228.17,EMP0253,Completed,ST004,Awaiting spare parts
+MNT01039,TR0038,Pantry Car Cleaning,2023-05-22,2023-06-05,14,113699.27,EMP0492,Completed,ST032,Critical issue found
+MNT01040,TR0098,Scheduled Service,2024-10-08,2024-11-04,27,233300.03,EMP0031,Scheduled,ST054,Parts replaced
+MNT01041,TR0143,Engine Overhaul,2023-03-30,2023-04-03,4,415733.63,EMP0296,Completed,ST072,Awaiting spare parts
+MNT01042,TR0059,Scheduled Service,2023-11-17,2023-11-21,4,66432.67,EMP0181,Completed,ST017,Routine check completed
+MNT01043,TR0190,Wheel Replacement,2023-12-08,2023-12-29,21,319947.41,EMP0056,Cancelled,ST070,Parts replaced
+MNT01044,TR0136,AC Servicing,2024-12-24,2025-01-22,29,187016.14,EMP0184,In Progress,ST042,All systems OK
+MNT01045,TR0127,AC Servicing,2023-07-05,2023-07-14,9,143022.68,EMP0369,Completed,ST038,Parts replaced
+MNT01046,TR0176,Pantry Car Cleaning,2024-11-28,2024-12-06,8,447399.03,EMP0102,Deferred,ST047,Awaiting spare parts
+MNT01047,TR0009,Electrical Check,2024-03-18,2024-04-17,30,246355.69,EMP0039,Completed,ST049,Awaiting spare parts
+MNT01048,TR0135,Wheel Replacement,2024-06-13,2024-06-22,9,153101.74,EMP0022,Completed,ST071,Routine check completed
+MNT01049,TR0200,AC Servicing,2024-04-21,2024-05-07,16,395356.07,EMP0037,Completed,ST020,Awaiting spare parts
+MNT01050,TR0107,Signaling Equipment,2023-07-12,2023-08-02,21,238831.05,EMP0173,Completed,ST001,Critical issue found
+MNT01051,TR0081,Signaling Equipment,2024-08-27,2024-09-10,14,74806.03,EMP0137,Completed,ST005,All systems OK
+MNT01052,TR0071,Pantry Car Cleaning,2023-08-23,2023-09-07,15,122886.15,EMP0450,Completed,ST005,Parts replaced
+MNT01053,TR0184,Scheduled Service,2024-02-26,2024-03-26,29,223899.89,EMP0447,Scheduled,ST008,Awaiting spare parts
+MNT01054,TR0129,Engine Overhaul,2024-06-22,2024-07-02,10,79394.81,EMP0080,Completed,ST056,All systems OK
+MNT01055,TR0104,Brake Inspection,2024-02-26,2024-03-04,7,61479.62,EMP0401,Completed,ST060,Critical issue found
+MNT01056,TR0096,Scheduled Service,2023-05-07,2023-05-19,12,484976.62,EMP0057,Completed,ST058,Awaiting spare parts
+MNT01057,TR0043,Electrical Check,2023-06-30,2023-07-28,28,404064.57,EMP0395,Completed,ST039,Critical issue found
+MNT01058,TR0103,Pantry Car Cleaning,2024-06-08,2024-06-10,2,358785.93,EMP0159,Deferred,ST053,All systems OK
+MNT01059,TR0030,Wheel Replacement,2024-09-13,2024-10-04,21,272986.08,EMP0397,Completed,ST025,Parts replaced
+MNT01060,TR0166,Pantry Car Cleaning,2023-05-16,2023-05-30,14,280082.98,EMP0237,Completed,ST051,Awaiting spare parts
+MNT01061,TR0049,Signaling Equipment,2023-10-18,2023-10-20,2,131703.11,EMP0255,Cancelled,ST020,Parts replaced
+MNT01062,TR0058,Wheel Replacement,2024-10-21,2024-11-02,12,132698.13,EMP0049,Completed,ST027,Awaiting spare parts
+MNT01063,TR0192,Brake Inspection,2023-07-15,2023-08-06,22,493679.5,EMP0110,Scheduled,ST031,Critical issue found
+MNT01064,TR0055,Brake Inspection,2024-02-26,2024-03-26,29,210577.88,EMP0304,Scheduled,ST056,Routine check completed
+MNT01065,TR0129,AC Servicing,2024-10-08,2024-10-22,14,348144.62,EMP0386,Scheduled,ST029,Critical issue found
+MNT01066,TR0153,Electrical Check,2023-12-30,2024-01-15,16,69585.35,EMP0409,Completed,ST035,Critical issue found
+MNT01067,TR0188,Interior Refurbishment,2024-02-23,2024-03-23,29,486747.87,EMP0160,Cancelled,ST054,Awaiting spare parts
+MNT01068,TR0196,Interior Refurbishment,2024-01-30,2024-02-08,9,475381.52,EMP0297,In Progress,ST020,Critical issue found
+MNT01069,TR0197,Wheel Replacement,2023-08-09,2023-08-26,17,87046.24,EMP0387,Completed,ST044,All systems OK
+MNT01070,TR0009,Signaling Equipment,2023-11-19,2023-11-24,5,156611.39,EMP0010,Scheduled,ST035,All systems OK
+MNT01071,TR0181,Safety Audit,2023-01-11,2023-01-19,8,493175.61,EMP0342,Scheduled,ST046,Parts replaced
+MNT01072,TR0052,AC Servicing,2023-01-01,2023-01-31,30,418536.72,EMP0059,Completed,ST013,All systems OK
+MNT01073,TR0007,AC Servicing,2023-04-10,2023-04-11,1,412994.01,EMP0141,Scheduled,ST074,All systems OK
+MNT01074,TR0082,Engine Overhaul,2023-01-06,2023-02-05,30,365527.5,EMP0220,Completed,ST006,Routine check completed
+MNT01075,TR0068,Wheel Replacement,2023-04-27,2023-05-14,17,465991.45,EMP0384,Completed,ST063,Critical issue found
+MNT01076,TR0052,Signaling Equipment,2024-04-19,2024-05-01,12,93267.42,EMP0032,Completed,ST024,Awaiting spare parts
+MNT01077,TR0069,Safety Audit,2023-07-05,2023-07-21,16,124704.4,EMP0322,Deferred,ST002,All systems OK
+MNT01078,TR0048,Interior Refurbishment,2023-09-13,2023-10-10,27,19605.22,EMP0085,Completed,ST019,All systems OK
+MNT01079,TR0199,Safety Audit,2023-01-08,2023-01-15,7,244112.96,EMP0263,Completed,ST056,Awaiting spare parts
+MNT01080,TR0017,Electrical Check,2023-02-10,2023-03-06,24,446601.99,EMP0174,Scheduled,ST048,Routine check completed
+MNT01081,TR0199,Wheel Replacement,2023-04-03,2023-04-04,1,89764.57,EMP0090,In Progress,ST057,Parts replaced
+MNT01082,TR0062,AC Servicing,2023-09-10,2023-09-20,10,354454.32,EMP0322,Completed,ST075,Awaiting spare parts
+MNT01083,TR0172,AC Servicing,2024-08-03,2024-08-08,5,358412.41,EMP0469,Scheduled,ST058,Critical issue found
+MNT01084,TR0031,Electrical Check,2024-08-26,2024-09-09,14,107474.55,EMP0456,Completed,ST024,Critical issue found
+MNT01085,TR0115,Electrical Check,2023-07-17,2023-07-27,10,272284.19,EMP0408,Completed,ST037,Routine check completed
+MNT01086,TR0184,Signaling Equipment,2023-05-20,2023-05-30,10,33538.51,EMP0433,Completed,ST069,Critical issue found
+MNT01087,TR0037,Pantry Car Cleaning,2024-04-07,2024-04-14,7,117747.39,EMP0427,Completed,ST062,Critical issue found
+MNT01088,TR0182,Electrical Check,2023-04-24,2023-04-28,4,98131.48,EMP0437,Completed,ST070,Awaiting spare parts
+MNT01089,TR0070,Wheel Replacement,2023-11-21,2023-12-06,15,289141.26,EMP0145,Completed,ST010,Routine check completed
+MNT01090,TR0187,Engine Overhaul,2023-12-27,2024-01-11,15,320495.21,EMP0238,Completed,ST016,Awaiting spare parts
+MNT01091,TR0127,Pantry Car Cleaning,2023-03-27,2023-04-06,10,474746.56,EMP0163,In Progress,ST069,Awaiting spare parts
+MNT01092,TR0121,AC Servicing,2023-09-08,2023-09-15,7,8913.11,EMP0332,Completed,ST019,Critical issue found
+MNT01093,TR0153,Pantry Car Cleaning,2024-03-26,2024-04-10,15,132629.5,EMP0128,Completed,ST023,Routine check completed
+MNT01094,TR0191,Signaling Equipment,2024-04-05,2024-04-13,8,291772.7,EMP0434,Scheduled,ST063,Critical issue found
+MNT01095,TR0136,Interior Refurbishment,2024-02-03,2024-02-18,15,296963.38,EMP0098,Completed,ST057,All systems OK
+MNT01096,TR0087,Electrical Check,2024-07-19,2024-08-09,21,399831.4,EMP0325,Completed,ST061,All systems OK
+MNT01097,TR0105,Wheel Replacement,2023-05-20,2023-05-23,3,432737.19,EMP0187,Completed,ST046,Parts replaced
+MNT01098,TR0111,Brake Inspection,2023-03-05,2023-03-31,26,380830.61,EMP0274,Completed,ST016,All systems OK
+MNT01099,TR0042,AC Servicing,2023-06-23,2023-07-19,26,110792.53,EMP0308,Completed,ST035,Awaiting spare parts
+MNT01100,TR0145,Engine Overhaul,2023-11-27,2023-12-13,16,379477.07,EMP0416,Completed,ST053,Parts replaced
+MNT01101,TR0148,Electrical Check,2023-11-28,2023-12-04,6,88519.76,EMP0460,Completed,ST057,Critical issue found
+MNT01102,TR0077,Scheduled Service,2024-06-26,2024-07-23,27,366421.02,EMP0008,Completed,ST047,All systems OK
+MNT01103,TR0049,AC Servicing,2024-05-15,2024-05-17,2,369571.13,EMP0157,Deferred,ST028,Critical issue found
+MNT01104,TR0100,Pantry Car Cleaning,2024-04-22,2024-04-25,3,402764.89,EMP0355,Scheduled,ST029,Parts replaced
+MNT01105,TR0028,Safety Audit,2024-07-12,2024-08-05,24,69257.84,EMP0123,Completed,ST070,Awaiting spare parts
+MNT01106,TR0027,Pantry Car Cleaning,2024-05-31,2024-06-13,13,342229.17,EMP0254,Cancelled,ST009,Critical issue found
+MNT01107,TR0139,Wheel Replacement,2023-12-23,2024-01-12,20,255009.1,EMP0449,Completed,ST063,All systems OK
+MNT01108,TR0112,Pantry Car Cleaning,2023-12-12,2024-01-08,27,207919.32,EMP0102,Completed,ST043,All systems OK
+MNT01109,TR0027,Engine Overhaul,2024-09-06,2024-09-27,21,232625.85,EMP0265,Completed,ST034,Parts replaced
+MNT01110,TR0047,Wheel Replacement,2023-09-25,2023-10-18,23,100705.98,EMP0107,In Progress,ST035,Routine check completed
+MNT01111,TR0191,Engine Overhaul,2024-01-02,2024-02-01,30,489860.99,EMP0224,Completed,ST061,Awaiting spare parts
+MNT01112,TR0068,Signaling Equipment,2023-10-01,2023-10-19,18,297922.6,EMP0019,In Progress,ST021,Awaiting spare parts
+MNT01113,TR0057,Pantry Car Cleaning,2023-09-07,2023-09-22,15,234516.54,EMP0493,Scheduled,ST025,Critical issue found
+MNT01114,TR0054,Safety Audit,2023-09-07,2023-09-27,20,385189.06,EMP0372,Completed,ST004,Critical issue found
+MNT01115,TR0157,Pantry Car Cleaning,2024-08-25,2024-09-17,23,336750.48,EMP0364,Completed,ST047,Critical issue found
+MNT01116,TR0007,Signaling Equipment,2023-06-03,2023-07-02,29,12280.72,EMP0206,Completed,ST060,Awaiting spare parts
+MNT01117,TR0024,AC Servicing,2023-08-26,2023-09-19,24,167156.75,EMP0045,Scheduled,ST024,Awaiting spare parts
+MNT01118,TR0112,Signaling Equipment,2023-01-03,2023-01-14,11,181961.56,EMP0350,Completed,ST021,Parts replaced
+MNT01119,TR0152,Wheel Replacement,2023-11-11,2023-12-04,23,236751.84,EMP0192,Scheduled,ST060,Critical issue found
+MNT01120,TR0102,Pantry Car Cleaning,2024-05-06,2024-06-05,30,33600.51,EMP0213,Completed,ST065,Routine check completed
+MNT01121,TR0161,Interior Refurbishment,2024-07-07,2024-08-03,27,276095.38,EMP0388,Completed,ST068,Critical issue found
+MNT01122,TR0154,AC Servicing,2024-05-20,2024-06-09,20,158897.68,EMP0415,Completed,ST065,Routine check completed
+MNT01123,TR0089,Interior Refurbishment,2024-04-16,2024-05-10,24,51566.92,EMP0434,Completed,ST031,All systems OK
+MNT01124,TR0032,Wheel Replacement,2023-06-06,2023-06-14,8,162684.44,EMP0132,Scheduled,ST065,Critical issue found
+MNT01125,TR0183,Interior Refurbishment,2024-12-29,2025-01-25,27,475844.74,EMP0318,Completed,ST063,All systems OK
+MNT01126,TR0032,Signaling Equipment,2024-02-02,2024-03-03,30,485580.08,EMP0223,Completed,ST002,Awaiting spare parts
+MNT01127,TR0167,Safety Audit,2024-06-09,2024-06-23,14,352410.41,EMP0278,In Progress,ST064,All systems OK
+MNT01128,TR0104,Brake Inspection,2024-06-28,2024-07-08,10,313746.13,EMP0409,In Progress,ST005,Critical issue found
+MNT01129,TR0050,Scheduled Service,2024-03-21,2024-04-13,23,278814.7,EMP0419,Scheduled,ST035,Critical issue found
+MNT01130,TR0073,Electrical Check,2024-12-03,2024-12-13,10,110121.63,EMP0129,Cancelled,ST029,Critical issue found
+MNT01131,TR0153,Engine Overhaul,2024-08-23,2024-09-10,18,318984.04,EMP0143,Completed,ST007,All systems OK
+MNT01132,TR0067,Wheel Replacement,2023-10-26,2023-11-18,23,315983.13,EMP0453,Scheduled,ST016,Parts replaced
+MNT01133,TR0027,Electrical Check,2023-12-25,2024-01-17,23,35609.43,EMP0432,In Progress,ST033,Parts replaced
+MNT01134,TR0193,Signaling Equipment,2023-05-04,2023-06-01,28,458646.83,EMP0099,Completed,ST060,Awaiting spare parts
+MNT01135,TR0051,Electrical Check,2024-09-27,2024-09-29,2,107280.64,EMP0276,Completed,ST030,Routine check completed
+MNT01136,TR0038,AC Servicing,2024-06-23,2024-07-06,13,306127.99,EMP0136,Completed,ST073,Routine check completed
+MNT01137,TR0065,Signaling Equipment,2023-12-20,2023-12-29,9,120745.09,EMP0187,Scheduled,ST035,Awaiting spare parts
+MNT01138,TR0038,Interior Refurbishment,2024-03-09,2024-03-17,8,24101.44,EMP0195,In Progress,ST019,Critical issue found
+MNT01139,TR0045,Interior Refurbishment,2023-10-27,2023-11-09,13,495602.86,EMP0471,Completed,ST010,Parts replaced
+MNT01140,TR0058,Signaling Equipment,2024-03-09,2024-03-18,9,423981.16,EMP0057,In Progress,ST020,Routine check completed
+MNT01141,TR0040,Brake Inspection,2023-01-28,2023-02-03,6,371643.13,EMP0007,Scheduled,ST043,Awaiting spare parts
+MNT01142,TR0032,AC Servicing,2023-05-15,2023-05-16,1,411424.34,EMP0333,Completed,ST016,Routine check completed
+MNT01143,TR0010,Engine Overhaul,2023-07-29,2023-08-03,5,427220.58,EMP0407,In Progress,ST063,All systems OK
+MNT01144,TR0063,AC Servicing,2023-11-25,2023-12-07,12,440148.92,EMP0236,In Progress,ST071,Parts replaced
+MNT01145,TR0163,Scheduled Service,2024-02-16,2024-03-16,29,35254.02,EMP0232,Scheduled,ST026,Awaiting spare parts
+MNT01146,TR0166,Safety Audit,2024-11-06,2024-11-09,3,242704.56,EMP0048,Completed,ST064,All systems OK
+MNT01147,TR0022,Wheel Replacement,2024-10-06,2024-10-24,18,98000.09,EMP0052,Completed,ST006,Parts replaced
+MNT01148,TR0031,Safety Audit,2023-12-04,2023-12-20,16,15881.43,EMP0113,Scheduled,ST069,Routine check completed
+MNT01149,TR0118,Pantry Car Cleaning,2023-07-07,2023-08-04,28,301464.06,EMP0370,In Progress,ST024,Parts replaced
+MNT01150,TR0047,Signaling Equipment,2024-08-29,2024-09-06,8,267893.36,EMP0205,Completed,ST066,Awaiting spare parts
+MNT01151,TR0154,Electrical Check,2023-09-22,2023-10-19,27,427103.17,EMP0117,Completed,ST030,Awaiting spare parts
+MNT01152,TR0134,Brake Inspection,2024-10-25,2024-11-12,18,199597.23,EMP0113,Completed,ST069,Parts replaced
+MNT01153,TR0029,Scheduled Service,2023-07-26,2023-08-22,27,178320.66,EMP0037,Scheduled,ST060,All systems OK
+MNT01154,TR0167,Safety Audit,2024-08-16,2024-08-28,12,342619.4,EMP0475,Completed,ST014,Awaiting spare parts
+MNT01155,TR0053,Scheduled Service,2024-03-16,2024-03-21,5,421677.45,EMP0230,Completed,ST046,Awaiting spare parts
+MNT01156,TR0161,Signaling Equipment,2023-03-17,2023-04-13,27,216146.16,EMP0076,Cancelled,ST069,Parts replaced
+MNT01157,TR0150,Electrical Check,2024-07-23,2024-08-10,18,435400.46,EMP0290,Completed,ST051,Routine check completed
+MNT01158,TR0048,Electrical Check,2024-05-30,2024-06-02,3,87410.53,EMP0180,Scheduled,ST067,Parts replaced
+MNT01159,TR0041,Brake Inspection,2023-07-01,2023-07-11,10,456870.94,EMP0244,In Progress,ST043,Routine check completed
+MNT01160,TR0066,Signaling Equipment,2024-08-23,2024-09-04,12,475186.5,EMP0370,In Progress,ST028,Awaiting spare parts
+MNT01161,TR0112,Wheel Replacement,2024-09-19,2024-09-25,6,220855.63,EMP0278,Scheduled,ST001,Awaiting spare parts
+MNT01162,TR0147,Wheel Replacement,2024-05-11,2024-06-10,30,171310.01,EMP0106,Completed,ST024,Critical issue found
+MNT01163,TR0139,Signaling Equipment,2023-01-20,2023-02-07,18,201828.06,EMP0391,Completed,ST060,Routine check completed
+MNT01164,TR0052,Safety Audit,2024-12-24,2025-01-10,17,157159.05,EMP0128,Scheduled,ST002,Routine check completed
+MNT01165,TR0037,Brake Inspection,2024-11-10,2024-11-13,3,438803.82,EMP0090,Deferred,ST058,Critical issue found
+MNT01166,TR0002,Interior Refurbishment,2024-01-25,2024-01-28,3,421759.97,EMP0471,Completed,ST022,All systems OK
+MNT01167,TR0112,Electrical Check,2023-07-16,2023-07-28,12,461405.39,EMP0192,Completed,ST022,All systems OK
+MNT01168,TR0078,Engine Overhaul,2024-11-20,2024-11-21,1,13918.36,EMP0250,Scheduled,ST069,Routine check completed
+MNT01169,TR0178,Interior Refurbishment,2024-12-12,2025-01-07,26,116070.29,EMP0237,Deferred,ST055,All systems OK
+MNT01170,TR0023,AC Servicing,2024-04-27,2024-05-17,20,433913.42,EMP0313,Completed,ST005,Awaiting spare parts
+MNT01171,TR0192,Electrical Check,2023-09-20,2023-10-15,25,476164.51,EMP0455,Scheduled,ST055,All systems OK
+MNT01172,TR0024,Safety Audit,2023-12-20,2024-01-02,13,25524.45,EMP0356,Completed,ST054,Parts replaced
+MNT01173,TR0075,Electrical Check,2023-10-24,2023-11-15,22,267843.68,EMP0035,Completed,ST075,All systems OK
+MNT01174,TR0129,Pantry Car Cleaning,2024-09-23,2024-09-29,6,280628.05,EMP0329,Completed,ST069,All systems OK
+MNT01175,TR0172,AC Servicing,2024-07-20,2024-07-23,3,491988.27,EMP0018,Scheduled,ST059,Awaiting spare parts
+MNT01176,TR0175,Signaling Equipment,2024-04-05,2024-04-30,25,234157.97,EMP0149,Completed,ST071,Critical issue found
+MNT01177,TR0166,Safety Audit,2024-03-30,2024-04-15,16,167848.25,EMP0067,Completed,ST054,Routine check completed
+MNT01178,TR0063,Wheel Replacement,2024-04-20,2024-05-08,18,30091.03,EMP0376,Deferred,ST002,Critical issue found
+MNT01179,TR0114,Wheel Replacement,2023-09-30,2023-10-02,2,53775.09,EMP0172,Completed,ST046,Critical issue found
+MNT01180,TR0090,Brake Inspection,2024-04-24,2024-05-10,16,386031.18,EMP0005,Scheduled,ST038,Awaiting spare parts
+MNT01181,TR0198,Signaling Equipment,2023-09-07,2023-09-30,23,146747.34,EMP0173,Completed,ST069,Awaiting spare parts
+MNT01182,TR0028,Electrical Check,2023-06-05,2023-06-07,2,87861.95,EMP0288,Completed,ST067,Critical issue found
+MNT01183,TR0039,Interior Refurbishment,2023-10-23,2023-10-30,7,249950.34,EMP0244,Completed,ST036,Critical issue found
+MNT01184,TR0025,Signaling Equipment,2023-12-13,2023-12-18,5,64275.62,EMP0394,Cancelled,ST039,Critical issue found
+MNT01185,TR0046,Wheel Replacement,2024-05-11,2024-05-26,15,17533.84,EMP0097,Completed,ST071,Awaiting spare parts
+MNT01186,TR0007,Electrical Check,2023-06-11,2023-06-28,17,433381.78,EMP0433,Deferred,ST022,All systems OK
+MNT01187,TR0056,AC Servicing,2023-08-15,2023-08-29,14,166518.96,EMP0005,Completed,ST015,Awaiting spare parts
+MNT01188,TR0127,Pantry Car Cleaning,2023-12-08,2023-12-09,1,202253.78,EMP0242,Completed,ST074,Awaiting spare parts
+MNT01189,TR0007,Electrical Check,2023-05-15,2023-05-23,8,20247.55,EMP0190,Completed,ST037,All systems OK
+MNT01190,TR0179,AC Servicing,2023-05-21,2023-06-13,23,375668.65,EMP0316,In Progress,ST023,Routine check completed
+MNT01191,TR0001,Signaling Equipment,2023-08-28,2023-09-19,22,329486.64,EMP0049,Cancelled,ST049,Critical issue found
+MNT01192,TR0154,Scheduled Service,2023-04-17,2023-05-12,25,425404.75,EMP0053,Completed,ST012,Critical issue found
+MNT01193,TR0109,Electrical Check,2023-03-02,2023-03-24,22,165705.9,EMP0235,Completed,ST037,Critical issue found
+MNT01194,TR0156,Electrical Check,2024-03-26,2024-04-22,27,132451.48,EMP0179,Completed,ST030,Routine check completed
+MNT01195,TR0181,Pantry Car Cleaning,2024-10-26,2024-11-09,14,189903.56,EMP0029,Completed,ST065,Awaiting spare parts
+MNT01196,TR0122,Electrical Check,2023-03-24,2023-04-05,12,447902.2,EMP0328,Completed,ST051,Parts replaced
+MNT01197,TR0093,Electrical Check,2023-12-02,2024-01-01,30,57488.38,EMP0247,Completed,ST045,Parts replaced
+MNT01198,TR0150,Brake Inspection,2023-09-23,2023-09-26,3,430707.19,EMP0031,In Progress,ST007,Awaiting spare parts
+MNT01199,TR0059,Signaling Equipment,2024-07-31,2024-08-10,10,184638.62,EMP0250,Completed,ST045,Routine check completed
+MNT01200,TR0122,AC Servicing,2024-06-21,2024-07-21,30,221766.11,EMP0018,Scheduled,ST064,Routine check completed
+MNT01201,TR0036,Brake Inspection,2024-08-15,2024-08-23,8,449813.99,EMP0132,Completed,ST042,Awaiting spare parts
+MNT01202,TR0062,Engine Overhaul,2024-07-15,2024-08-12,28,135167.64,EMP0035,Completed,ST066,Parts replaced
+MNT01203,TR0019,Engine Overhaul,2024-08-25,2024-09-09,15,50780.18,EMP0153,Completed,ST066,Awaiting spare parts
+MNT01204,TR0163,Brake Inspection,2024-10-01,2024-10-07,6,174521.25,EMP0338,In Progress,ST001,Parts replaced
+MNT01205,TR0158,Brake Inspection,2024-10-05,2024-10-20,15,366888.36,EMP0474,Completed,ST074,Parts replaced
+MNT01206,TR0117,Engine Overhaul,2023-04-06,2023-04-18,12,176724.13,EMP0192,Completed,ST053,Awaiting spare parts
+MNT01207,TR0199,Interior Refurbishment,2023-01-02,2023-01-06,4,136012.83,EMP0282,In Progress,ST008,Routine check completed
+MNT01208,TR0157,Electrical Check,2024-01-30,2024-02-16,17,271998.83,EMP0046,Deferred,ST014,Parts replaced
+MNT01209,TR0198,Electrical Check,2024-08-23,2024-09-03,11,486857.32,EMP0024,Completed,ST055,Routine check completed
+MNT01210,TR0053,Brake Inspection,2023-02-19,2023-03-19,28,85751.25,EMP0457,Completed,ST052,Awaiting spare parts
+MNT01211,TR0013,Scheduled Service,2024-04-30,2024-05-10,10,258290.63,EMP0301,In Progress,ST037,Critical issue found
+MNT01212,TR0067,Safety Audit,2023-06-11,2023-07-09,28,199622.88,EMP0272,Completed,ST067,Routine check completed
+MNT01213,TR0080,AC Servicing,2023-01-09,2023-02-06,28,438701.11,EMP0357,Completed,ST018,Critical issue found
+MNT01214,TR0089,Electrical Check,2023-10-30,2023-11-03,4,336604.92,EMP0279,Scheduled,ST055,Routine check completed
+MNT01215,TR0167,Safety Audit,2024-07-13,2024-08-10,28,200376.21,EMP0488,Completed,ST072,Awaiting spare parts
+MNT01216,TR0080,Wheel Replacement,2024-12-10,2024-12-12,2,430296.04,EMP0036,Completed,ST008,Awaiting spare parts
+MNT01217,TR0077,AC Servicing,2024-12-01,2024-12-04,3,160433.28,EMP0349,Cancelled,ST050,Critical issue found
+MNT01218,TR0095,Pantry Car Cleaning,2024-02-04,2024-02-07,3,269713.22,EMP0146,Completed,ST039,Critical issue found
+MNT01219,TR0172,Scheduled Service,2024-07-01,2024-07-21,20,156919.33,EMP0182,Completed,ST013,Parts replaced
+MNT01220,TR0200,Engine Overhaul,2023-03-17,2023-04-09,23,209452.31,EMP0335,Completed,ST026,Critical issue found
+MNT01221,TR0043,Interior Refurbishment,2024-06-09,2024-06-26,17,151416.53,EMP0215,Completed,ST035,Awaiting spare parts
+MNT01222,TR0144,Engine Overhaul,2023-02-02,2023-02-18,16,243677.7,EMP0414,In Progress,ST035,All systems OK
+MNT01223,TR0116,Signaling Equipment,2024-10-25,2024-11-06,12,130704.7,EMP0039,Completed,ST041,Parts replaced
+MNT01224,TR0134,Signaling Equipment,2023-12-15,2024-01-09,25,481255.72,EMP0152,Completed,ST003,Critical issue found
+MNT01225,TR0079,Scheduled Service,2024-02-28,2024-03-12,13,453671.04,EMP0490,In Progress,ST064,Awaiting spare parts
+MNT01226,TR0087,Scheduled Service,2024-08-27,2024-09-13,17,6430.79,EMP0254,Completed,ST010,Routine check completed
+MNT01227,TR0179,Interior Refurbishment,2023-10-07,2023-10-29,22,6127.42,EMP0046,Cancelled,ST015,Awaiting spare parts
+MNT01228,TR0027,Engine Overhaul,2024-12-30,2025-01-21,22,356220.84,EMP0158,Completed,ST007,Routine check completed
+MNT01229,TR0037,Scheduled Service,2024-09-05,2024-09-20,15,260113.09,EMP0480,Completed,ST023,Routine check completed
+MNT01230,TR0129,Safety Audit,2024-11-23,2024-12-07,14,478871.18,EMP0440,Completed,ST042,Critical issue found
+MNT01231,TR0158,Interior Refurbishment,2024-09-30,2024-10-08,8,53710.72,EMP0263,Scheduled,ST072,Routine check completed
+MNT01232,TR0052,Wheel Replacement,2023-11-02,2023-11-12,10,98955.83,EMP0215,In Progress,ST072,Critical issue found
+MNT01233,TR0115,AC Servicing,2023-11-03,2023-11-09,6,279265.45,EMP0028,Completed,ST024,Parts replaced
+MNT01234,TR0179,Pantry Car Cleaning,2023-08-31,2023-09-17,17,13790.61,EMP0031,Scheduled,ST049,Parts replaced
+MNT01235,TR0097,AC Servicing,2023-01-08,2023-01-27,19,58705.34,EMP0020,Scheduled,ST068,Routine check completed
+MNT01236,TR0176,Electrical Check,2024-11-22,2024-11-23,1,257810.04,EMP0404,Completed,ST050,Routine check completed
+MNT01237,TR0019,Pantry Car Cleaning,2024-06-23,2024-07-02,9,92278.12,EMP0241,Completed,ST051,Awaiting spare parts
+MNT01238,TR0011,Interior Refurbishment,2024-09-28,2024-10-19,21,212315.3,EMP0038,Completed,ST054,Parts replaced
+MNT01239,TR0095,Interior Refurbishment,2023-11-19,2023-12-15,26,412225.23,EMP0049,Completed,ST024,Parts replaced
+MNT01240,TR0046,Pantry Car Cleaning,2023-01-09,2023-01-30,21,169419.91,EMP0381,Completed,ST019,Routine check completed
+MNT01241,TR0070,Wheel Replacement,2024-12-28,2024-12-31,3,497243.89,EMP0214,Completed,ST062,Critical issue found
+MNT01242,TR0037,Wheel Replacement,2024-06-19,2024-07-01,12,199004.14,EMP0382,Completed,ST053,All systems OK
+MNT01243,TR0106,Interior Refurbishment,2024-01-30,2024-02-26,27,130765.87,EMP0109,Completed,ST067,Routine check completed
+MNT01244,TR0052,Wheel Replacement,2023-03-16,2023-03-29,13,166081.83,EMP0048,Cancelled,ST059,Routine check completed
+MNT01245,TR0107,Scheduled Service,2023-05-20,2023-05-25,5,215654.61,EMP0493,Completed,ST065,Awaiting spare parts
+MNT01246,TR0134,Engine Overhaul,2023-05-21,2023-06-08,18,113103.59,EMP0450,Completed,ST036,Awaiting spare parts
+MNT01247,TR0187,Pantry Car Cleaning,2024-05-29,2024-06-04,6,184764.06,EMP0169,Completed,ST053,All systems OK
+MNT01248,TR0094,Electrical Check,2024-02-20,2024-03-06,15,425279.62,EMP0487,Completed,ST003,Parts replaced
+MNT01249,TR0080,AC Servicing,2024-01-08,2024-01-18,10,293367.93,EMP0318,In Progress,ST044,Parts replaced
+MNT01250,TR0069,Wheel Replacement,2024-02-05,2024-02-13,8,95792.26,EMP0236,Completed,ST006,Parts replaced
+MNT01251,TR0065,Scheduled Service,2024-11-08,2024-11-25,17,207372.26,EMP0193,Scheduled,ST060,Parts replaced
+MNT01252,TR0089,Scheduled Service,2023-08-28,2023-09-03,6,144253.97,EMP0190,Scheduled,ST054,All systems OK
+MNT01253,TR0172,AC Servicing,2024-02-10,2024-02-20,10,279846.98,EMP0296,Scheduled,ST037,Routine check completed
+MNT01254,TR0017,Pantry Car Cleaning,2023-09-06,2023-09-16,10,348859.52,EMP0326,Completed,ST071,All systems OK
+MNT01255,TR0003,Engine Overhaul,2024-07-26,2024-08-18,23,455596.47,EMP0007,In Progress,ST004,Routine check completed
+MNT01256,TR0153,Engine Overhaul,2024-02-06,2024-02-23,17,221623.88,EMP0463,Completed,ST069,Critical issue found
+MNT01257,TR0117,Safety Audit,2024-07-05,2024-07-27,22,182070.38,EMP0328,Completed,ST028,Routine check completed
+MNT01258,TR0191,Brake Inspection,2023-02-12,2023-03-11,27,238411.52,EMP0466,Completed,ST033,Critical issue found
+MNT01259,TR0099,AC Servicing,2024-05-29,2024-06-27,29,353639.32,EMP0395,Scheduled,ST011,Awaiting spare parts
+MNT01260,TR0047,Signaling Equipment,2023-03-01,2023-03-12,11,282383.97,EMP0275,Deferred,ST040,Awaiting spare parts
+MNT01261,TR0130,Pantry Car Cleaning,2023-07-19,2023-07-21,2,121223.92,EMP0429,Completed,ST028,All systems OK
+MNT01262,TR0003,Signaling Equipment,2023-01-12,2023-01-21,9,151498.86,EMP0027,Completed,ST060,Critical issue found
+MNT01263,TR0018,Interior Refurbishment,2023-10-02,2023-10-21,19,249144.8,EMP0471,Completed,ST070,Awaiting spare parts
+MNT01264,TR0049,Wheel Replacement,2024-09-01,2024-09-17,16,257031.9,EMP0147,Completed,ST025,All systems OK
+MNT01265,TR0181,Safety Audit,2023-03-26,2023-04-20,25,131516.89,EMP0134,Completed,ST072,Parts replaced
+MNT01266,TR0008,Electrical Check,2024-06-16,2024-06-20,4,350533.42,EMP0009,Completed,ST033,Parts replaced
+MNT01267,TR0016,Electrical Check,2023-01-02,2023-01-16,14,303885.93,EMP0386,Completed,ST065,Awaiting spare parts
+MNT01268,TR0086,Pantry Car Cleaning,2023-05-15,2023-06-05,21,423398.76,EMP0202,Completed,ST025,Parts replaced
+MNT01269,TR0061,Wheel Replacement,2023-04-07,2023-04-18,11,119208.3,EMP0467,Completed,ST020,Critical issue found
+MNT01270,TR0200,Brake Inspection,2023-05-11,2023-06-02,22,91250,EMP0412,Scheduled,ST065,Awaiting spare parts
+MNT01271,TR0088,Safety Audit,2023-06-09,2023-06-16,7,335803.15,EMP0201,Completed,ST020,Awaiting spare parts
+MNT01272,TR0172,Wheel Replacement,2023-07-30,2023-08-11,12,289481.31,EMP0296,Completed,ST028,Critical issue found
+MNT01273,TR0029,Signaling Equipment,2024-09-21,2024-10-03,12,382115.04,EMP0394,In Progress,ST022,Awaiting spare parts
+MNT01274,TR0094,Electrical Check,2023-05-19,2023-05-24,5,30412.33,EMP0415,Completed,ST038,Awaiting spare parts
+MNT01275,TR0149,Wheel Replacement,2024-11-26,2024-12-17,21,337851.75,EMP0070,Completed,ST042,All systems OK
+MNT01276,TR0165,Brake Inspection,2024-04-02,2024-04-18,16,19684.4,EMP0168,Completed,ST059,Critical issue found
+MNT01277,TR0121,Brake Inspection,2023-02-18,2023-02-21,3,8423.55,EMP0372,Completed,ST047,Parts replaced
+MNT01278,TR0087,Interior Refurbishment,2024-11-24,2024-12-08,14,485601.9,EMP0389,Completed,ST003,Critical issue found
+MNT01279,TR0030,Wheel Replacement,2024-10-15,2024-11-02,18,431618.54,EMP0228,Deferred,ST017,Parts replaced
+MNT01280,TR0103,Signaling Equipment,2024-05-28,2024-06-04,7,122030.77,EMP0334,Scheduled,ST065,All systems OK
+MNT01281,TR0115,Pantry Car Cleaning,2024-03-18,2024-04-02,15,101893.65,EMP0149,In Progress,ST059,Critical issue found
+MNT01282,TR0184,Signaling Equipment,2024-01-21,2024-01-31,10,276350.29,EMP0468,Scheduled,ST052,Routine check completed
+MNT01283,TR0178,Engine Overhaul,2024-11-22,2024-12-05,13,25692.06,EMP0073,In Progress,ST008,Parts replaced
+MNT01284,TR0196,Scheduled Service,2023-03-13,2023-03-18,5,459658.25,EMP0497,Completed,ST038,Routine check completed
+MNT01285,TR0024,Pantry Car Cleaning,2024-08-22,2024-08-30,8,358435.31,EMP0299,Completed,ST015,Parts replaced
+MNT01286,TR0170,Engine Overhaul,2024-01-21,2024-01-23,2,481924.97,EMP0132,Scheduled,ST073,Critical issue found
+MNT01287,TR0095,Electrical Check,2024-08-29,2024-09-07,9,284601.65,EMP0354,Completed,ST071,All systems OK
+MNT01288,TR0049,Wheel Replacement,2024-08-18,2024-09-09,22,416021.94,EMP0452,Scheduled,ST025,Parts replaced
+MNT01289,TR0172,Interior Refurbishment,2024-06-07,2024-06-09,2,354637.59,EMP0175,Completed,ST036,Routine check completed
+MNT01290,TR0053,Wheel Replacement,2023-08-30,2023-09-12,13,437033.23,EMP0077,Completed,ST043,Routine check completed
+MNT01291,TR0093,Signaling Equipment,2024-07-10,2024-07-28,18,377533.13,EMP0263,Deferred,ST072,All systems OK
+MNT01292,TR0049,Electrical Check,2023-11-07,2023-11-18,11,411294.55,EMP0461,Scheduled,ST009,Awaiting spare parts
+MNT01293,TR0021,Pantry Car Cleaning,2023-08-23,2023-09-13,21,386696.76,EMP0078,Scheduled,ST017,Awaiting spare parts
+MNT01294,TR0034,Wheel Replacement,2024-08-16,2024-08-23,7,474506.58,EMP0042,Scheduled,ST025,All systems OK
+MNT01295,TR0009,Safety Audit,2023-02-02,2023-02-14,12,372387.56,EMP0325,Scheduled,ST068,Awaiting spare parts
+MNT01296,TR0179,Pantry Car Cleaning,2024-11-13,2024-12-10,27,105377.21,EMP0031,Completed,ST073,Critical issue found
+MNT01297,TR0157,Pantry Car Cleaning,2023-02-10,2023-02-14,4,400395.93,EMP0206,Scheduled,ST053,Parts replaced
+MNT01298,TR0171,Engine Overhaul,2024-01-09,2024-02-05,27,127544.21,EMP0210,Completed,ST014,Routine check completed
+MNT01299,TR0082,Engine Overhaul,2023-11-22,2023-11-30,8,340149.34,EMP0103,Completed,ST004,Awaiting spare parts
+MNT01300,TR0180,Engine Overhaul,2023-12-20,2024-01-03,14,317145.05,EMP0025,Completed,ST060,Routine check completed
+MNT01301,TR0176,Signaling Equipment,2024-06-19,2024-06-23,4,418718.04,EMP0460,Completed,ST057,Parts replaced
+MNT01302,TR0031,Pantry Car Cleaning,2023-05-21,2023-06-18,28,54252.39,EMP0183,Completed,ST072,Critical issue found
+MNT01303,TR0016,AC Servicing,2024-12-20,2024-12-27,7,171196.46,EMP0066,Scheduled,ST062,Routine check completed
+MNT01304,TR0182,Brake Inspection,2024-06-17,2024-06-24,7,88419.14,EMP0274,Completed,ST005,All systems OK
+MNT01305,TR0102,Brake Inspection,2023-09-20,2023-10-15,25,207262.62,EMP0439,Completed,ST012,Critical issue found
+MNT01306,TR0103,Pantry Car Cleaning,2024-04-06,2024-04-09,3,187681.92,EMP0347,Scheduled,ST021,Routine check completed
+MNT01307,TR0196,Wheel Replacement,2024-09-29,2024-10-07,8,124410.81,EMP0483,Cancelled,ST057,Parts replaced
+MNT01308,TR0017,Wheel Replacement,2024-03-08,2024-03-25,17,235297.57,EMP0228,Scheduled,ST066,Routine check completed
+MNT01309,TR0100,Signaling Equipment,2024-01-09,2024-01-13,4,53672.36,EMP0048,Completed,ST057,Awaiting spare parts
+MNT01310,TR0144,Wheel Replacement,2023-06-05,2023-06-08,3,116609.05,EMP0015,Completed,ST063,Routine check completed
+MNT01311,TR0174,Safety Audit,2023-11-26,2023-11-28,2,331244.1,EMP0207,Completed,ST020,Awaiting spare parts
+MNT01312,TR0157,Engine Overhaul,2024-07-07,2024-07-21,14,306294.95,EMP0481,Completed,ST048,Parts replaced
+MNT01313,TR0129,Brake Inspection,2023-10-10,2023-10-26,16,48326.45,EMP0275,Completed,ST009,Routine check completed
+MNT01314,TR0006,Brake Inspection,2023-07-20,2023-08-05,16,81775.63,EMP0220,Scheduled,ST040,Critical issue found
+MNT01315,TR0142,AC Servicing,2024-06-07,2024-06-19,12,318846.83,EMP0217,In Progress,ST067,Routine check completed
+MNT01316,TR0108,Engine Overhaul,2023-09-19,2023-10-11,22,455573.09,EMP0022,Completed,ST047,Awaiting spare parts
+MNT01317,TR0028,Wheel Replacement,2023-08-18,2023-08-21,3,251610.83,EMP0264,Completed,ST006,Routine check completed
+MNT01318,TR0172,Brake Inspection,2024-07-24,2024-08-04,11,154604.36,EMP0331,Scheduled,ST014,Critical issue found
+MNT01319,TR0068,Electrical Check,2023-09-17,2023-09-26,9,15374.27,EMP0104,Completed,ST061,Awaiting spare parts
+MNT01320,TR0157,Safety Audit,2023-02-23,2023-02-24,1,489641.19,EMP0498,Completed,ST045,Critical issue found
+MNT01321,TR0180,Safety Audit,2024-07-21,2024-08-08,18,368839.73,EMP0059,Cancelled,ST066,Parts replaced
+MNT01322,TR0147,Engine Overhaul,2023-12-16,2024-01-11,26,184099.1,EMP0151,Completed,ST061,Awaiting spare parts
+MNT01323,TR0140,AC Servicing,2023-03-22,2023-04-07,16,224186.33,EMP0450,Scheduled,ST043,Routine check completed
+MNT01324,TR0177,Signaling Equipment,2024-08-28,2024-09-16,19,323875.36,EMP0373,Completed,ST053,Routine check completed
+MNT01325,TR0148,Wheel Replacement,2024-03-18,2024-03-30,12,203227.36,EMP0452,Completed,ST016,Critical issue found
+MNT01326,TR0138,Electrical Check,2023-09-10,2023-10-03,23,362452.13,EMP0155,In Progress,ST002,Critical issue found
+MNT01327,TR0165,Safety Audit,2023-02-08,2023-02-12,4,359827.02,EMP0191,Completed,ST041,Awaiting spare parts
+MNT01328,TR0099,Safety Audit,2024-02-07,2024-02-13,6,213365.25,EMP0419,Completed,ST055,Routine check completed
+MNT01329,TR0076,Electrical Check,2024-10-19,2024-11-04,16,37043.04,EMP0203,Completed,ST029,Routine check completed
+MNT01330,TR0091,Brake Inspection,2023-06-24,2023-07-07,13,129021.83,EMP0224,Completed,ST019,All systems OK
+MNT01331,TR0144,Electrical Check,2023-10-03,2023-10-17,14,499039.29,EMP0103,Completed,ST012,All systems OK
+MNT01332,TR0031,Engine Overhaul,2023-05-18,2023-06-13,26,374640.19,EMP0021,Completed,ST020,Parts replaced
+MNT01333,TR0096,Scheduled Service,2024-05-02,2024-05-14,12,261699.44,EMP0321,Deferred,ST025,Awaiting spare parts
+MNT01334,TR0089,Safety Audit,2023-07-27,2023-08-15,19,386306.65,EMP0036,In Progress,ST031,Routine check completed
+MNT01335,TR0078,Safety Audit,2024-01-04,2024-01-07,3,110271.7,EMP0465,Completed,ST056,All systems OK
+MNT01336,TR0035,Engine Overhaul,2024-07-22,2024-08-01,10,449545.01,EMP0392,Completed,ST073,Critical issue found
+MNT01337,TR0014,Scheduled Service,2023-03-18,2023-04-13,26,330541.14,EMP0054,Completed,ST070,All systems OK
+MNT01338,TR0162,Wheel Replacement,2023-05-12,2023-05-17,5,86891.26,EMP0067,Completed,ST066,All systems OK
+MNT01339,TR0132,Brake Inspection,2023-11-27,2023-12-13,16,182467.8,EMP0476,Completed,ST048,Critical issue found
+MNT01340,TR0026,Brake Inspection,2024-09-09,2024-10-02,23,8121.64,EMP0493,Completed,ST022,Critical issue found
+MNT01341,TR0016,Safety Audit,2023-11-06,2023-12-06,30,488258.52,EMP0260,Completed,ST033,All systems OK
+MNT01342,TR0001,Interior Refurbishment,2023-02-11,2023-02-27,16,67587.19,EMP0042,Completed,ST018,Routine check completed
+MNT01343,TR0058,Scheduled Service,2024-12-28,2025-01-06,9,174171.54,EMP0147,Completed,ST027,Parts replaced
+MNT01344,TR0184,Interior Refurbishment,2024-08-26,2024-09-02,7,172514.08,EMP0248,Completed,ST009,Awaiting spare parts
+MNT01345,TR0031,Interior Refurbishment,2024-05-04,2024-05-07,3,380980.23,EMP0341,Completed,ST019,Parts replaced
+MNT01346,TR0173,Engine Overhaul,2023-03-07,2023-03-24,17,158255.66,EMP0491,Scheduled,ST023,Parts replaced
+MNT01347,TR0157,Wheel Replacement,2023-01-14,2023-01-20,6,408728.36,EMP0496,Completed,ST036,Awaiting spare parts
+MNT01348,TR0085,Safety Audit,2024-05-09,2024-05-13,4,308657.91,EMP0163,Completed,ST049,Awaiting spare parts
+MNT01349,TR0112,Interior Refurbishment,2023-09-23,2023-10-12,19,213844.48,EMP0332,Scheduled,ST059,Routine check completed
+MNT01350,TR0077,Interior Refurbishment,2023-10-12,2023-10-19,7,78166.98,EMP0488,Completed,ST029,All systems OK
+MNT01351,TR0019,AC Servicing,2023-10-24,2023-10-27,3,135523.59,EMP0211,In Progress,ST072,Awaiting spare parts
+MNT01352,TR0063,Signaling Equipment,2024-01-05,2024-02-02,28,119789.29,EMP0255,Completed,ST014,Critical issue found
+MNT01353,TR0044,Wheel Replacement,2023-08-11,2023-08-18,7,488746.56,EMP0451,Completed,ST075,Parts replaced
+MNT01354,TR0122,Electrical Check,2023-11-30,2023-12-01,1,396106.03,EMP0306,Deferred,ST013,Critical issue found
+MNT01355,TR0144,Pantry Car Cleaning,2023-08-24,2023-09-21,28,448184.39,EMP0310,Completed,ST026,Routine check completed
+MNT01356,TR0134,Electrical Check,2024-06-13,2024-07-10,27,462307.1,EMP0474,Completed,ST032,All systems OK
+MNT01357,TR0037,Signaling Equipment,2024-06-04,2024-06-12,8,436707.69,EMP0384,Scheduled,ST069,Awaiting spare parts
+MNT01358,TR0103,Interior Refurbishment,2024-03-19,2024-03-27,8,135297.2,EMP0445,Completed,ST074,Routine check completed
+MNT01359,TR0176,Engine Overhaul,2024-05-10,2024-05-14,4,255362.04,EMP0406,Completed,ST020,Parts replaced
+MNT01360,TR0166,Wheel Replacement,2023-09-27,2023-10-25,28,182746.1,EMP0160,Completed,ST026,All systems OK
+MNT01361,TR0108,AC Servicing,2024-02-12,2024-03-01,18,119424.97,EMP0271,Completed,ST059,Critical issue found
+MNT01362,TR0068,Pantry Car Cleaning,2023-08-03,2023-08-29,26,138455.88,EMP0143,Completed,ST053,All systems OK
+MNT01363,TR0169,Engine Overhaul,2024-11-13,2024-11-29,16,482246.37,EMP0117,Completed,ST051,All systems OK
+MNT01364,TR0182,Interior Refurbishment,2023-06-04,2023-06-11,7,477232.63,EMP0275,Completed,ST068,Parts replaced
+MNT01365,TR0139,Engine Overhaul,2023-01-10,2023-01-12,2,163807.72,EMP0110,Completed,ST065,Routine check completed
+MNT01366,TR0183,Pantry Car Cleaning,2024-01-04,2024-02-03,30,211100.79,EMP0077,Scheduled,ST055,Critical issue found
+MNT01367,TR0046,Signaling Equipment,2023-06-01,2023-06-17,16,194169.45,EMP0260,In Progress,ST050,Parts replaced
+MNT01368,TR0071,Brake Inspection,2023-05-27,2023-06-10,14,146541.85,EMP0044,Completed,ST033,Awaiting spare parts
+MNT01369,TR0117,Signaling Equipment,2023-06-10,2023-07-04,24,293690.41,EMP0231,Completed,ST031,Awaiting spare parts
+MNT01370,TR0183,Safety Audit,2024-09-07,2024-09-23,16,48865.17,EMP0293,In Progress,ST074,Critical issue found
+MNT01371,TR0108,Wheel Replacement,2023-10-24,2023-11-02,9,366293.44,EMP0417,Scheduled,ST025,All systems OK
+MNT01372,TR0072,Interior Refurbishment,2023-01-13,2023-02-07,25,255616.34,EMP0483,In Progress,ST025,Routine check completed
+MNT01373,TR0026,Scheduled Service,2023-10-11,2023-10-12,1,435752.71,EMP0451,Completed,ST009,Critical issue found
+MNT01374,TR0135,Pantry Car Cleaning,2023-12-07,2023-12-30,23,445340.79,EMP0382,Scheduled,ST035,Critical issue found
+MNT01375,TR0101,Pantry Car Cleaning,2024-06-25,2024-07-04,9,111141.22,EMP0120,Completed,ST065,Critical issue found
+MNT01376,TR0161,Signaling Equipment,2024-03-06,2024-03-11,5,34935.14,EMP0388,In Progress,ST002,Critical issue found
+MNT01377,TR0089,Signaling Equipment,2023-07-25,2023-08-22,28,394637.49,EMP0286,In Progress,ST045,Parts replaced
+MNT01378,TR0100,Wheel Replacement,2023-09-22,2023-10-20,28,118734.27,EMP0394,In Progress,ST067,Routine check completed
+MNT01379,TR0125,Wheel Replacement,2023-12-31,2024-01-05,5,237582.3,EMP0183,Completed,ST046,Awaiting spare parts
+MNT01380,TR0030,Signaling Equipment,2023-06-22,2023-06-24,2,229584.1,EMP0451,Completed,ST073,Awaiting spare parts
+MNT01381,TR0075,Wheel Replacement,2023-07-12,2023-08-07,26,218962.17,EMP0270,Scheduled,ST047,Parts replaced
+MNT01382,TR0136,AC Servicing,2024-06-11,2024-07-04,23,17416.61,EMP0145,Completed,ST005,Awaiting spare parts
+MNT01383,TR0135,Electrical Check,2024-11-05,2024-11-06,1,103947.78,EMP0304,Cancelled,ST003,Parts replaced
+MNT01384,TR0167,Engine Overhaul,2023-01-05,2023-01-26,21,47806.03,EMP0206,Scheduled,ST037,Routine check completed
+MNT01385,TR0075,Pantry Car Cleaning,2023-10-14,2023-10-19,5,338159.77,EMP0364,In Progress,ST005,All systems OK
+MNT01386,TR0119,Electrical Check,2024-12-15,2024-12-31,16,135838.52,EMP0440,Completed,ST064,Critical issue found
+MNT01387,TR0032,Interior Refurbishment,2023-03-08,2023-04-01,24,470469.56,EMP0444,Scheduled,ST018,Routine check completed
+MNT01388,TR0001,Electrical Check,2023-02-18,2023-02-28,10,474866.19,EMP0478,Completed,ST068,Parts replaced
+MNT01389,TR0045,Brake Inspection,2023-04-13,2023-05-10,27,142648.91,EMP0454,Completed,ST052,Parts replaced
+MNT01390,TR0168,Brake Inspection,2023-04-14,2023-05-01,17,98764.06,EMP0068,In Progress,ST018,Critical issue found
+MNT01391,TR0076,Pantry Car Cleaning,2024-10-13,2024-11-07,25,486776.2,EMP0098,Completed,ST020,Routine check completed
+MNT01392,TR0165,AC Servicing,2023-11-28,2023-12-20,22,362658.93,EMP0451,In Progress,ST060,Awaiting spare parts
+MNT01393,TR0119,AC Servicing,2024-04-04,2024-04-16,12,456417.72,EMP0199,Scheduled,ST034,Awaiting spare parts
+MNT01394,TR0199,Engine Overhaul,2024-05-19,2024-06-04,16,16132.24,EMP0062,In Progress,ST036,Awaiting spare parts
+MNT01395,TR0122,Electrical Check,2023-03-10,2023-03-26,16,443851.25,EMP0116,Completed,ST015,All systems OK
+MNT01396,TR0165,Pantry Car Cleaning,2024-04-21,2024-04-23,2,125650.32,EMP0451,Scheduled,ST054,All systems OK
+MNT01397,TR0044,Safety Audit,2024-03-17,2024-03-25,8,369929.51,EMP0423,Scheduled,ST053,Critical issue found
+MNT01398,TR0102,Safety Audit,2023-03-12,2023-03-19,7,165983.13,EMP0190,Completed,ST037,Awaiting spare parts
+MNT01399,TR0163,Safety Audit,2023-06-27,2023-07-03,6,397976.26,EMP0261,Scheduled,ST038,Awaiting spare parts
+MNT01400,TR0025,Wheel Replacement,2023-01-03,2023-01-29,26,170792.02,EMP0457,Scheduled,ST068,Critical issue found
+MNT01401,TR0119,Engine Overhaul,2024-07-02,2024-07-13,11,204614.4,EMP0283,Completed,ST017,Parts replaced
+MNT01402,TR0022,Interior Refurbishment,2024-12-19,2024-12-21,2,495434.52,EMP0207,Completed,ST057,All systems OK
+MNT01403,TR0052,Safety Audit,2024-07-18,2024-07-22,4,233409.69,EMP0456,In Progress,ST073,All systems OK
+MNT01404,TR0113,Scheduled Service,2023-03-04,2023-03-12,8,375445.27,EMP0295,Completed,ST040,All systems OK
+MNT01405,TR0091,AC Servicing,2024-09-03,2024-09-15,12,444064.83,EMP0469,Scheduled,ST005,Parts replaced
+MNT01406,TR0152,Electrical Check,2024-06-04,2024-06-28,24,323489.99,EMP0496,In Progress,ST003,Awaiting spare parts
+MNT01407,TR0062,Interior Refurbishment,2024-08-26,2024-09-10,15,81991.01,EMP0211,In Progress,ST011,Critical issue found
+MNT01408,TR0166,Wheel Replacement,2023-06-25,2023-07-08,13,328205.02,EMP0056,Completed,ST042,Critical issue found
+MNT01409,TR0194,Wheel Replacement,2023-04-18,2023-04-20,2,386668.15,EMP0249,Scheduled,ST064,All systems OK
+MNT01410,TR0115,Engine Overhaul,2024-07-07,2024-08-06,30,486170.62,EMP0029,Deferred,ST053,All systems OK
+MNT01411,TR0006,Interior Refurbishment,2023-06-15,2023-06-17,2,350821.99,EMP0042,Completed,ST039,Critical issue found
+MNT01412,TR0183,Signaling Equipment,2023-03-17,2023-03-19,2,175197,EMP0418,Scheduled,ST034,Awaiting spare parts
+MNT01413,TR0123,Electrical Check,2024-10-02,2024-10-26,24,80867.77,EMP0300,Completed,ST066,Parts replaced
+MNT01414,TR0045,AC Servicing,2023-09-21,2023-10-17,26,301409.36,EMP0082,Completed,ST057,Routine check completed
+MNT01415,TR0159,AC Servicing,2024-09-19,2024-09-23,4,321984.86,EMP0036,In Progress,ST064,Parts replaced
+MNT01416,TR0037,Wheel Replacement,2024-05-30,2024-06-01,2,63315.74,EMP0299,Completed,ST005,Critical issue found
+MNT01417,TR0183,Interior Refurbishment,2023-04-28,2023-05-23,25,61586.22,EMP0146,Completed,ST040,All systems OK
+MNT01418,TR0049,AC Servicing,2023-02-04,2023-02-12,8,94985.25,EMP0302,Completed,ST075,All systems OK
+MNT01419,TR0157,Brake Inspection,2023-11-07,2023-11-28,21,396326.22,EMP0312,Completed,ST062,All systems OK
+MNT01420,TR0166,Engine Overhaul,2023-12-09,2023-12-17,8,95116.76,EMP0399,Completed,ST008,All systems OK
+MNT01421,TR0150,AC Servicing,2024-11-22,2024-11-25,3,273224.58,EMP0043,Completed,ST050,Critical issue found
+MNT01422,TR0192,Pantry Car Cleaning,2023-12-04,2023-12-21,17,304488.66,EMP0302,Completed,ST038,Routine check completed
+MNT01423,TR0164,Signaling Equipment,2023-12-09,2023-12-21,12,427286.91,EMP0138,Completed,ST048,Awaiting spare parts
+MNT01424,TR0034,Brake Inspection,2023-09-08,2023-09-26,18,419855.77,EMP0496,Completed,ST035,Critical issue found
+MNT01425,TR0193,Scheduled Service,2024-04-02,2024-04-14,12,112596.57,EMP0457,In Progress,ST067,Critical issue found
+MNT01426,TR0095,Engine Overhaul,2024-11-06,2024-11-23,17,309596.74,EMP0250,Cancelled,ST051,Routine check completed
+MNT01427,TR0038,Electrical Check,2023-12-08,2023-12-13,5,195701.26,EMP0013,Completed,ST012,Routine check completed
+MNT01428,TR0009,Safety Audit,2023-01-13,2023-02-11,29,418278.08,EMP0261,Completed,ST010,Awaiting spare parts
+MNT01429,TR0053,Interior Refurbishment,2024-11-27,2024-12-25,28,316417.26,EMP0349,Cancelled,ST040,Routine check completed
+MNT01430,TR0158,Interior Refurbishment,2024-12-10,2024-12-19,9,427850.12,EMP0350,Completed,ST066,Parts replaced
+MNT01431,TR0057,Brake Inspection,2024-02-16,2024-02-28,12,33159.61,EMP0187,Completed,ST067,Awaiting spare parts
+MNT01432,TR0159,Pantry Car Cleaning,2023-08-26,2023-08-31,5,149363.49,EMP0115,In Progress,ST065,Critical issue found
+MNT01433,TR0038,Signaling Equipment,2024-02-03,2024-02-13,10,148693.62,EMP0078,Completed,ST031,Awaiting spare parts
+MNT01434,TR0001,AC Servicing,2023-08-01,2023-08-04,3,243239.34,EMP0035,Cancelled,ST063,Critical issue found
+MNT01435,TR0128,Wheel Replacement,2024-02-12,2024-02-15,3,398914.17,EMP0232,Completed,ST028,Critical issue found
+MNT01436,TR0094,Electrical Check,2024-11-02,2024-11-19,17,354211.7,EMP0485,Completed,ST035,All systems OK
+MNT01437,TR0131,Electrical Check,2023-02-27,2023-03-03,4,303460.11,EMP0212,Completed,ST051,Parts replaced
+MNT01438,TR0131,Wheel Replacement,2024-01-27,2024-01-30,3,471524.17,EMP0322,Scheduled,ST031,Critical issue found
+MNT01439,TR0198,Engine Overhaul,2024-07-25,2024-08-21,27,388514.92,EMP0165,Completed,ST066,Awaiting spare parts
+MNT01440,TR0139,Signaling Equipment,2023-11-11,2023-12-07,26,216931.8,EMP0230,Completed,ST019,Awaiting spare parts
+MNT01441,TR0011,Safety Audit,2023-08-16,2023-08-17,1,235387.97,EMP0163,Completed,ST060,Parts replaced
+MNT01442,TR0049,Interior Refurbishment,2023-02-12,2023-03-13,29,439288.89,EMP0417,Completed,ST030,Parts replaced
+MNT01443,TR0079,Brake Inspection,2023-04-02,2023-04-30,28,477696.02,EMP0173,Completed,ST014,Awaiting spare parts
+MNT01444,TR0123,Engine Overhaul,2023-06-11,2023-07-02,21,331842.61,EMP0072,In Progress,ST062,Critical issue found
+MNT01445,TR0119,Signaling Equipment,2024-03-30,2024-04-16,17,428955.65,EMP0353,Completed,ST014,Parts replaced
+MNT01446,TR0110,Scheduled Service,2024-10-05,2024-10-07,2,368378.24,EMP0031,Completed,ST031,Awaiting spare parts
+MNT01447,TR0174,Electrical Check,2023-12-19,2024-01-15,27,469192.87,EMP0296,Completed,ST043,Awaiting spare parts
+MNT01448,TR0019,AC Servicing,2024-04-16,2024-04-19,3,204816.11,EMP0263,Completed,ST025,Routine check completed
+MNT01449,TR0171,Electrical Check,2024-10-06,2024-11-04,29,115595.68,EMP0331,Deferred,ST039,Routine check completed
+MNT01450,TR0150,Interior Refurbishment,2024-07-04,2024-07-05,1,194255.52,EMP0272,In Progress,ST004,Routine check completed
+MNT01451,TR0192,Scheduled Service,2023-01-20,2023-02-10,21,460868.96,EMP0304,Scheduled,ST034,Routine check completed
+MNT01452,TR0191,Safety Audit,2024-05-26,2024-06-14,19,427072.22,EMP0410,Completed,ST016,Awaiting spare parts
+MNT01453,TR0107,Safety Audit,2023-07-26,2023-08-04,9,267787.31,EMP0463,Completed,ST073,Critical issue found
+MNT01454,TR0151,Engine Overhaul,2023-10-23,2023-10-25,2,218243.03,EMP0163,Scheduled,ST073,All systems OK
+MNT01455,TR0160,Brake Inspection,2023-10-02,2023-10-10,8,369028.62,EMP0498,Completed,ST043,Awaiting spare parts
+MNT01456,TR0050,Engine Overhaul,2023-08-14,2023-08-28,14,364269.06,EMP0496,In Progress,ST052,Critical issue found
+MNT01457,TR0058,Brake Inspection,2023-02-15,2023-03-10,23,374223.74,EMP0148,Cancelled,ST047,Parts replaced
+MNT01458,TR0120,Scheduled Service,2023-06-09,2023-07-09,30,342404.66,EMP0411,Completed,ST035,Awaiting spare parts
+MNT01459,TR0052,Pantry Car Cleaning,2024-11-30,2024-12-12,12,332574.74,EMP0275,Completed,ST058,Critical issue found
+MNT01460,TR0188,Pantry Car Cleaning,2024-06-10,2024-06-26,16,79113.19,EMP0333,Completed,ST003,All systems OK
+MNT01461,TR0166,AC Servicing,2023-12-12,2023-12-16,4,212555.17,EMP0443,Completed,ST049,Routine check completed
+MNT01462,TR0089,Wheel Replacement,2024-10-24,2024-11-02,9,422874.47,EMP0291,Completed,ST074,All systems OK
+MNT01463,TR0177,Safety Audit,2023-10-13,2023-10-24,11,304448.03,EMP0446,Completed,ST006,Parts replaced
+MNT01464,TR0010,Electrical Check,2024-01-06,2024-01-10,4,147646.57,EMP0309,Cancelled,ST043,Routine check completed
+MNT01465,TR0078,Interior Refurbishment,2023-12-17,2023-12-23,6,46874.79,EMP0275,Completed,ST035,Critical issue found
+MNT01466,TR0076,Scheduled Service,2024-10-04,2024-10-11,7,333007.26,EMP0348,Scheduled,ST004,Routine check completed
+MNT01467,TR0032,Engine Overhaul,2024-05-22,2024-06-02,11,285171.76,EMP0231,Completed,ST047,Critical issue found
+MNT01468,TR0021,Engine Overhaul,2024-05-29,2024-05-30,1,251220.17,EMP0411,Scheduled,ST037,Routine check completed
+MNT01469,TR0152,Wheel Replacement,2023-09-14,2023-10-11,27,449296.99,EMP0122,In Progress,ST008,Critical issue found
+MNT01470,TR0051,Interior Refurbishment,2024-10-03,2024-10-29,26,497835.21,EMP0119,Completed,ST009,All systems OK
+MNT01471,TR0131,Signaling Equipment,2024-12-20,2025-01-04,15,465931.21,EMP0494,Scheduled,ST044,Critical issue found
+MNT01472,TR0121,AC Servicing,2023-06-01,2023-06-19,18,171480.98,EMP0464,Completed,ST014,Awaiting spare parts
+MNT01473,TR0036,Interior Refurbishment,2024-10-31,2024-11-05,5,296043.45,EMP0365,Completed,ST020,Routine check completed
+MNT01474,TR0095,Scheduled Service,2024-02-13,2024-02-19,6,280153.9,EMP0400,In Progress,ST008,Awaiting spare parts
+MNT01475,TR0191,Signaling Equipment,2024-08-22,2024-08-23,1,200406,EMP0243,Completed,ST066,Awaiting spare parts
+MNT01476,TR0050,Safety Audit,2023-03-26,2023-04-13,18,327172.64,EMP0151,Scheduled,ST072,Critical issue found
+MNT01477,TR0069,Signaling Equipment,2023-06-01,2023-06-25,24,31051.31,EMP0325,Deferred,ST046,Critical issue found
+MNT01478,TR0011,Electrical Check,2024-07-26,2024-08-12,17,198967.51,EMP0489,Scheduled,ST028,Critical issue found
+MNT01479,TR0083,Electrical Check,2023-10-25,2023-11-12,18,209682.67,EMP0046,Completed,ST029,Parts replaced
+MNT01480,TR0192,Engine Overhaul,2024-10-31,2024-11-19,19,455938.59,EMP0124,Scheduled,ST004,All systems OK
+MNT01481,TR0011,Signaling Equipment,2023-04-18,2023-04-24,6,87204.35,EMP0032,Completed,ST035,Awaiting spare parts
+MNT01482,TR0183,Wheel Replacement,2023-03-04,2023-03-11,7,253437.74,EMP0038,In Progress,ST029,Parts replaced
+MNT01483,TR0190,Pantry Car Cleaning,2024-10-21,2024-10-31,10,31305.71,EMP0395,Scheduled,ST010,Routine check completed
+MNT01484,TR0091,Engine Overhaul,2023-01-18,2023-02-04,17,26767.82,EMP0432,Completed,ST038,Parts replaced
+MNT01485,TR0050,AC Servicing,2023-08-18,2023-08-20,2,358361.59,EMP0112,In Progress,ST026,All systems OK
+MNT01486,TR0053,Wheel Replacement,2023-09-23,2023-09-24,1,195334.01,EMP0220,Completed,ST050,Parts replaced
+MNT01487,TR0096,Pantry Car Cleaning,2023-08-19,2023-09-05,17,272495.77,EMP0441,Completed,ST046,Parts replaced
+MNT01488,TR0192,Safety Audit,2023-01-25,2023-01-26,1,445822.61,EMP0363,Completed,ST062,Parts replaced
+MNT01489,TR0191,Electrical Check,2023-12-05,2024-01-04,30,479740.71,EMP0150,Scheduled,ST024,All systems OK
+MNT01490,TR0006,Wheel Replacement,2023-05-21,2023-05-26,5,304351.34,EMP0221,Scheduled,ST026,All systems OK
+MNT01491,TR0144,Safety Audit,2023-12-09,2024-01-07,29,153355.52,EMP0164,Completed,ST025,Critical issue found
+MNT01492,TR0161,Pantry Car Cleaning,2023-08-11,2023-08-28,17,332127.99,EMP0254,Completed,ST006,Critical issue found
+MNT01493,TR0055,Engine Overhaul,2024-12-10,2024-12-30,20,484096.2,EMP0159,In Progress,ST045,Awaiting spare parts
+MNT01494,TR0054,Signaling Equipment,2023-05-29,2023-06-11,13,39543.01,EMP0222,Deferred,ST017,Awaiting spare parts
+MNT01495,TR0092,Electrical Check,2023-11-07,2023-11-14,7,24124.8,EMP0141,Completed,ST056,Parts replaced
+MNT01496,TR0173,Engine Overhaul,2023-02-21,2023-02-26,5,482179.74,EMP0202,Completed,ST061,Awaiting spare parts
+MNT01497,TR0059,Brake Inspection,2023-09-05,2023-09-22,17,124437.83,EMP0264,In Progress,ST040,Routine check completed
+MNT01498,TR0001,Brake Inspection,2023-05-31,2023-06-23,23,229460.39,EMP0359,Scheduled,ST065,Parts replaced
+MNT01499,TR0169,Interior Refurbishment,2024-12-12,2025-01-08,27,254655.32,EMP0210,Completed,ST014,All systems OK
+MNT01500,TR0188,Electrical Check,2024-05-25,2024-05-27,2,280098.52,EMP0094,Completed,ST052,Awaiting spare parts

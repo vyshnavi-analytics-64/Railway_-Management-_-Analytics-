@@ -1,0 +1,13 @@
+Table,Row Count,Column Count
+stations,75,9
+trains,200,9
+routes,150,7
+employees,500,10
+train_schedules,1000,9
+passengers,5000,10
+tickets,8000,11
+bookings,8000,9
+payments,8000,9
+delays,2000,9
+maintenance,1500,11
+TOTAL,34425,

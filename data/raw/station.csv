@@ -1,0 +1,76 @@
+station_id,station_name,state,railway_zone,latitude,longitude,platform_count,category,has_wifi
+ST001,New Delhi,Delhi,Northern,28.6448,77.2167,15,International,TRUE
+ST002,Mumbai Central,Maharashtra,Western,18.9714,72.8194,12,International,TRUE
+ST003,Chennai Central,Tamil Nadu,Southern,13.0827,80.2707,10,International,TRUE
+ST004,Howrah Junction,West Bengal,Eastern,22.5839,88.342,22,International,TRUE
+ST005,Bangalore City,Karnataka,South Western,12.9791,77.5713,10,International,TRUE
+ST006,Hyderabad Deccan,Telangana,South Central,17.385,78.4867,6,Major,TRUE
+ST007,Ahmedabad Junction,Gujarat,Western,23.0225,72.5714,8,Major,TRUE
+ST008,Pune Junction,Maharashtra,Central,18.5204,73.8567,6,Major,TRUE
+ST009,Jaipur Junction,Rajasthan,North Western,26.9124,75.7873,6,Major,TRUE
+ST010,Lucknow Charbagh,Uttar Pradesh,Northern,26.8467,80.9462,8,Major,TRUE
+ST011,Patna Junction,Bihar,Eastern,25.5941,85.1376,10,Major,FALSE
+ST012,Bhopal Junction,Madhya Pradesh,West Central,23.2599,77.4126,6,Major,FALSE
+ST013,Nagpur Junction,Maharashtra,Central,21.1458,79.0882,8,Major,FALSE
+ST014,Chandigarh,Punjab,Northern,30.7333,76.7794,4,Major,FALSE
+ST015,Kochi,Kerala,Southern,9.9312,76.2673,4,Major,TRUE
+ST016,Indore Junction,Madhya Pradesh,West Central,22.7196,75.8577,4,Minor,FALSE
+ST017,Coimbatore Junction,Tamil Nadu,Southern,11.0168,76.9558,5,Minor,FALSE
+ST018,Visakhapatnam,Andhra Pradesh,East Coast,17.6868,83.2185,7,Major,TRUE
+ST019,Agra Cantt,Uttar Pradesh,Northern,27.1767,78.0081,3,Minor,FALSE
+ST020,Varanasi Junction,Uttar Pradesh,Northern,25.3176,82.9739,7,Major,FALSE
+ST021,Amritsar Junction,Punjab,Northern,31.634,74.8723,4,Major,FALSE
+ST022,Guwahati,Assam,Northeast Frontier,26.1445,91.7362,5,Major,FALSE
+ST023,Bhubaneswar,Odisha,South Eastern,20.2961,85.8245,4,Major,FALSE
+ST024,Thiruvananthapuram,Kerala,Southern,8.5241,76.9366,5,Major,TRUE
+ST025,Raipur Junction,Chhattisgarh,South East Central,21.2514,81.6296,4,Minor,FALSE
+ST026,Dehradun,Uttarakhand,Northern,30.3165,78.0322,2,Minor,FALSE
+ST027,Mysuru Junction,Karnataka,South Western,12.2958,76.6394,3,Minor,FALSE
+ST028,Surat,Gujarat,Western,21.1702,72.8311,4,Major,FALSE
+ST029,Jodhpur Junction,Rajasthan,North Western,26.2389,73.0243,4,Minor,FALSE
+ST030,Gwalior,Madhya Pradesh,North Central,26.2183,78.1828,3,Minor,FALSE
+ST031,Madurai Junction,Tamil Nadu,Southern,9.9195,78.1193,5,Major,FALSE
+ST032,Tiruchirappalli,Tamil Nadu,Southern,10.7905,78.7047,5,Major,FALSE
+ST033,Jammu Tawi,Jammu & Kashmir,Northern,32.7266,74.857,5,Major,FALSE
+ST034,Shimla,Himachal Pradesh,Northern,31.1048,77.1734,2,Minor,FALSE
+ST035,Ranchi,Jharkhand,South Eastern,23.3441,85.3096,3,Minor,FALSE
+ST036,Mangaluru Junction,Karnataka,South Western,12.8698,74.8429,3,Minor,FALSE
+ST037,Aurangabad,Maharashtra,Central,19.8762,75.3433,4,Minor,FALSE
+ST038,Kozhikode,Kerala,Southern,11.2588,75.7804,3,Minor,FALSE
+ST039,Kolhapur,Maharashtra,Central,16.705,74.2433,3,Minor,FALSE
+ST040,Bikaner Junction,Rajasthan,North Western,28.0229,73.3119,3,Minor,FALSE
+ST041,Mathura Junction,Uttar Pradesh,Northern,27.4924,77.6737,5,Minor,FALSE
+ST042,Allahabad Junction,Uttar Pradesh,Northern,25.4358,81.8463,8,Major,FALSE
+ST043,Kanpur Central,Uttar Pradesh,Northern,26.4499,80.3319,8,Major,FALSE
+ST044,Siliguri Junction,West Bengal,Northeast Frontier,26.7271,88.3953,3,Minor,FALSE
+ST045,Gorakhpur Junction,Uttar Pradesh,Northern,26.7638,83.3732,10,Major,FALSE
+ST046,Jhansi Junction,Uttar Pradesh,North Central,25.4484,78.5685,5,Major,FALSE
+ST047,Vijayawada Junction,Andhra Pradesh,South Central,16.5193,80.6305,8,Major,FALSE
+ST048,Guntur Junction,Andhra Pradesh,South Central,16.3067,80.4365,5,Minor,FALSE
+ST049,Tirupati,Andhra Pradesh,South Central,13.6288,79.4192,3,Minor,FALSE
+ST050,Salem Junction,Tamil Nadu,Southern,11.6643,78.146,4,Minor,FALSE
+ST051,Station City 51,Uttar Pradesh,Northern,31.1,85.1,2,Minor,FALSE
+ST052,Station City 52,Uttar Pradesh,Northern,31.2,85.2,2,Minor,FALSE
+ST053,Station City 53,Uttar Pradesh,Northern,31.3,85.3,2,Minor,FALSE
+ST054,Station City 54,Uttar Pradesh,Northern,31.4,85.4,2,Minor,FALSE
+ST055,Station City 55,Uttar Pradesh,Northern,31.5,85.5,2,Minor,FALSE
+ST056,Station City 56,Uttar Pradesh,Northern,31.6,85.6,2,Minor,FALSE
+ST057,Station City 57,Uttar Pradesh,Northern,31.7,85.7,2,Minor,FALSE
+ST058,Station City 58,Uttar Pradesh,Northern,31.8,85.8,2,Minor,FALSE
+ST059,Station City 59,Uttar Pradesh,Northern,31.9,85.9,2,Minor,FALSE
+ST060,Station City 60,Uttar Pradesh,Northern,32,86,2,Minor,FALSE
+ST061,Station City 61,Uttar Pradesh,Northern,32.1,86.1,2,Minor,FALSE
+ST062,Station City 62,Uttar Pradesh,Northern,32.2,86.2,2,Minor,FALSE
+ST063,Station City 63,Uttar Pradesh,Northern,32.3,86.3,2,Minor,FALSE
+ST064,Station City 64,Uttar Pradesh,Northern,32.4,86.4,2,Minor,FALSE
+ST065,Station City 65,Uttar Pradesh,Northern,32.5,86.5,2,Minor,FALSE
+ST066,Station City 66,Uttar Pradesh,Northern,32.6,86.6,2,Minor,FALSE
+ST067,Station City 67,Uttar Pradesh,Northern,32.7,86.7,2,Minor,FALSE
+ST068,Station City 68,Uttar Pradesh,Northern,32.8,86.8,2,Minor,FALSE
+ST069,Station City 69,Uttar Pradesh,Northern,32.9,86.9,2,Minor,FALSE
+ST070,Station City 70,Uttar Pradesh,Northern,33,87,2,Minor,FALSE
+ST071,Station City 71,Uttar Pradesh,Northern,33.1,87.1,2,Minor,FALSE
+ST072,Station City 72,Uttar Pradesh,Northern,33.2,87.2,2,Minor,FALSE
+ST073,Station City 73,Uttar Pradesh,Northern,33.3,87.3,2,Minor,FALSE
+ST074,Station City 74,Uttar Pradesh,Northern,33.4,87.4,2,Minor,FALSE
+ST075,Station City 75,Uttar Pradesh,Northern,33.5,87.5,2,Minor,FALSE
