@@ -1,0 +1,13 @@
+CREATE DATABASE railway_management_system;
+
+USE railway_management_system;
+
+CREATE TABLE railway_management_system_final
+(
+passenger_id INT,
+booking_id INT,
+route_id INT,
+class VARCHAR(50),
+total_amount DECIMAL(10,2),
+booking_date_y DATE
+);

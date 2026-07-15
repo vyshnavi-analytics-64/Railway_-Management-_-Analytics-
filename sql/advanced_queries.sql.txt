@@ -1,0 +1,110 @@
+
+##Running Total Revenue by Day
+
+SELECT booking_date_y,
+       ROUND(SUM(total_amount), 2) AS daily_revenue,
+       ROUND(SUM(SUM(total_amount)) OVER (ORDER BY booking_date_y), 2) AS running_total
+FROM railway_management_system_final
+GROUP BY booking_date_y
+ORDER BY booking_date_y;
+
+## Route Performance Ranking
+SELECT *
+FROM (
+    SELECT r1.route_id,
+           r1.revenue,
+           r1.bookings,
+           COUNT(r2.route_id) + 1 AS revenue_rank
+    FROM (
+        SELECT route_id,
+               ROUND(SUM(total_amount), 2) AS revenue,
+               COUNT(*) AS bookings
+        FROM railway_management_system_final
+        GROUP BY route_id
+    ) AS r1
+    LEFT JOIN (
+        SELECT route_id,
+               ROUND(SUM(total_amount), 2) AS revenue
+        FROM railway_management_system_final
+        GROUP BY route_id
+    ) AS r2 
+    ON r2.revenue > r1.revenue
+    GROUP BY r1.route_id, r1.revenue, r1.bookings
+) AS ranked
+ORDER BY revenue_rank;
+
+## Customer Segmentation by Spend
+SELECT passenger_id,
+       passenger_name,
+       COUNT(*) AS bookings,
+       ROUND(SUM(total_amount), 2) AS total_spend,
+       CASE 
+           WHEN SUM(total_amount) > 20000 THEN 'High Value'
+           WHEN SUM(total_amount) BETWEEN 8000 AND 20000 THEN 'Mid Value'
+           ELSE 'Low Value'
+       END AS segment
+FROM railway_management_system_final
+GROUP BY passenger_id, passenger_name
+ORDER BY total_spend DESC;
+
+## Repeat Customers
+SELECT passenger_id,
+       passenger_name,
+       COUNT(*) AS bookings_in_data
+FROM railway_management_system_final
+GROUP BY passenger_id, passenger_name
+HAVING COUNT(*) > 1
+ORDER BY bookings_in_data DESC
+LIMIT 10;
+
+## Average Revenue per Customer
+SELECT ROUND(SUM(total_amount) / COUNT(DISTINCT passenger_id), 2)
+AS avg_revenue_per_customer
+FROM railway_management_system_final;
+
+## New vs Existing Passengers by Year
+SELECT booking_year,
+       SUM(CASE WHEN YEAR(registration_date) = booking_year THEN 1 ELSE 0 END) AS new_passenger_bookings,
+       SUM(CASE WHEN YEAR(registration_date) < booking_year THEN 1 ELSE 0 END) AS existing_passenger_bookings
+FROM railway_management_system_final
+GROUP BY booking_year;
+
+## Passengers Who Never Cancelled
+SELECT DISTINCT passenger_id,
+                passenger_name
+FROM railway_management_system_final p1
+WHERE NOT EXISTS (
+    SELECT 1
+    FROM railway_management_system_final p2
+    WHERE p2.passenger_id = p1.passenger_id
+      AND p2.booking_status = 'Cancelled'
+)
+LIMIT 10;
+
+## Top Spending Customers Above Average
+ SELECT passenger_id,
+       passenger_name,
+       ROUND(SUM(total_amount), 2) AS total_spend
+FROM railway_management_system_final
+GROUP BY passenger_id, passenger_name
+HAVING SUM(total_amount) >
+(
+ SELECT AVG(total_amount)
+ FROM railway_management_system_final
+)
+ORDER BY total_spend DESC
+LIMIT 10;
+
+## Month-over-Month Revenue Change
+
+SELECT d1.booking_year,
+       d1.booking_month,
+       d1.monthly_revenue,
+       d2.monthly_revenue AS prev_month_revenue,
+       ROUND(d1.monthly_revenue - d2.monthly_revenue, 2) AS mom_change,
+       ROUND(
+       (d1.monthly_revenue - d2.monthly_revenue)
+       / d2.monthly_revenue * 100,2
+       ) AS mom_growth_pct
+FROM (...) d1
+LEFT JOIN (...) d2;

@@ -1,0 +1,73 @@
+USE railway_management_system_final;
+
+SELECT COUNT(*) AS total_bookings
+FROM railway_management_system_final;
+SELECT ROUND(SUM(total_amount), 2) AS total_revenue
+FROM railway_management_system_final;
+SELECT ROUND(AVG(total_amount), 2) AS avg_booking_value
+FROM railway_management_system_final;
+SELECT COUNT(DISTINCT passenger_id) AS total_passengers
+FROM railway_management_system_final;
+SELECT COUNT(DISTINCT route_id) AS total_routes
+FROM railway_management_system_final;
+SELECT 
+ROUND(AVG(fare), 2) AS avg_fare,
+MAX(fare) AS highest_fare,
+MIN(fare) AS lowest_fare
+FROM railway_management_system_final;
+SELECT 
+ROUND(
+SUM(CASE WHEN booking_status = 'Cancelled' THEN 1 ELSE 0 END)
+* 100.0 / COUNT(*),2
+) AS cancellation_rate_pct,
+
+ROUND(
+SUM(CASE WHEN booking_status = 'Confirmed' THEN 1 ELSE 0 END)
+* 100.0 / COUNT(*),2
+) AS confirmation_rate_pct
+
+FROM railway_management_system_final;
+SELECT 
+booking_status,
+COUNT(*) AS booking_count,
+
+ROUND(
+COUNT(*) * 100.0 /
+(SELECT COUNT(*) FROM railway_management_system_final),
+2
+) AS pct_share
+
+FROM railway_management_system_final
+
+GROUP BY booking_status
+
+ORDER BY booking_count DESC;
+SELECT 
+ticket_status,
+COUNT(*) AS ticket_count,
+
+ROUND(
+COUNT(*) * 100.0 /
+(SELECT COUNT(*) FROM railway_management_system_final),
+2
+) AS pct_share
+
+FROM railway_management_system_final
+
+GROUP BY ticket_status
+
+ORDER BY ticket_count DESC;
+SELECT 
+booking_channel,
+
+COUNT(*) AS bookings,
+
+ROUND(SUM(total_amount),2) AS revenue,
+
+ROUND(AVG(total_amount),2) AS avg_booking_value
+
+FROM railway_management_system_final
+
+GROUP BY booking_channel
+
+ORDER BY revenue DESC;

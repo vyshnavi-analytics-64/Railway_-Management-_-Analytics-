@@ -1,0 +1,20 @@
+## Top 10 Routes by Revenue
+SELECT route_id,
+       COUNT(*) AS bookings,
+       ROUND(SUM(total_amount), 2) AS revenue,
+       ROUND(AVG(total_amount), 2) AS avg_fare
+FROM railway_management_system_final
+GROUP BY route_id
+ORDER BY revenue DESC
+LIMIT 10;
+
+## Bottom 10 Routes by Revenue
+SELECT route_id,
+       COUNT(*) AS bookings,
+       ROUND(SUM(total_amount), 2) AS revenue
+FROM railway_management_system_final
+GROUP BY route_id
+ORDER BY revenue ASC
+LIMIT 10;
+
+## 

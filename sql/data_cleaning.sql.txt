@@ -1,0 +1,8 @@
+SELECT *
+FROM railway_management_system_final
+WHERE passenger_id IS NULL;
+SELECT booking_id,
+COUNT(*)
+FROM railway_management_system_final
+GROUP BY booking_id
+HAVING COUNT(*) > 1;

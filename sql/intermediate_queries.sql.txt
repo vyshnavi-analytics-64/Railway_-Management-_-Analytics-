@@ -1,0 +1,165 @@
+## WEEKEND VS WEEKDAY BOOKINGS
+SELECT weekend_booking,
+       COUNT(*) AS total_bookings,
+       ROUND(SUM(total_amount), 2) AS revenue,
+       ROUND(AVG(total_amount), 2) AS avg_fare
+FROM railway_management_system_final
+GROUP BY weekend_booking;
+
+## BOOKING TREND BY DAY NAME
+SELECT day_name,
+       COUNT(*) AS bookings,
+       ROUND(SUM(total_amount), 2) AS revenue
+FROM railway_management_system_final
+GROUP BY day_name
+ORDER BY bookings DESC;
+
+## PEAK BOOKING DATES TOP 10
+SELECT booking_date_y,
+       COUNT(*) AS bookings,
+       ROUND(SUM(total_amount), 2) AS revenue
+FROM railway_management_system_final
+GROUP BY booking_date_y
+ORDER BY bookings DESC
+LIMIT 10;
+
+## YEARLY REVENUE
+SELECT booking_year,
+       COUNT(*) AS bookings,
+       ROUND(SUM(total_amount), 2) AS yearly_revenue
+FROM railway_management_system_final
+GROUP BY booking_year
+ORDER BY booking_year;
+
+## MONTHLY REVENUE 
+SELECT booking_year,
+       booking_month,
+       COUNT(*) AS bookings,
+       ROUND(SUM(total_amount), 2) AS monthly_revenue
+FROM railway_management_system_final
+GROUP BY booking_year, booking_month
+ORDER BY booking_year, booking_month;
+
+## REVENUE BY CLASS
+SELECT class,
+       COUNT(*) AS tickets,
+       ROUND(SUM(total_amount), 2) AS revenue,
+       ROUND(AVG(total_amount), 2) AS avg_fare,
+       ROUND(COUNT(*) * 100.0 /
+       (SELECT COUNT(*) FROM railway_management_system_final), 2) AS pct_tickets,
+       ROUND(SUM(total_amount) * 100.0 /
+       (SELECT SUM(total_amount) FROM railway_management_system_final), 2) AS pct_revenue
+FROM railway_management_system_final
+GROUP BY class
+ORDER BY revenue DESC;
+
+## REVENUE BY COACH 
+SELECT coach_number,
+       COUNT(*) AS tickets,
+       ROUND(SUM(total_amount), 2) AS revenue
+FROM railway_management_system_final
+GROUP BY coach_number
+ORDER BY revenue DESC;
+
+## REVENUE BY BOOKING CHANNEL AND STATUS
+SELECT booking_channel,
+       ticket_status,
+       COUNT(*) AS tickets,
+       ROUND(SUM(total_amount), 2) AS revenue
+FROM railway_management_system_final
+GROUP BY booking_channel, ticket_status
+ORDER BY booking_channel, revenue DESC;
+
+## GENDER DISTRIBUTION
+SELECT gender,
+       COUNT(DISTINCT passenger_id) AS passengers,
+       ROUND(COUNT(DISTINCT passenger_id) * 100.0 /
+       (SELECT COUNT(DISTINCT passenger_id)
+       FROM railway_management_system_final),2) AS pct
+FROM railway_management_system_final
+GROUP BY gender;
+
+## AGE GROUP ANALYSIS
+SELECT CASE
+WHEN age < 18 THEN 'Minor (Under 18)'
+WHEN age BETWEEN 18 AND 30 THEN '18 to 30'
+WHEN age BETWEEN 31 AND 45 THEN '31 to 45'
+WHEN age BETWEEN 46 AND 60 THEN '46 to 60'
+ELSE '60 Plus'
+END AS age_group,
+
+COUNT(*) AS tickets,
+ROUND(SUM(total_amount),2) AS revenue
+
+FROM railway_management_system_final
+
+GROUP BY age_group
+ORDER BY age_group;
+
+## CITY-WISE PASSENGERS AND REVENUE
+SELECT city,
+       COUNT(DISTINCT passenger_id) AS passengers,
+       COUNT(*) AS bookings,
+       ROUND(SUM(total_amount),2) AS revenue
+FROM railway_management_system_final
+GROUP BY city
+ORDER BY revenue DESC;
+
+## LOYALTY TIER ANALYSIS
+SELECT 
+CASE 
+WHEN loyalty_tier IS NULL THEN 'Not Enrolled'
+ELSE loyalty_tier
+END AS loyalty_tier,
+
+COUNT(DISTINCT passenger_id) AS passengers,
+COUNT(*) AS bookings,
+ROUND(SUM(total_amount),2) AS revenue,
+ROUND(AVG(total_amount),2) AS avg_spend
+
+FROM railway_management_system_final
+
+GROUP BY 
+CASE 
+WHEN loyalty_tier IS NULL THEN 'Not Enrolled'
+ELSE loyalty_tier
+END
+
+ORDER BY revenue DESC;
+
+TOP 10 PASSENGERS BY TOTAL SPEND 
+SELECT passenger_id,
+       passenger_name,
+       city,
+       COUNT(*) AS total_bookings,
+       ROUND(SUM(total_amount),2) AS total_spend,
+       ROUND(AVG(total_amount),2) AS avg_spend
+FROM railway_management_system_final
+
+GROUP BY passenger_id, passenger_name, city
+
+ORDER BY total_spend DESC
+
+LIMIT 10;
+
+## CONCESSION TYPE ANALYSIS
+SELECT 
+CASE 
+WHEN concession_type IS NULL THEN 'No Concession'
+ELSE concession_type
+END AS concession_type,
+
+COUNT(*) AS tickets,
+ROUND(SUM(total_amount),2) AS revenue,
+ROUND(AVG(fare),2) AS avg_fare
+
+FROM railway_management_system_final
+
+GROUP BY 
+CASE 
+WHEN concession_type IS NULL THEN 'No Concession'
+ELSE concession_type
+END
+
+ORDER BY tickets DESC;
+
