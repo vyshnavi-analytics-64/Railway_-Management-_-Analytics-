@@ -1,0 +1,8 @@
+payment_method,total_transactions,percentage_share
+Cash,1141,14.2625
+Credit Card,1180,14.75
+Debit Card,1146,14.325
+EMI,1152,14.399999999999999
+Net Banking,1188,14.85
+UPI,1105,13.8125
+Wallet,1088,13.600000000000001
